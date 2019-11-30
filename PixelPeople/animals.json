@@ -1,0 +1,562 @@
+[
+ {
+   "name": "Alsatian",
+   "clone_1": "Dogs",
+   "clone_2": "Dogs"
+ },
+ {
+   "name": "Bat",
+   "clone_1": "Mouse",
+   "clone_2": "Owl"
+ },
+ {
+   "name": "Black Mare",
+   "clone_1": "Horse",
+   "clone_2": "Panther"
+ },
+ {
+   "name": "Black Spider",
+   "clone_1": "Bat",
+   "clone_2": "Spider"
+ },
+ {
+   "name": "Blue Whale",
+   "clone_1": "Elephant",
+   "clone_2": "Elephant"
+ },
+ {
+   "name": "Box Cat",
+   "clone_1": "Cats",
+   "clone_2": "Cats"
+ },
+ {
+   "name": "Brown Bear",
+   "clone_1": "Bull",
+   "clone_2": "Wolf"
+ },
+ {
+   "name": "Bull",
+   "clone_1": "Stag",
+   "clone_2": "Cow"
+ },
+ {
+   "name": "Calico",
+   "clone_1": "Cats",
+   "clone_2": "Cats"
+ },
+ {
+   "name": "Camel",
+   "clone_1": "Llama",
+   "clone_2": "Llama"
+ },
+ {
+   "name": "Cerberus",
+   "clone_1": "Dire Wolf",
+   "clone_2": "Wolf"
+ },
+ {
+   "name": "Chameleon",
+   "clone_1": "Tiger",
+   "clone_2": "Toucan"
+ },
+ {
+   "name": "Cheetah",
+   "clone_1": "Horse",
+   "clone_2": "Tiger"
+ },
+ {
+   "name": "Chicken",
+   "clone_1": "Parrot",
+   "clone_2": "Pig"
+ },
+ {
+   "name": "Chimera",
+   "clone_1": "Goat",
+   "clone_2": "Lion"
+ },
+ {
+   "name": "Chimpanzee",
+   "clone_1": "Octopus",
+   "clone_2": "Orangutan"
+ },
+ {
+   "name": "Chocolate Rabbit",
+   "clone_1": "Gummy Bear",
+   "clone_2": "Rabbit"
+ },
+ {
+   "name": "Chow Chow",
+   "clone_1": "Dogs",
+   "clone_2": "Dogs"
+ },
+ {
+   "name": "Chupacabra",
+   "clone_1": "Crocodile",
+   "clone_2": "Elephant"
+ },
+ {
+   "name": "Corgi",
+   "clone_1": "Dogs",
+   "clone_2": "Dogs"
+ },
+ {
+   "name": "Cow",
+   "clone_1": "Horse",
+   "clone_2": "Chicken"
+ },
+ {
+   "name": "Crocodile",
+   "clone_1": "Chameleon",
+   "clone_2": "Snake"
+ },
+ {
+   "name": "Cthulu",
+   "clone_1": "Dragon",
+   "clone_2": "Octopus"
+ },
+ {
+   "name": "Mouse",
+   "clone_1": "Tiger",
+   "clone_2": "Wolf"
+ },
+ {
+   "name": "Dodo",
+   "clone_1": "Chicken",
+   "clone_2": "Unicorn"
+ },
+ {
+   "name": "Donkey",
+   "clone_1": "Horse",
+   "clone_2": "Pig"
+ },
+ {
+   "name": "Dragon",
+   "clone_1": "Snake",
+   "clone_2": "Unicorn"
+ },
+ {
+   "name": "Drop Bear",
+   "clone_1": "Koala",
+   "clone_2": "Red Panda"
+ },
+ {
+   "name": "Eagle",
+   "clone_1": "Lion",
+   "clone_2": "Parrot"
+ },
+ {
+   "name": "Elephant",
+   "clone_1": "Cow",
+   "clone_2": "Cow"
+ },
+ {
+   "name": "Eurasian Beaver",
+   "clone_1": "Mouse",
+   "clone_2": "Platypus"
+ },
+ {
+   "name": "Fearful Owl",
+   "clone_1": "Owl",
+   "clone_2": "Panther"
+ },
+ {
+   "name": "Flamingo",
+   "clone_1": "Duck",
+   "clone_2": "Fox"
+ },
+ {
+   "name": "Fox",
+   "clone_1": "Chow Chow",
+   "clone_2": "Wolf"
+ },
+ {
+   "name": "French Angelfish",
+   "clone_1": "Mute Swan",
+   "clone_2": "White Bass"
+ },
+ {
+   "name": "Giraffe",
+   "clone_1": "Horse",
+   "clone_2": "Snake"
+ },
+ {
+   "name": "Goat",
+   "clone_1": "Donkey",
+   "clone_2": "Horse"
+ },
+ {
+   "name": "Golden Goose",
+   "clone_1": "Donkey",
+   "clone_2": "Duck"
+ },
+ {
+   "name": "Golden Retriever",
+   "clone_1": "Dogs",
+   "clone_2": "Dogs"
+ },
+ {
+   "name": "Duck",
+   "clone_1": "Chicken",
+   "clone_2": "Flamingo"
+ },
+ {
+   "name": "Gorilla",
+   "clone_1": "Chimpanzee",
+   "clone_2": "Elephant"
+ },
+ {
+   "name": "Gryphon",
+   "clone_1": "Eagle",
+   "clone_2": "Lion"
+ },
+ {
+   "name": "Gummy Bear",
+   "clone_1": "Brown Bear",
+   "clone_2": "Unicorn"
+ },
+ {
+   "name": "Harp Seal",
+   "clone_1": "Poodle",
+   "clone_2": "Sea Lion"
+ },
+ {
+   "name": "Hippogryph",
+   "clone_1": "Eagle",
+   "clone_2": "Goat"
+ },
+ {
+   "name": "Hippopotamus",
+   "clone_1": "Cow",
+   "clone_2": "Walrus"
+ },
+ {
+   "name": "Horse",
+   "clone_1": "Cheetah",
+   "clone_2": "Cow"
+ },
+ {
+   "name": "Hydra",
+   "clone_1": "Cerberus",
+   "clone_2": "Snake"
+ },
+ {
+   "name": "Hyena",
+   "clone_1": "Lion",
+   "clone_2": "Wolf"
+ },
+ {
+   "name": "Koala",
+   "clone_1": "Brown Bear",
+   "clone_2": "Squirrel"
+ },
+ {
+   "name": "Lion",
+   "clone_1": "Tiger",
+   "clone_2": "Tiger"
+ },
+ {
+   "name": "Llama",
+   "clone_1": "Donkey",
+   "clone_2": "Donkey"
+ },
+ {
+   "name": "Loch Ness",
+   "clone_1": "Orca",
+   "clone_2": "Snake"
+ },
+ {
+   "name": "Love Bird",
+   "clone_1": "Flamingo",
+   "clone_2": "Parrot"
+ },
+ {
+   "name": "Macaw",
+   "clone_1": "Parrot",
+   "clone_2": "Parrot"
+ },
+ {
+   "name": "Merlion",
+   "clone_1": "Lion",
+   "clone_2": "Trout"
+ },
+ {
+   "name": "Moose",
+   "clone_1": "Goat",
+   "clone_2": "Horse"
+ },
+ {
+   "name": "",
+   "clone_1": "Snail",
+   "clone_2": "Squirrel"
+ },
+ {
+   "name": "Mousedeer",
+   "clone_1": "Moose",
+   "clone_2": "Mouse"
+ },
+ {
+   "name": "Mule Deer",
+   "clone_1": "Donkey",
+   "clone_2": "Mousedeer"
+ },
+ {
+   "name": "Mute Swan",
+   "clone_1": "Duck",
+   "clone_2": "Love Bird"
+ },
+ {
+   "name": "Narwhal",
+   "clone_1": "Harp Seal",
+   "clone_2": "Unicorn"
+ },
+ {
+   "name": "Octopus",
+   "clone_1": "Chimpanzee",
+   "clone_2": "Trout"
+ },
+ {
+   "name": "Orangutan",
+   "clone_1": "Brown Bear",
+   "clone_2": "Octopus"
+ },
+ {
+   "name": "Orca",
+   "clone_1": "Blue Whale",
+   "clone_2": "Panda"
+ },
+ {
+   "name": "Oriental Dragon",
+   "clone_1": "Dragon",
+   "clone_2": "Panda"
+ },
+ {
+   "name": "Otter",
+   "clone_1": "Squirrel",
+   "clone_2": "Trout"
+ },
+ {
+   "name": "Owl",
+   "clone_1": "Bat",
+   "clone_2": "Chicken"
+ },
+ {
+   "name": "Panda",
+   "clone_1": "Brown Bear",
+   "clone_2": "Zebra"
+ },
+ {
+   "name": "Panther",
+   "clone_1": "Bat",
+   "clone_2": "Tiger"
+ },
+ {
+   "name": "Parrot",
+   "clone_1": "Chicken",
+   "clone_2": "Gummybear"
+ },
+ {
+   "name": "Pegasus",
+   "clone_1": "Eagle",
+   "clone_2": "Horse"
+ },
+ {
+   "name": "Penguin",
+   "clone_1": "Polar Bear",
+   "clone_2": "Toucan"
+ },
+ {
+   "name": "Phoenix",
+   "clone_1": "Dragon",
+   "clone_2": "Flamingo"
+ },
+ {
+   "name": "Pig",
+   "clone_1": "Horse",
+   "clone_2": "Hippo"
+ },
+ {
+   "name": "Platypus",
+   "clone_1": "Duck",
+   "clone_2": "Eurasian Beaver"
+ },
+ {
+   "name": "Polar Bear",
+   "clone_1": "Brown Bear",
+   "clone_2": "Harp Seal"
+ },
+ {
+   "name": "Poodle",
+   "clone_1": "Dogs",
+   "clone_2": "Dogs"
+ },
+ {
+   "name": "Pug",
+   "clone_1": "Dogs",
+   "clone_2": "Dogs"
+ },
+ {
+   "name": "Rabbit",
+   "clone_1": "Cheetah",
+   "clone_2": "Mouse"
+ },
+ {
+   "name": "Raccoon",
+   "clone_1": "Brown Bear",
+   "clone_2": "Zebra"
+ },
+ {
+   "name": "Raven",
+   "clone_1": "Bat",
+   "clone_2": "Toucan"
+ },
+ {
+   "name": "Red Panda",
+   "clone_1": "Fox",
+   "clone_2": "Panda"
+ },
+ {
+   "name": "Rhinoceros",
+   "clone_1": "Hippopotamus",
+   "clone_2": "Unicorn"
+ },
+ {
+   "name": "Rocket Cat",
+   "clone_1": "Oriental Dragon",
+   "clone_2": "Tom Cat"
+ },
+ {
+   "name": "Sabertooth",
+   "clone_1": "Elephant",
+   "clone_2": "Tiger"
+ },
+ {
+   "name": "Sea Lion",
+   "clone_1": "Lion",
+   "clone_2": "Otter"
+ },
+ {
+   "name": "Sheep",
+   "clone_1": "Goat",
+   "clone_2": "Poodle"
+ },
+ {
+   "name": "Siamese Cat",
+   "clone_1": "Cats",
+   "clone_2": "Cats"
+ },
+ {
+   "name": "Snail",
+   "clone_1": "Snake",
+   "clone_2": "Tortoise"
+ },
+ {
+   "name": "Snake",
+   "clone_1": "Chameleon",
+   "clone_2": "Platypus"
+ },
+ {
+   "name": "Sphinx",
+   "clone_1": "Chimpanzee",
+   "clone_2": "Lion"
+ },
+ {
+   "name": "Spider",
+   "clone_1": "Mouse",
+   "clone_2": "Snake"
+ },
+ {
+   "name": "Squirrel",
+   "clone_1": "Fox",
+   "clone_2": "Mouse"
+ },
+ {
+   "name": "Stag",
+   "clone_1": "Bull",
+   "clone_2": "Moose"
+ },
+ {
+   "name": "Sun Bear",
+   "clone_1": "Brown Bear",
+   "clone_2": "Camel"
+ },
+ {
+   "name": "Tabby Cat",
+   "clone_1": "Cats",
+   "clone_2": "Cats"
+ },
+ {
+   "name": "Terrier",
+   "clone_1": "Dogs",
+   "clone_2": "Dogs"
+ },
+ {
+   "name": "Tiger",
+   "clone_1": "Tabby Cat",
+   "clone_2": "Zebra"
+ },
+ {
+   "name": "Tom Cat",
+   "clone_1": "Cats",
+   "clone_2": "Cats"
+ },
+ {
+   "name": "Tortoise",
+   "clone_1": "Snail",
+   "clone_2": "Snake"
+ },
+ {
+   "name": "Toucan",
+   "clone_1": "Parrot",
+   "clone_2": "Rhinoceros"
+ },
+ {
+   "name": "Trout",
+   "clone_1": "Blue Whale",
+   "clone_2": "Mouse"
+ },
+ {
+   "name": "Turkey",
+   "clone_1": "Chicken",
+   "clone_2": "Pig"
+ },
+ {
+   "name": "Tuxedo Cat",
+   "clone_1": "Cats",
+   "clone_2": "Cats"
+ },
+ {
+   "name": "Unicorn",
+   "clone_1": "Horse",
+   "clone_2": "Dodo"
+ },
+ {
+   "name": "Walrus",
+   "clone_1": "Pug",
+   "clone_2": "Sea Lion"
+ },
+ {
+   "name": "White Bass",
+   "clone_1": "Harp Seal",
+   "clone_2": "Trout"
+ },
+ {
+   "name": "Wolf",
+   "clone_1": "Dragon",
+   "clone_2": "Stag"
+ },
+ {
+   "name": "Wooly Mammoth",
+   "clone_1": "Elephant",
+   "clone_2": "Sheep"
+ },
+ {
+   "name": "Yeti",
+   "clone_1": "Gorilla",
+   "clone_2": "Polar Bear"
+ },
+ {
+   "name": "Zebra",
+   "clone_1": "Horse",
+   "clone_2": "Panda"
+ }
+]
