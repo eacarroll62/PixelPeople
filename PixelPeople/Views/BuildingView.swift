@@ -10,7 +10,10 @@ import SwiftUI
 
 struct BuildingView: View {
     let building: Building
-
+    @State private var isBuildingBuilt = false
+    @State private var isBuildingFull = false
+    
+/*
     struct JobRecipe {
         let id: UUID = UUID()
         let clone: Profession
@@ -31,10 +34,10 @@ struct BuildingView: View {
         }
         self.professions = matches
     }
-    
+*/
     var body: some View {
         GeometryReader { geometry in
-            ScrollView(.vertical) {
+            Form {
                 VStack {
                     HStack {
                         Image(self.building.image)
@@ -49,14 +52,27 @@ struct BuildingView: View {
                         }
                     }.padding(.horizontal)
                     
-                    Text("Professions:")
-                        .font(.largeTitle)
+                    Toggle(isOn: self.$isBuildingBuilt) {
+                        Text("Is the Building Built?")
+                    }
                     
-                    ForEach(self.professions, id: \.id) { job in
-                        NavigationLink(destination: ProfessionView(profession: job.clone)) {
-                            Text(job.clone.name)
-                                .font(.headline)
-                        }.buttonStyle(PlainButtonStyle())
+                    if self.isBuildingBuilt {
+                        Toggle(isOn: self.$isBuildingFull) {
+                            Text("Is the Building Full?")
+                        }
+                    }
+                    
+                    VStack(alignment: .leading, spacing: 10) {
+                        Text("Professions:")
+                            .font(.largeTitle)
+                        
+                        ForEach(self.building.jobs, id: \.id) { clone in
+                            NavigationLink(destination: ProfessionView(profession: clone)) {
+                                Text(clone.name)
+                                    .font(.headline)
+                                    .foregroundColor(.blue)
+                            }.buttonStyle(PlainButtonStyle())
+                        }
                     }
                 }
             }
@@ -67,8 +83,8 @@ struct BuildingView: View {
 
 struct BuildingView_Previews: PreviewProvider {
     static let buildings: [Building] = Bundle.main.decode([Building].self, from: "buildings.json")
-    static let professions: [Profession] = Bundle.main.decode([Profession].self, from: "professions.json")
+    
     static var previews: some View {
-        BuildingView(building: buildings[0], professions: professions)
+        BuildingView(building: buildings[0])
     }
 }

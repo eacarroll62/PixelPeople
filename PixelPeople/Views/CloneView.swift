@@ -9,21 +9,18 @@
 import SwiftUI
 
 struct CloneView: View {
-    let profession: Profession
+    let clone: Clone
     
     var body: some View {
         NavigationView {
-            VStack() {
-                HStack {
-                    Image(profession.image!)
-                        .resizable()
-                        .scaledToFit()
-                    Text(profession.name)
-                        .font(.headline)
-                }
-                    .frame(width: 300, height: 100)
+            HStack {
+                Image(clone.image)
+                    .resizable()
+                    .scaledToFit()
+                Text(clone.name)
+                    .font(.caption)
             }
-                .background(Color.blue)
+            .frame(width: 300, height: 25)
                 .foregroundColor(.white)
         }
     }
@@ -32,6 +29,7 @@ struct CloneView: View {
 struct CloneView_Previews: PreviewProvider {
     static let professions: [Profession] = Bundle.main.decode([Profession].self, from: "professions.json")
     static var previews: some View {
-        CloneView(profession: professions[10])
+        CloneView(clone: professions[10].clones![0])
     }
 }
+

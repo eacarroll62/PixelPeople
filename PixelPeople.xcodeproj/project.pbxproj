@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A8E381232392F8A000F5B6AF /* CloneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E381222392F8A000F5B6AF /* CloneView.swift */; };
+		A8E3812623932F8B00F5B6AF /* Clone.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E3812523932F8B00F5B6AF /* Clone.swift */; };
+		A8E3812923932FD500F5B6AF /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E3812823932FD500F5B6AF /* Animal.swift */; };
 		A8F0076D238F25BE000587DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0076C238F25BE000587DB /* AppDelegate.swift */; };
 		A8F0076F238F25BE000587DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0076E238F25BE000587DB /* SceneDelegate.swift */; };
 		A8F00771238F25BE000587DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F00770238F25BE000587DB /* ContentView.swift */; };
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		A8E381222392F8A000F5B6AF /* CloneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneView.swift; sourceTree = "<group>"; };
+		A8E3812523932F8B00F5B6AF /* Clone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clone.swift; sourceTree = "<group>"; };
+		A8E3812823932FD500F5B6AF /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		A8F00769238F25BE000587DB /* PixelPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F0076C238F25BE000587DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F0076E238F25BE000587DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,27 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		A8E3812723932F9A00F5B6AF /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				A8F00790239163AD000587DB /* Building.swift */,
+				A8F007922391640D000587DB /* Profession.swift */,
+				A8E3812523932F8B00F5B6AF /* Clone.swift */,
+				A8E3812823932FD500F5B6AF /* Animal.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		A8E3812A2393307A00F5B6AF /* JSON Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F00788238FF39E000587DB /* buildings.json */,
+				A8F007942391E79A000587DB /* professions.json */,
+				A8F0078E2390B54D000587DB /* animals.json */,
+			);
+			path = "JSON Files";
+			sourceTree = "<group>";
+		};
 		A8F00760238F25BE000587DB = {
 			isa = PBXGroup;
 			children = (
@@ -85,18 +110,15 @@
 		A8F0076B238F25BE000587DB /* PixelPeople */ = {
 			isa = PBXGroup;
 			children = (
+				A8E3812A2393307A00F5B6AF /* JSON Files */,
+				A8E3812723932F9A00F5B6AF /* Structs */,
 				A8E381242392F8C000F5B6AF /* Views */,
 				A8F0076C238F25BE000587DB /* AppDelegate.swift */,
 				A8F0076E238F25BE000587DB /* SceneDelegate.swift */,
-				A8F00790239163AD000587DB /* Building.swift */,
-				A8F007922391640D000587DB /* Profession.swift */,
 				A8F00780238F2708000587DB /* Extensions.swift */,
 				A8F00772238F25DC000587DB /* Assets.xcassets */,
 				A8F00777238F25DC000587DB /* LaunchScreen.storyboard */,
 				A8F0077A238F25DC000587DB /* Info.plist */,
-				A8F00788238FF39E000587DB /* buildings.json */,
-				A8F007942391E79A000587DB /* professions.json */,
-				A8F0078E2390B54D000587DB /* animals.json */,
 				A8F00774238F25DC000587DB /* Preview Content */,
 			);
 			path = PixelPeople;
@@ -184,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E3812923932FD500F5B6AF /* Animal.swift in Sources */,
 				A8F0078D2390ACBB000587DB /* ProfessionView.swift in Sources */,
 				A8E381232392F8A000F5B6AF /* CloneView.swift in Sources */,
 				A8F00781238F2708000587DB /* Extensions.swift in Sources */,
@@ -191,6 +214,7 @@
 				A8F0076D238F25BE000587DB /* AppDelegate.swift in Sources */,
 				A8F0076F238F25BE000587DB /* SceneDelegate.swift in Sources */,
 				A8F00771238F25BE000587DB /* ContentView.swift in Sources */,
+				A8E3812623932F8B00F5B6AF /* Clone.swift in Sources */,
 				A8F00791239163AD000587DB /* Building.swift in Sources */,
 				A8F007932391640D000587DB /* Profession.swift in Sources */,
 			);

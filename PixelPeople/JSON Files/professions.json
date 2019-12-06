@@ -1,0 +1,4497 @@
+[
+ {
+   "name": "Acapella Singer",
+   "clones": [
+       {
+           "name": "Bassist",
+           "image": "BassistMale"
+       },
+       {
+           "name": "Vocalist",
+           "image": "VocalistMale"
+       }
+   ],
+   "image": "Acapella_SingerMale"
+ },
+ {
+   "name": "Accountant",
+   "clones": [
+       {
+           "name": "Mathematician",
+           "image": "MathematicianMale"
+       },
+       {
+           "name": "Secretary",
+           "image": "SecretaryMale"
+       }
+   ],
+   "image": "AccountantMale"
+ },
+ {
+   "name": "Acrobat",
+   "clones": [
+       {
+           "name": "Ringmaster",
+           "image": "RingmasterMale"
+       },
+       {
+           "name": "Gymnast",
+           "image": "GymnastMale"
+       }
+   ],
+   "image": "AcrobatMale"
+ },
+ {
+   "name": "Actor",
+   "clones": [
+       {
+           "name": "Director",
+           "image": "DirectorMale"
+       },
+       {
+           "name": "Model",
+           "image": "ModelMale"
+       }
+   ],
+   "image": "ActorMale"
+ },
+ {
+   "name": "Aerospace Engineer",
+   "clones": [
+       {
+           "name": "Mechanical Engineer",
+           "image": "Mechanical_EngineerMale"
+       },
+       {
+           "name": "Pilot",
+           "image": "PilotMale"
+       }
+   ],
+   "image": "Aerospace_EngineerMale"
+ },
+ {
+   "name": "Ambassador",
+   "clones": [
+       {
+           "name": "Mayor",
+           "image": "MayorMale"
+       },
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       }
+   ],
+   "image": "AmbassadorMale"
+ },
+ {
+   "name": "Ancient Hero",
+   "clones": [
+       {
+           "name": "Weather Reporter",
+           "image": "Weather_ReporterMale"
+       },
+       {
+           "name": "Preacher",
+           "image": "PreacherMale"
+       }
+   ],
+   "image": "Ancient_HeroMale"
+ },
+ {
+   "name": "Animal Trainer",
+   "clones": [
+       {
+           "name": "Vet",
+           "image": "VetMale"
+       },
+       {
+           "name": "Sheriff",
+           "image": "SheriffMale"
+       }
+   ],
+   "image": "Animal_TrainerMale"
+ },
+ {
+   "name": "Anti Hero",
+   "clones": [
+       {
+           "name": "Superhero",
+           "image": "SuperheroMale"
+       },
+       {
+           "name": "Gravedigger",
+           "image": "GravediggerMale"
+       }
+   ],
+   "image": "Anti_HeroMale"
+ },
+ {
+   "name": "Apprentice",
+   "clones": [
+       {
+           "name": "Wizard",
+           "image": "WizardMale"
+       },
+       {
+           "name": "Assistant",
+           "image": "AssistantMale"
+       }
+   ],
+   "image": "ApprenticeMale"
+ },
+ {
+   "name": "Archaeologist",
+   "clones": [
+       {
+           "name": "Historian",
+           "image": "HistorianMale"
+       },
+       {
+           "name": "Explorer",
+           "image": "Explorer"
+       }
+   ],
+   "image": "ArchaeologistMale"
+ },
+ {
+   "name": "Architect",
+   "clones": [
+       {
+           "name": "Mayor",
+           "image": "MayorMale"
+       },
+       {
+           "name": "Engineer",
+           "image": "MayorMale"
+       }
+   ],
+   "image": "ArchitectMale"
+ },
+ {
+   "name": "Art Dealer",
+   "clones": [
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       },
+       {
+           "name": "Artist",
+           "image": "ArtistMale"
+       }
+   ],
+   "image": "Art_DealerMale"
+ },
+ {
+   "name": "Artist",
+   "clones": [
+       {
+           "name": "Architect",
+           "image": "ArchitectMale"
+       },
+       {
+           "name": "Dreamer",
+           "image": "Dreamer"
+       }
+   ],
+   "image": "ArtistMale"
+ },
+ {
+   "name": "Assistant",
+   "clones": [
+       {
+           "name": "Mechanic",
+           "image": "MechanicMale"
+       },
+       {
+           "name": "Mechanic",
+           "image": "MechanicMale"
+       }
+   ],
+   "image": "AssistantMale"
+ },
+ {
+   "name": "Astronaut",
+   "clones": [
+       {
+           "name": "Pilot",
+           "image": "PilotMale"
+       },
+       {
+           "name": "Astronomer",
+           "image": "AstronomerMale"
+       }
+   ],
+   "image": "AstronautMale"
+ },
+ {
+   "name": "Astronomer",
+   "clones": [
+       {
+           "name": "Physicist",
+           "image": "PhysicistMale"
+       },
+       {
+           "name": "Dreamer",
+           "image": "Dreamer"
+       }
+   ],
+   "image": "AstronomerMale"
+ },
+ {
+   "name": "Athlete",
+   "clones": [
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       },
+       {
+           "name": "Construction Worker",
+           "image": "Construction_WorkerMale"
+       }
+   ],
+   "image": "AthleteMale"
+ },
+ {
+   "name": "Atomic Hero",
+   "clones": [
+       {
+           "name": "General",
+           "image": "GeneralMale"
+       },
+       {
+           "name": "Radiologist",
+           "image": "RadiologistMale"
+       }
+   ],
+   "image": "Atomic_HeroMale"
+ },
+ {
+   "name": "Baker",
+   "clones": [
+       {
+           "name": "Cook",
+           "image": "CookMale"
+       },
+       {
+           "name": "Homemaker",
+           "image": "HomemakerMale"
+       }
+   ],
+   "image": "BakerMale"
+ },
+ {
+   "name": "Ballet Dancer",
+   "clones": [
+       {
+           "name": "Athlete",
+           "image": "AthleteMale"
+       },
+       {
+           "name": "Artist",
+           "image": "ArtistMale"
+       }
+   ],
+   "image": "Ballet_DancerMale"
+ },
+ {
+   "name": "Barber",
+   "clones": [
+       {
+           "name": "Apprentice",
+           "image": "ApprenticeMale"
+       },
+       {
+           "name": "Hair Stylist",
+           "image": "Hair_StylistMale"
+       }
+   ],
+   "image": "BarberMale"
+ },
+ {
+   "name": "Barista",
+   "clones": [
+       {
+           "name": "Bartender",
+           "image": "BartenderMale"
+       },
+       {
+           "name": "Waiter",
+           "image": "WaiterMale"
+       }
+   ],
+   "image": "BaristaMale"
+ },
+ {
+   "name": "Bartender",
+   "clones": [
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       },
+       {
+           "name": "Winemaker",
+           "image": "WinemakerMale"
+       }
+   ],
+   "image": "BartenderMale"
+ },
+ {
+   "name": "Baseballer",
+   "clones": [
+       {
+           "name": "Sports Star",
+           "image": "Sports_Star"
+       },
+       {
+           "name": "Carpenter",
+           "image": "CarpenterMale"
+       }
+   ],
+   "image": "BaseballerMale"
+ },
+ {
+   "name": "Basketballer",
+   "clones": [
+       {
+           "name": "Sports Star",
+           "image": "Sports_Star"
+       },
+       {
+           "name": "Greengrocer",
+           "image": "GreengrocerMale"
+       }
+   ],
+   "image": "BasketballerMale"
+ },
+ {
+   "name": "Bassist",
+   "clones": [
+       {
+           "name": "Guitarist",
+           "image": "GuitaristMale"
+       },
+       {
+           "name": "Deputy",
+           "image": "DeputyMale"
+       }
+   ],
+   "image": "BassistMale"
+ },
+ {
+   "name": "Bee Keeper",
+   "clones": [
+       {
+           "name": "Entomologist",
+           "image": "EntomologistMale"
+       },
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       }
+   ],
+   "image": "Bee_KeeperMale"
+ },
+ {
+   "name": "Bell Ringer",
+   "clones": [
+       {
+           "name": "Strongman",
+           "image": "Strongman"
+       },
+       {
+           "name": "Watchmaker",
+           "image": "WatchmakerMale"
+       }
+   ],
+   "image": "Bell_RingerMale"
+ },
+ {
+   "name": "Biker",
+   "clones": [
+       {
+           "name": "Strongman",
+           "image": "Strongman"
+       },
+       {
+           "name": "Cyclist",
+           "image": "CyclistMale"
+       }
+   ],
+   "image": "BikerMale"
+ },
+ {
+   "name": "Boat Racer",
+   "clones": [
+       {
+           "name": "Sailor",
+           "image": "SailorMale"
+       },
+       {
+           "name": "Racecar Driver",
+           "image": "Racecar_DriverMale"
+       }
+   ],
+   "image": "Boat_RacerMale"
+ },
+ {
+   "name": "Bodybuilder",
+   "clones": [
+       {
+           "name": "Strongman",
+           "image": "Strongman"
+       },
+       {
+           "name": "Model",
+           "image": "ModelMale"
+       }
+   ],
+   "image": "BodybuilderMale"
+ },
+ {
+   "name": "Botanist",
+   "clones": [
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       },
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       }
+   ],
+   "image": "BotanistMale"
+ },
+ {
+   "name": "Bouncer",
+   "clones": [
+       {
+           "name": "Bodybuilder",
+           "image": "BodybuilderMale"
+       },
+       {
+           "name": "Socialite",
+           "image": "Socialite"
+       }
+   ],
+   "image": "BouncerMale"
+ },
+ {
+   "name": "Boxer",
+   "clones": [
+       {
+           "name": "Gym Instructor",
+           "image": "Gym_InstructorMale"
+       },
+       {
+           "name": "Martial Artist",
+           "image": "Martial_ArtistMale"
+       }
+   ],
+   "image": "BoxerMale"
+ },
+ {
+   "name": "Break Dancer",
+   "clones": [
+       {
+           "name": "Rapper",
+           "image": "RapperMale"
+       },
+       {
+           "name": "Ballet Dancer",
+           "image": "Ballet_DancerMale"
+       }
+   ],
+   "image": "Break_DancerMale"
+ },
+ {
+   "name": "Buccaneer",
+   "clones": [
+       {
+           "name": "Captain",
+           "image": "CaptainMale"
+       },
+       {
+           "name": "Explorer",
+           "image": "Explorer"
+       }
+   ],
+   "image": "BuccaneerMale"
+ },
+ {
+   "name": "Butcher",
+   "clones": [
+       {
+           "name": "Cook",
+           "image": "CookMale"
+       },
+       {
+           "name": "Cattle Rustler",
+           "image": "Cattle_RustlerMale"
+       }
+   ],
+   "image": "ButcherMale"
+ },
+ {
+   "name": "Butler",
+   "clones": [
+       {
+           "name": "Valet",
+           "image": "ValetMale"
+       },
+       {
+           "name": "Sommelier",
+           "image": "SommelierMale"
+       }
+   ],
+   "image": "ButlerMale"
+ },
+ {
+   "name": "Caddie",
+   "clones": [
+       {
+           "name": "Golfer",
+           "image": "GolferMale"
+       },
+       {
+           "name": "Philosopher",
+           "image": "PhilosopherMale"
+       }
+   ],
+   "image": "CaddieMale"
+ },
+ {
+   "name": "Calligrapher",
+   "clones": [
+       {
+           "name": "Writer",
+           "image": "WriterMale"
+       },
+       {
+           "name": "Artist",
+           "image": "ArtistMale"
+       }
+   ],
+   "image": "CalligrapherMale"
+ },
+ {
+   "name": "Cameraman",
+   "clones": [
+       {
+           "name": "Photographer",
+           "image": "PhotographerMale"
+       },
+       {
+           "name": "Mechanic",
+           "image": "MechanicMale"
+       }
+   ],
+   "image": "CamaramanMale"
+ },
+ {
+   "name": "Camp Counsellor",
+   "clones": [
+       {
+           "name": "Eagle Scout",
+           "image": "Eagle_ScoutMale"
+       },
+       {
+           "name": "Homemaker",
+           "image": "HomemakerMale"
+       }
+   ],
+   "image": "Camp_CounsellorMale"
+ },
+ {
+   "name": "Captain",
+   "clones": [
+       {
+           "name": "Fishmonger",
+           "image": "FishmongerMale"
+       },
+       {
+           "name": "Sheriff",
+           "image": "SheriffMale"
+       }
+   ],
+   "image": "CaptainMale"
+ },
+ {
+   "name": "Car Designer",
+   "clones": [
+       {
+           "name": "Artist",
+           "image": "ArtistMale"
+       },
+       {
+           "name": "Mechanical Engineer",
+           "image": "Mechanical_EngineerMale"
+       }
+   ],
+   "image": "Car_DesignerMale"
+ },
+ {
+   "name": "Car Washer",
+   "clones": [
+       {
+           "name": "Model",
+           "image": "ModelMale"
+       },
+       {
+           "name": "Janitor",
+           "image": "JanitorMale"
+       }
+   ],
+   "image": "Car_WasherMale"
+ },
+ {
+   "name": "Carpenter",
+   "clones": [
+       {
+           "name": "Shepherd",
+           "image": "ShepherdMale"
+       },
+       {
+           "name": "Homemaker",
+           "image": "HomemakerMale"
+       }
+   ],
+   "image": "CarpenterMale"
+ },
+ {
+   "name": "Cartographer",
+   "clones": [
+       {
+           "name": "Explorer",
+           "image": "Explorer"
+       },
+       {
+           "name": "Calligrapher",
+           "image": "CalligrapherMale"
+       }
+   ],
+   "image": "CartographerMale"
+ },
+ {
+   "name": "Cashier",
+   "clones": [
+       {
+           "name": "Assistant",
+           "image": "AssistantMale"
+       },
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       }
+   ],
+   "image": "CashierMale"
+ },
+ {
+   "name": "Castaway",
+   "clones": [
+       {
+           "name": "Explorer",
+           "image": "Explorer"
+       },
+       {
+           "name": "Sailor",
+           "image": "SailorMale"
+       }
+   ],
+   "image": "CastawayMale"
+ },
+ {
+   "name": "Catcher",
+   "clones": [
+       {
+           "name": "Baseballer",
+           "image": "BaseballerMale"
+       },
+       {
+           "name": "Police Officer",
+           "image": "Police_OfficerMale"
+       }
+   ],
+   "image": "CatcherMale"
+ },
+ {
+   "name": "Cattle Rustler",
+   "clones": [
+       {
+           "name": "Jockey",
+           "image": "JockeyMale"
+       },
+       {
+           "name": "Animal Trainer",
+           "image": "Animal_TrainerMale"
+       }
+   ],
+   "image": "Cattle_RustlerMale"
+ },
+ {
+   "name": "Caveman",
+   "clones": [
+       {
+           "name": "Strongman",
+           "image": "Strongman"
+       },
+       {
+           "name": "Tribal",
+           "image": "TribalMale"
+       }
+   ],
+   "image": "CavemanMale"
+ },
+ {
+   "name": "Celebrity Chef",
+   "clones": [
+       {
+           "name": "Chef",
+           "image": "ChefMale"
+       },
+       {
+           "name": "Sommelier",
+           "image": "SommelierMale"
+       }
+   ],
+   "image": "Celebrity_ChefMale"
+ },
+ {
+   "name": "Centaur",
+   "clones": [
+       {
+           "name": "Mutant",
+           "image": "Mutant"
+       },
+       {
+           "name": "Jockey",
+           "image": "JockeyMale"
+       }
+   ],
+   "image": "CentaurMale"
+ },
+ {
+   "name": "Cheerleader",
+   "clones": [
+       {
+           "name": "Ballet Dancer",
+           "image": "Ballet_DancerMale"
+       },
+       {
+           "name": "Athlete",
+           "image": "AthleteMale"
+       }
+   ],
+   "image": "CheerleaderMale"
+ },
+ {
+   "name": "Chef",
+   "clones": [
+       {
+           "name": "Artist",
+           "image": "ArtistMale"
+       },
+       {
+           "name": "Cook",
+           "image": "CookMale"
+       }
+   ],
+   "image": "ChefMale"
+ },
+ {
+   "name": "Chemist",
+   "clones": [
+       {
+           "name": "Scientist",
+           "image": "ScientistMale"
+       },
+       {
+           "name": "Bartender",
+           "image": "BartenderMale"
+       }
+   ],
+   "image": "ChemistMale"
+ },
+ {
+   "name": "Choreographer",
+   "clones": [
+       {
+           "name": "Ballet Dancer",
+           "image": "Ballet_DancerMale"
+       },
+       {
+           "name": "Director",
+           "image": "DirectorMale"
+       }
+   ],
+   "image": "ChoreographerMale"
+ },
+ {
+   "name": "Civil Servant",
+   "clones": [
+       {
+           "name": "Secretary",
+           "image": "SecretaryMale"
+       },
+       {
+           "name": "Bureaucrat",
+           "image": "Bureaucrat"
+       }
+   ],
+   "image": "Civil_ServantMale"
+ },
+ {
+   "name": "Clown",
+   "clones": [
+       {
+           "name": "Comic",
+           "image": "ComicMale"
+       },
+       {
+           "name": "Painter",
+           "image": "PainterMale"
+       }
+   ],
+   "image": "ClownMale"
+ },
+ {
+   "name": "Coach",
+   "clones": [
+       {
+           "name": "Athlete",
+           "image": "AthleteMale"
+       },
+       {
+           "name": "Athlete",
+           "image": "AthleteMale"
+       }
+   ],
+   "image": "CoachrMale"
+ },
+ {
+   "name": "Comic",
+   "clones": [
+       {
+           "name": "Poet",
+           "image": "PoetMale"
+       },
+       {
+           "name": "Actor",
+           "image": "ActorMale"
+       }
+   ],
+   "image": "ComicMale"
+ },
+ {
+   "name": "Conductor",
+   "clones": [
+       {
+           "name": "Musician",
+           "image": "Musician"
+       },
+       {
+           "name": "Sheriff",
+           "image": "SheriffMale"
+       }
+   ],
+   "image": "ConductorMale"
+ },
+ {
+   "name": "Construction Worker",
+   "clones": [
+       {
+           "name": "Mechanical Engineer",
+           "image": "Mechanical_EngineerMale"
+       },
+       {
+           "name": "Deputy",
+           "image": "DeputyMale"
+       }
+   ],
+   "image": "Construction_WorkerMale"
+ },
+ {
+   "name": "Cook",
+   "clones": [
+       {
+           "name": "Homemaker",
+           "image": "HomemakerMale"
+       },
+       {
+           "name": "Fishmonger",
+           "image": "FishmongerMale"
+       }
+   ],
+   "image": "CookMale"
+ },
+ {
+   "name": "Coroner",
+   "clones": [
+       {
+           "name": "Doctor",
+           "image": "DoctorMale"
+       },
+       {
+           "name": "Gravedigger",
+           "image": "GravediggerMale"
+       }
+   ],
+   "image": "CoronerMale"
+ },
+ {
+   "name": "Cosmetic Surgeon",
+   "clones": [
+       {
+           "name": "Socialite",
+           "image": "Socialite"
+       },
+       {
+           "name": "Doctor",
+           "image": "DoctorMale"
+       }
+   ],
+   "image": "Cosmetic_SurgeonMale"
+ },
+ {
+   "name": "Courier",
+   "clones": [
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       },
+       {
+           "name": "Mailman",
+           "image": "MailmanMale"
+       }
+   ],
+   "image": "CourierMale"
+ },
+ {
+   "name": "Crashtest Dummy",
+   "clones": [
+       {
+           "name": "Stunt Double",
+           "image": "Stunt_DoubleMale"
+       },
+       {
+           "name": "Valet",
+           "image": "ValetMale"
+       }
+   ],
+   "image": "Crashtest_DummyMale"
+ },
+ {
+   "name": "Croupier",
+   "clones": [
+       {
+           "name": "Valet",
+           "image": "ValetMale"
+       },
+       {
+           "name": "Gambler",
+           "image": "GamblerMale"
+       }
+   ],
+   "image": "CroupierMale"
+ },
+ {
+   "name": "Cryptozoologist",
+   "clones": [
+       {
+           "name": "Detective",
+           "image": "DetectiveMale"
+       },
+       {
+           "name": "Zookeeper",
+           "image": "ZookeeperMale"
+       }
+   ],
+   "image": "CryptozoologistMale"
+ },
+ {
+   "name": "CSI",
+   "clones": [
+       {
+           "name": "Photographer",
+           "image": "PhotographerMale"
+       },
+       {
+           "name": "Detective",
+           "image": "DetectiveMale"
+       }
+   ],
+   "image": "CSIMale"
+ },
+ {
+   "name": "Cyclist",
+   "clones": [
+       {
+           "name": "Hitch Hiker",
+           "image": "Hitch_Hiker"
+       },
+       {
+           "name": "Courier",
+           "image": "CourierMale"
+       }
+   ],
+   "image": "CyclistMale"
+ },
+ {
+   "name": "Deep Sea Diver",
+   "clones": [
+       {
+           "name": "Marine Biologist",
+           "image": "Marine_BiologistMale"
+       },
+       {
+           "name": "Explorer",
+           "image": "Explorer"
+       }
+   ],
+   "image": "Deep_Sea_DiverMale"
+ },
+ {
+   "name": "Dentist",
+   "clones": [
+       {
+           "name": "Doctor",
+           "image": "DoctorMale"
+       },
+       {
+           "name": "Artist",
+           "image": "ArtistMale"
+       }
+   ],
+   "image": "DentistMale"
+ },
+ {
+   "name": "Deputy",
+   "clones": [
+       {
+           "name": "Assistant",
+           "image": "AssistantMale"
+       },
+       {
+           "name": "Sheriff",
+           "image": "SheriffMale"
+       }
+   ],
+   "image": "DeputyMale"
+ },
+ {
+   "name": "Detective",
+   "clones": [
+       {
+           "name": "Philosopher",
+           "image": "PhilosopherMale"
+       },
+       {
+           "name": "Police Officer",
+           "image": "Police_OfficerMale"
+       }
+   ],
+   "image": "DetectiveMale"
+ },
+ {
+   "name": "Director",
+   "clones": [
+       {
+           "name": "Cameraman",
+           "image": "CameramanMale"
+       },
+       {
+           "name": "Cameraman",
+           "image": "CameramanMale"
+       }
+   ],
+   "image": "DirectorMale"
+ },
+ {
+   "name": "Disc Jockey",
+   "clones": [
+       {
+           "name": "Jockey",
+           "image": "JockeyMale"
+       },
+       {
+           "name": "Choreographer",
+           "image": "ChoreographerMale"
+       }
+   ],
+   "image": "Disc_JockeyMale"
+ },
+ {
+   "name": "Dock Hand",
+   "clones": [
+       {
+           "name": "Strongman",
+           "image": "Strongman"
+       },
+       {
+           "name": "Sailor",
+           "image": "SailorMale"
+       }
+   ],
+   "image": "Dock_HandMale"
+ },
+ {
+   "name": "Doctor",
+   "clones": [
+       {
+           "name": "Nurse",
+           "image": "NurseMale"
+       },
+       {
+           "name": "Engineer",
+           "image": "EngineerMale"
+       }
+   ],
+   "image": "DoctorMale"
+ },
+ {
+   "name": "Drummer",
+   "clones": [
+       {
+           "name": "Musician",
+           "image": "Musician"
+       },
+       {
+           "name": "Watchmaker",
+           "image": "WatchmakerMale"
+       }
+   ],
+   "image": "DrummerMale"
+ },
+ {
+   "name": "Eagle Scout",
+   "clones": [
+       {
+           "name": "Explorer",
+           "image": "Explorer"
+       },
+       {
+           "name": "Park Ranger",
+           "image": "Park_RangerMale"
+       }
+   ],
+   "image": "Eagle_ScoutMale"
+ },
+ {
+   "name": "Editor",
+   "clones": [
+       {
+           "name": "Writer",
+           "image": "WriterMale"
+       },
+       {
+           "name": "Writer",
+           "image": "WriterMale"
+       }
+   ],
+   "image": "EditorMale"
+ },
+ {
+   "name": "Electrician",
+   "clones": [
+       {
+           "name": "Assistant",
+           "image": "AssistantMale"
+       },
+       {
+           "name": "Mechanic",
+           "image": "MechanicMale"
+       }
+   ],
+   "image": "ElectricianMale"
+ },
+ {
+   "name": "Emperor",
+   "clones": [
+       {
+           "name": "Historian",
+           "image": "HistorianMale"
+       },
+       {
+           "name": "Mayor",
+           "image": "MayorMale"
+       }
+   ],
+   "image": "EmperorMale"
+ },
+ {
+   "name": "Engineer",
+   "clones": [
+       {
+           "name": "Mayor",
+           "image": "MayorMale"
+       },
+       {
+           "name": "Mechanic",
+           "image": "MechanicMale"
+       }
+   ],
+   "image": "EngineerMale"
+ },
+ {
+   "name": "Entomologist",
+   "clones": [
+       {
+           "name": "Scientist",
+           "image": "ScientistMale"
+       },
+       {
+           "name": "Programmer",
+           "image": "ProgrammerMale"
+       }
+   ],
+   "image": "EntomologistMale"
+ },
+ {
+   "name": "Entrepreneur",
+   "clones": [
+       {
+           "name": "Guru",
+           "image": "Guru"
+       },
+       {
+           "name": "Programmer",
+           "image": "ProgrammerMale"
+       }
+   ],
+   "image": "EntrepreneurMale"
+ },
+ {
+   "name": "Farmer",
+   "clones": [
+       {
+           "name": "Gardener",
+           "image": "GardenerMale"
+       },
+       {
+           "name": "Engineer",
+           "image": "EngineerMale"
+       }
+   ],
+   "image": "FarmerMale"
+ },
+ {
+   "name": "Federal Agent",
+   "clones": [
+       {
+           "name": "Politician",
+           "image": "PoliticianMale"
+       },
+       {
+           "name": "Secret Agent",
+           "image": "Secret_AgentMale"
+       }
+   ],
+   "image": "Federal_AgentMale"
+ },
+ {
+   "name": "Fencer",
+   "clones": [
+       {
+           "name": "Ninja",
+           "image": "NinjaMale"
+       },
+       {
+           "name": "Ballet Dancer",
+           "image": "Ballet_DancerMale"
+       }
+   ],
+   "image": "Fencer2Male"
+ },
+ {
+   "name": "Figure Skater",
+   "clones": [
+       {
+           "name": "Jack Frost",
+           "image": "Jack_Frost"
+       },
+       {
+           "name": "Ballet Dancer",
+           "image": "Ballet_DancerMale"
+       }
+   ],
+   "image": "Figure_SkaterMale"
+ },
+ {
+   "name": "Firefighter",
+   "clones": [
+       {
+           "name": "Police Officer",
+           "image": ""
+       },
+       {
+           "name": "Mechanic",
+           "image": ""
+       }
+   ],
+   "image": "FirefighterMale"
+ },
+ {
+   "name": "First Mate",
+   "clones": [
+       {
+           "name": "Captain",
+           "image": "CaptainMale"
+       },
+       {
+           "name": "Deputy",
+           "image": "DeputyMale"
+       }
+   ],
+   "image": "First_MateMale"
+ },
+ {
+   "name": "Fishmonger",
+   "clones": [
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       },
+       {
+           "name": "Plumber",
+           "image": "PlumberMale"
+       }
+   ],
+   "image": "FishmongerMale"
+ },
+ {
+   "name": "Flight Attendant",
+   "clones": [
+       {
+           "name": "Pilot",
+           "image": "PilotMale"
+       },
+       {
+           "name": "Waiter",
+           "image": "WaiterMale"
+       }
+   ],
+   "image": "Flight_AttendantMale"
+ },
+ {
+   "name": "Flight Controller",
+   "clones": [
+       {
+           "name": "Architect",
+           "image": "ArchitectMale"
+       },
+       {
+           "name": "Pilot",
+           "image": "PilotMale"
+       }
+   ],
+   "image": "Flight_ControllerMale"
+ },
+ {
+   "name": "Florist",
+   "clones": [
+       {
+           "name": "Botanist",
+           "image": "BotanistMale"
+       },
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       }
+   ],
+   "image": "FloristMale"
+ },
+ {
+   "name": "Food Critic",
+   "clones": [
+       {
+           "name": "Cook",
+           "image": "CookMale"
+       },
+       {
+           "name": "Reporter",
+           "image": "ReporterMale"
+       }
+   ],
+   "image": "Food_CriticMale"
+ },
+ {
+   "name": "Footballer",
+   "clones": [
+       {
+           "name": "Athlete",
+           "image": "AthleteMale"
+       },
+       {
+           "name": "Cheerleader",
+           "image": "CheerleaderMale"
+       }
+   ],
+   "image": "FootballerMale"
+ },
+ {
+   "name": "Forensic Scientist",
+   "clones": [
+       {
+           "name": "Scientist",
+           "image": "ScientistMale"
+       },
+       {
+           "name": "Detective",
+           "image": "DetectiveMale"
+       }
+   ],
+   "image": "Forensic_ScientistMale"
+ },
+ {
+   "name": "Gambler",
+   "clones": [
+       {
+           "name": "Mathematician",
+           "image": "MathematicianMale"
+       },
+       {
+           "name": "Party Animal",
+           "image": "Party_AnimalMale"
+       }
+   ],
+   "image": "GamblerMale"
+ },
+ {
+   "name": "Game Designer",
+   "clones": [
+       {
+           "name": "Programmer",
+           "image": "ProgrammerMale"
+       },
+       {
+           "name": "Artist",
+           "image": "ArtistMale"
+       }
+   ],
+   "image": "Game_DesignerMale"
+ },
+ {
+   "name": "Gamer",
+   "clones": [
+       {
+           "name": "Sports Star",
+           "image": "Sports_Star"
+       },
+       {
+           "name": "Programmer",
+           "image": "ProgrammerMale"
+       }
+   ],
+   "image": "GamerMale"
+ },
+ {
+   "name": "Gardener",
+   "clones": [
+       {
+           "name": "Landscaper",
+           "image": "LandscaperMale"
+       },
+       {
+           "name": "Deputy",
+           "image": "DeputyMale"
+       }
+   ],
+   "image": "GardenerMale"
+ },
+ {
+   "name": "Gas Filler",
+   "clones": [
+       {
+           "name": "Janitor",
+           "image": "JanitorMale"
+       },
+       {
+           "name": "Valet",
+           "image": "ValetMale"
+       }
+   ],
+   "image": "Gas_FillerMale"
+ },
+ {
+   "name": "General",
+   "clones": [
+       {
+           "name": "Marine",
+           "image": "MarineMale"
+       },
+       {
+           "name": "Soldier",
+           "image": "SoldierMale"
+       }
+   ],
+   "image": "GeneralMale"
+ },
+ {
+   "name": "Geneticist",
+   "clones": [
+       {
+           "name": "Doctor",
+           "image": "DoctorMale"
+       },
+       {
+           "name": "Scientist",
+           "image": "ScientistMale"
+       }
+   ],
+   "image": "GeneticistMale"
+ },
+ {
+   "name": "Genie",
+   "clones": [
+       {
+           "name": "Magician",
+           "image": "MagicianMale"
+       },
+       {
+           "name": "Magician",
+           "image": "MagicianMale"
+       }
+   ],
+   "image": "GenierMale"
+ },
+ {
+   "name": "Geologist",
+   "clones": [
+       {
+           "name": "Miner",
+           "image": "MinerMale"
+       },
+       {
+           "name": "Scientist",
+           "image": "ScientistMale"
+       }
+   ],
+   "image": "GeologistMale"
+ },
+ {
+   "name": "Golfer",
+   "clones": [
+       {
+           "name": "Sports Star",
+           "image": "Sports_Star"
+       },
+       {
+           "name": "Bartender",
+           "image": "BartenderMale"
+       }
+   ],
+   "image": "GolferMale"
+ },
+ {
+   "name": "Gravedigger",
+   "clones": [
+       {
+           "name": "Soldier",
+           "image": "SoldierMale"
+       },
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       }
+   ],
+   "image": "GravediggerMale"
+ },
+ {
+   "name": "Greengrocer",
+   "clones": [
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       },
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       }
+   ],
+   "image": "GreengrocerMale"
+ },
+ {
+   "name": "Guitarist",
+   "clones": [
+       {
+           "name": "Musician",
+           "image": "Musician"
+       },
+       {
+           "name": "Songwriter",
+           "image": "SongwriterMale"
+       }
+   ],
+   "image": "GuitaristMale"
+ },
+ {
+   "name": "Gym Instructor",
+   "clones": [
+       {
+           "name": "Bodybuilder",
+           "image": "BodybuilderMale"
+       },
+       {
+           "name": "Guru",
+           "image": "Guru"
+       }
+   ],
+   "image": "Gym_InstructorMale"
+ },
+ {
+   "name": "Gymnast",
+   "clones": [
+       {
+           "name": "Gym Instructor",
+           "image": "Gym_InstructorMale"
+       },
+       {
+           "name": "Athlete",
+           "image": "AthleteMale"
+       }
+   ],
+   "image": "GymnastMale"
+ },
+ {
+   "name": "Hair Stylist",
+   "clones": [
+       {
+           "name": "Model",
+           "image": "ModelMale"
+       },
+       {
+           "name": "Gardener",
+           "image": "GardenerMale"
+       }
+   ],
+   "image": "Hair_StylistMale"
+ },
+ {
+   "name": "Hazmat",
+   "clones": [
+       {
+           "name": "Chemist",
+           "image": "ChemistMale"
+       },
+       {
+           "name": "Stunt Double",
+           "image": "Stunt_DoubleMale"
+       }
+   ],
+   "image": "HazmatMale"
+ },
+ {
+   "name": "Historian",
+   "clones": [
+       {
+           "name": "Librarian",
+           "image": "LibrarianMale"
+       },
+       {
+           "name": "Philosopher",
+           "image": "PhilosopherMale"
+       }
+   ],
+   "image": "HistorianMale"
+ },
+ {
+   "name": "Hockey Player",
+   "clones": [
+       {
+           "name": "Wrestler",
+           "image": "WrestlerMale"
+       },
+       {
+           "name": "Figure Skater",
+           "image": "Figure_SkaterMale"
+       }
+   ],
+   "image": "Hockey_PlayerMale"
+ },
+ {
+   "name": "Homemaker",
+   "clones": [
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       },
+       {
+           "name": "Gardener",
+           "image": "GardenerMale"
+       }
+   ],
+   "image": "HomemakerMale"
+ },
+ {
+   "name": "Hotel Manager",
+   "clones": [
+       {
+           "name": "Homemaker",
+           "image": "HomemakerMale"
+       },
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       }
+   ],
+   "image": "Hotel_ManaagerMale"
+ },
+ {
+   "name": "Ice Cream Seller",
+   "clones": [
+       {
+           "name": "Foodie",
+           "image": "Foodie"
+       },
+       {
+           "name": "Jack Frost",
+           "image": "Jack_Frost"
+       }
+   ],
+   "image": "Ice_Cream_SellerMale"
+ },
+ {
+   "name": "Ice Fisher",
+   "clones": [
+       {
+           "name": "Fishmonger",
+           "image": "FishmongerMale"
+       },
+       {
+           "name": "Figure Skater",
+           "image": "Figure_SkaterMale"
+       }
+   ],
+   "image": "Ice_FisherMale"
+ },
+ {
+   "name": "Industrialist",
+   "clones": [
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       },
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       }
+   ],
+   "image": "IndustrialistMale"
+ },
+ {
+   "name": "Insurance Agent",
+   "clones": [
+       {
+           "name": "Bureaucrat",
+           "image": "Bureaucrat"
+       },
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       }
+   ],
+   "image": "Insurance_AgentMale"
+ },
+ {
+   "name": "Interior Designer",
+   "clones": [
+       {
+           "name": "Architect",
+           "image": "ArchitectMale"
+       },
+       {
+           "name": "Artist",
+           "image": "ArtistMale"
+       }
+   ],
+   "image": "Interior_DesignerMale"
+ },
+ {
+   "name": "Investment Banker",
+   "clones": [
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       },
+       {
+           "name": "Gambler",
+           "image": "GamblerMale"
+       }
+   ],
+   "image": "Investment_BankerMale"
+ },
+ {
+   "name": "Investor",
+   "clones": [
+       {
+           "name": "Gambler",
+           "image": "GamblerMale"
+       },
+       {
+           "name": "Industrialist",
+           "image": "IndustrailistMale"
+       }
+   ],
+   "image": "InvestorMale"
+ },
+ {
+   "name": "Janitor",
+   "clones": [
+       {
+           "name": "Plumber",
+           "image": "PlumberMale"
+       },
+       {
+           "name": "Construction Worker",
+           "image": "Construction_WorkerMale"
+       }
+   ],
+   "image": "JanitorMale"
+ },
+ {
+   "name": "Jockey",
+   "clones": [
+       {
+           "name": "Animal Trainer",
+           "image": "Animal_TrainerMale"
+       },
+       {
+           "name": "Valet",
+           "image": "ValetMale"
+       }
+   ],
+   "image": "JockeyMale"
+ },
+ {
+   "name": "Judge",
+   "clones": [
+       {
+           "name": "Lawyer",
+           "image": "LawyerMale"
+       },
+       {
+           "name": "Sheriff",
+           "image": "SheriffMale"
+       }
+   ],
+   "image": "JudgeMale"
+ },
+ {
+   "name": "Landscaper",
+   "clones": [
+       {
+           "name": "Assistant",
+           "image": "AssistantMale"
+       },
+       {
+           "name": "Architect",
+           "image": "ArchitectMale"
+       }
+   ],
+   "image": "LandscaperMale"
+ },
+ {
+   "name": "Lawyer",
+   "clones": [
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       },
+       {
+           "name": "Sheriff",
+           "image": "SheriffMale"
+       }
+   ],
+   "image": "LawyerMale"
+ },
+ {
+   "name": "Librarian",
+   "clones": [
+       {
+           "name": "Writer",
+           "image": "WriterMale"
+       },
+       {
+           "name": "Poet",
+           "image": "PoetMale"
+       }
+   ],
+   "image": "LibrarianMale"
+ },
+ {
+   "name": "Lifeguard",
+   "clones": [
+       {
+           "name": "Olympic Swimmer",
+           "image": "Olympic_SwimmerMale"
+       },
+       {
+           "name": "Paramedic",
+           "image": "ParamedicMale"
+       }
+   ],
+   "image": "LifeguardMale"
+ },
+ {
+   "name": "Lighthouse Keeper",
+   "clones": [
+       {
+           "name": "Astronomer",
+           "image": "AstronomerMale"
+       },
+       {
+           "name": "Electrician",
+           "image": "ElectricianMale"
+       }
+   ],
+   "image": "Lighthouse_KeeperMale"
+ },
+ {
+   "name": "Lumberjack",
+   "clones": [
+       {
+           "name": "Strongman",
+           "image": "Strongman"
+       },
+       {
+           "name": "Carpenter",
+           "image": "CarpenterMale"
+       }
+   ],
+   "image": "LumberjackMale"
+ },
+ {
+   "name": "Magician",
+   "clones": [
+       {
+           "name": "Accountant",
+           "image": "AccountantMale"
+       },
+       {
+           "name": "Accountant",
+           "image": "AccountantMale"
+       }
+   ],
+   "image": "MagicianMale"
+ },
+ {
+   "name": "Mailman",
+   "clones": [
+       {
+           "name": "Reporter",
+           "image": "ReporterMale"
+       },
+       {
+           "name": "Valet",
+           "image": "ValetMale"
+       }
+   ],
+   "image": "MailmanMale"
+ },
+ {
+   "name": "Mariachi",
+   "clones": [
+       {
+           "name": "Guitarist",
+           "image": "GuitaristMale"
+       },
+       {
+           "name": "Cattle Rustler",
+           "image": "Cattle_RustlerMale"
+       }
+   ],
+   "image": "MariachiMale"
+ },
+ {
+   "name": "Marine",
+   "clones": [
+       {
+           "name": "Olympic Swimmer",
+           "image": "Olympic_SwimmerMale"
+       },
+       {
+           "name": "Soldier",
+           "image": "SoldierMale"
+       }
+   ],
+   "image": "MarineMale"
+ },
+ {
+   "name": "Marine Biologist",
+   "clones": [
+       {
+           "name": "Olympic Swimmer",
+           "image": "Olympic_SwimmerMale"
+       },
+       {
+           "name": "Vet",
+           "image": "VetMale"
+       }
+   ],
+   "image": "Marine_BiologistMale"
+ },
+ {
+   "name": "Martial Artist",
+   "clones": [
+       {
+           "name": "Ballet Dancer",
+           "image": "Ballet_DancerMale"
+       },
+       {
+           "name": "Soldier",
+           "image": "SoldierMale"
+       }
+   ],
+   "image": "Martial_ArtistMale"
+ },
+ {
+   "name": "Mascot",
+   "clones": [
+       {
+           "name": "Caddie",
+           "image": "CaddieMale"
+       },
+       {
+           "name": "Cheerleader",
+           "image": "CheerleaderMale"
+       }
+   ],
+   "image": "MascotMale"
+ },
+ {
+   "name": "Masseuse",
+   "clones": [
+       {
+           "name": "Strongman",
+           "image": "Strongman"
+       },
+       {
+           "name": "Physiotherapist",
+           "image": "PhysiotherapistMale"
+       }
+   ],
+   "image": "MasseuseMale"
+ },
+ {
+   "name": "Matador",
+   "clones": [
+       {
+           "name": "Wrestler",
+           "image": "WrestlerMale"
+       },
+       {
+           "name": "Animal Trainer",
+           "image": "Animal_TrainerMale"
+       }
+   ],
+   "image": "MatadorMale"
+ },
+ {
+   "name": "Mathematician",
+   "clones": [
+       {
+           "name": "Philosopher",
+           "image": "PhilosopherMale"
+       },
+       {
+           "name": "Scientist",
+           "image": "ScientistMale"
+       }
+   ],
+   "image": "MathematicianMale"
+ },
+ {
+   "name": "Mayor",
+   "clones": [
+       {
+           "name": "(blank)",
+           "image": ""
+       },
+       {
+           "name": "(blank)",
+           "image": ""
+       }
+   ],
+   "image": "MayorMale"
+ },
+ {
+   "name": "Mechanic",
+   "clones": [
+       {
+           "name": "(blank)",
+           "image": ""
+       },
+       {
+           "name": "(blank)",
+           "image": ""
+       }
+   ],
+   "image": "MechanicMale"
+ },
+ {
+   "name": "Mechanical Engineer",
+   "clones": [
+       {
+           "name": "Mechanic",
+           "image": "MechanicMale"
+       },
+       {
+           "name": "Engineer",
+           "image": "EngineerMale"
+       }
+   ],
+   "image": "Mechanical_EngineerMale"
+ },
+ {
+   "name": "Merchant",
+   "clones": [
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       },
+       {
+           "name": "Sailor",
+           "image": "SailorMale"
+       }
+   ],
+   "image": "MerchantMale"
+ },
+ {
+   "name": "Mermaid",
+   "clones": [
+       {
+           "name": "Mutant",
+           "image": "Mutant"
+       },
+       {
+           "name": "Lifeguard",
+           "image": "LifeguardMale"
+       }
+   ],
+   "image": "MermaidMale"
+ },
+ {
+   "name": "Milkmonger",
+   "clones": [
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       },
+       {
+           "name": "Animal Trainer",
+           "image": "Animal_TrainerMale"
+       }
+   ],
+   "image": "MilkmongerMale"
+ },
+ {
+   "name": "Mime",
+   "clones": [
+       {
+           "name": "Librarian",
+           "image": "LibrarianMale"
+       },
+       {
+           "name": "Actor",
+           "image": "ActorMale"
+       }
+   ],
+   "image": "MimeMale"
+ },
+ {
+   "name": "Miner",
+   "clones": [
+       {
+           "name": "Gravedigger",
+           "image": "GravediggerMale"
+       },
+       {
+           "name": "Explorer",
+           "image": "Explorer"
+       }
+   ],
+   "image": "MinerMale"
+ },
+ {
+   "name": "Minotaur",
+   "clones": [
+       {
+           "name": "Matador",
+           "image": "MatadorMale"
+       },
+       {
+           "name": "Mutant",
+           "image": "MutantMale"
+       }
+   ],
+   "image": "MinotaurMale"
+ },
+ {
+   "name": "Model",
+   "clones": [
+       {
+           "name": "Lifeguard",
+           "image": "LifeguardMale"
+       },
+       {
+           "name": "Photographer",
+           "image": "PhotographerMale"
+       }
+   ],
+   "image": "ModelMale"
+ },
+ {
+   "name": "Mountain Climber",
+   "clones": [
+       {
+           "name": "Jack Frost",
+           "image": "Jack_Frost"
+       },
+       {
+           "name": "Miner",
+           "image": "MinerMale"
+       }
+   ],
+   "image": "Mountain_ClimberMale"
+ },
+ {
+   "name": "Mounted Police",
+   "clones": [
+       {
+           "name": "Sheriff",
+           "image": "SheriffMale"
+       },
+       {
+           "name": "Cyclist",
+           "image": "CyclistMale"
+       }
+   ],
+   "image": "Mounted_PoliceMale"
+ },
+ {
+   "name": "Musketeer",
+   "clones": [
+       {
+           "name": "Historian",
+           "image": "HistorianMale"
+       },
+       {
+           "name": "Fencer",
+           "image": "FencerMale"
+       }
+   ],
+   "image": "MusketeerMale"
+ },
+ {
+   "name": "News Anchor",
+   "clones": [
+       {
+           "name": "Talkshow Host",
+           "image": "Talkshow_HostMale"
+       },
+       {
+           "name": "Reporter",
+           "image": "ReporterMale"
+       }
+   ],
+   "image": "News_AnchorMale"
+ },
+ {
+   "name": "Ninja",
+   "clones": [
+       {
+           "name": "Martial Artist",
+           "image": "Martial_ArtistMale"
+       },
+       {
+           "name": "Soldier",
+           "image": "SoldierMale"
+       }
+   ],
+   "image": "NinjaMale"
+ },
+ {
+   "name": "Nurse",
+   "clones": [
+       {
+           "name": "Homemaker",
+           "image": "HomemakerMale"
+       },
+       {
+           "name": "Gardener",
+           "image": "GardenerMale"
+       }
+   ],
+   "image": "NurseMale"
+ },
+ {
+   "name": "Officer",
+   "clones": [
+       {
+           "name": "Assistant",
+           "image": "AssistantMale"
+       },
+       {
+           "name": "Civil Servant",
+           "image": "Civil_ServantMale"
+       }
+   ],
+   "image": "OfficerMale"
+ },
+ {
+   "name": "Oil Baron",
+   "clones": [
+       {
+           "name": "Investor",
+           "image": "InvestorMale"
+       },
+       {
+           "name": "Oil Driller",
+           "image": "Oil_DrillerMale"
+       }
+   ],
+   "image": "Oil_BaronMale"
+ },
+ {
+   "name": "Oil Driller",
+   "clones": [
+       {
+           "name": "Construction Worker",
+           "image": "Construction_WorkerMale"
+       },
+       {
+           "name": "Deep Sea Diver",
+           "image": "Deep_Sea_DiverMale"
+       }
+   ],
+   "image": "Oil_DrillerMale"
+ },
+ {
+   "name": "Olympic Swimmer",
+   "clones": [
+       {
+           "name": "Athlete",
+           "image": "AthleteMale"
+       },
+       {
+           "name": "Fishmonger",
+           "image": "FishmongerMale"
+       }
+   ],
+   "image": "Olympic_SwimmerMale"
+ },
+ {
+   "name": "Optometrist",
+   "clones": [
+       {
+           "name": "Astronomer",
+           "image": "AstronomerMale"
+       },
+       {
+           "name": "Doctor",
+           "image": "DoctorMale"
+       }
+   ],
+   "image": "OptometristMale"
+ },
+ {
+   "name": "Oracle",
+   "clones": [
+       {
+           "name": "Philosopher",
+           "image": "PhilosopherMale"
+       },
+       {
+           "name": "Preacher",
+           "image": "PreacherMale"
+       }
+   ],
+   "image": "OracleMale"
+ },
+ {
+   "name": "Outlaw",
+   "clones": [
+       {
+           "name": "Ninja",
+           "image": "NinjaMale"
+       },
+       {
+           "name": "Lumberjack",
+           "image": "LumberjackMale"
+       }
+   ],
+   "image": "OutlawMale"
+ },
+ {
+   "name": "Painter",
+   "clones": [
+       {
+           "name": "Artist",
+           "image": "ArtistMale"
+       },
+       {
+           "name": "Construction Worker",
+           "image": "Construction_WorkerMale"
+       }
+   ],
+   "image": "PainterMale"
+ },
+ {
+   "name": "Paleontologist",
+   "clones": [
+       {
+           "name": "Archaeologist",
+           "image": "ArchaeologistMale"
+       },
+       {
+           "name": "Cryptozoologist",
+           "image": "CryptozoologistMale"
+       }
+   ],
+   "image": "PaleontologistMale"
+ },
+ {
+   "name": "Paramedic",
+   "clones": [
+       {
+           "name": "Doctor",
+           "image": "DoctorMale"
+       },
+       {
+           "name": "Police Officer",
+           "image": "Police_OfficerMale"
+       }
+   ],
+   "image": "ParamedicMale"
+ },
+ {
+   "name": "Park Ranger",
+   "clones": [
+       {
+           "name": "Sheriff",
+           "image": "SheriffMale"
+       },
+       {
+           "name": "Landscaper",
+           "image": "LandscaperMale"
+       }
+   ],
+   "image": "Park_RangerMale"
+ },
+ {
+   "name": "Party Animal",
+   "clones": [
+       {
+           "name": "Socialite",
+           "image": "Socialite"
+       },
+       {
+           "name": "Animal Trainer",
+           "image": "Animal_TrainerMale"
+       }
+   ],
+   "image": "Party_AnimalMale"
+ },
+ {
+   "name": "Pharmacist",
+   "clones": [
+       {
+           "name": "Doctor",
+           "image": "DoctorMale"
+       },
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       }
+   ],
+   "image": "PharmacistMale"
+ },
+ {
+   "name": "Philosopher",
+   "clones": [
+       {
+           "name": "Dreamer",
+           "image": "Dreamer"
+       },
+       {
+           "name": "Dreamer",
+           "image": "Dreamer"
+       }
+   ],
+   "image": "PhilosopherMale"
+ },
+ {
+   "name": "Photographer",
+   "clones": [
+       {
+           "name": "Artist",
+           "image": "ArtistMale"
+       },
+       {
+           "name": "Mechanic",
+           "image": "MechanicMale"
+       }
+   ],
+   "image": "PhotographerMale"
+ },
+ {
+   "name": "Physicist",
+   "clones": [
+       {
+           "name": "Scientist",
+           "image": "ScientistMale"
+       },
+       {
+           "name": "Mathematician",
+           "image": "MathematicianMale"
+       }
+   ],
+   "image": "PhysicistMale"
+ },
+ {
+   "name": "Physiotherapist",
+   "clones": [
+       {
+           "name": "Doctor",
+           "image": "DoctorMale"
+       },
+       {
+           "name": "Athlete",
+           "image": "AthleteMale"
+       }
+   ],
+   "image": "PhysiotherapistMale"
+ },
+ {
+   "name": "Pianist",
+   "clones": [
+       {
+           "name": "Musician",
+           "image": "Musician"
+       },
+       {
+           "name": "Programmer",
+           "image": "ProgrammerMale"
+       }
+   ],
+   "image": "PianistMale"
+ },
+ {
+   "name": "Pilot",
+   "clones": [
+       {
+           "name": "Valet",
+           "image": "ValetMale"
+       },
+       {
+           "name": "Mechanic",
+           "image": "MechanicMale"
+       }
+   ],
+   "image": "PilotMale"
+ },
+ {
+   "name": "Pizza Guy",
+   "clones": [
+       {
+           "name": "Foodie",
+           "image": "Foodie"
+       },
+       {
+           "name": "Courier",
+           "image": "CourierMale"
+       }
+   ],
+   "image": "Pizza_GuyMale"
+ },
+ {
+   "name": "Plumber",
+   "clones": [
+       {
+           "name": "Engineer",
+           "image": "EngineerMale"
+       },
+       {
+           "name": "Assistant",
+           "image": "AssistantMale"
+       }
+   ],
+   "image": "PlumberMale"
+ },
+ {
+   "name": "Poet",
+   "clones": [
+       {
+           "name": "Writer",
+           "image": "WriterMale"
+       },
+       {
+           "name": "Dreamer",
+           "image": "Dreamer"
+       }
+   ],
+   "image": "PoetMale"
+ },
+ {
+   "name": "Police Officer",
+   "clones": [
+       {
+           "name": "Sheriff",
+           "image": "SheriffMale"
+       },
+       {
+           "name": "Sheriff",
+           "image": "SheriffMale"
+       }
+   ],
+   "image": "Police_OfficerMale"
+ },
+ {
+   "name": "Politician",
+   "clones": [
+       {
+           "name": "General",
+           "image": "GeneralMale"
+       },
+       {
+           "name": "Bureaucrat",
+           "image": "Bureaucrat"
+       }
+   ],
+   "image": "PoliticianMale"
+ },
+ {
+   "name": "Postmaster General",
+   "clones": [
+       {
+           "name": "General",
+           "image": "GeneralMale"
+       },
+       {
+           "name": "Mailman",
+           "image": "MailmanMale"
+       }
+   ],
+   "image": "Postmaster_GeneralMale"
+ },
+ {
+   "name": "Preacher",
+   "clones": [
+       {
+           "name": "Philosopher",
+           "image": "PhilosopherMale"
+       },
+       {
+           "name": "Dreamer",
+           "image": "Dreamer"
+       }
+   ],
+   "image": "PreacherMale"
+ },
+ {
+   "name": "Professor",
+   "clones": [
+       {
+           "name": "Guru",
+           "image": "Guru"
+       },
+       {
+           "name": "Scientist",
+           "image": "ScientistMale"
+       }
+   ],
+   "image": "ProfessorMale"
+ },
+ {
+   "name": "Programmer",
+   "clones": [
+       {
+           "name": "Mathematician",
+           "image": "MathematicianMale"
+       },
+       {
+           "name": "Engineer",
+           "image": "EngineerMale"
+       }
+   ],
+   "image": "ProgrammerMale"
+ },
+ {
+   "name": "Punk Rocker",
+   "clones": [
+       {
+           "name": "Hair Stylist",
+           "image": "Hair_StylistMale"
+       },
+       {
+           "name": "Guitarist",
+           "image": "GuitaristMale"
+       }
+   ],
+   "image": "Punk_RockerMale"
+ },
+ {
+   "name": "Pyrotechnician",
+   "clones": [
+       {
+           "name": "Chemist",
+           "image": "ChemistMale"
+       },
+       {
+           "name": "Wizard",
+           "image": "WizardMale"
+       }
+   ],
+   "image": "PyrotechnicianMale"
+ },
+ {
+   "name": "Racecar Driver",
+   "clones": [
+       {
+           "name": "Sports Star",
+           "image": "Sports_Star"
+       },
+       {
+           "name": "Valet",
+           "image": "ValetMale"
+       }
+   ],
+   "image": "Racecar_DriverMale"
+ },
+ {
+   "name": "Radiologist",
+   "clones": [
+       {
+           "name": "Photographer",
+           "image": "PhotographerMale"
+       },
+       {
+           "name": "Doctor",
+           "image": "DoctorMale"
+       }
+   ],
+   "image": "RadiologistMale"
+ },
+ {
+   "name": "Rapper",
+   "clones": [
+       {
+           "name": "Poet",
+           "image": "PoetMale"
+       },
+       {
+           "name": "Disc Jockey",
+           "image": "Disc_JockeyMale"
+       }
+   ],
+   "image": "RapperMale"
+ },
+ {
+   "name": "Real Estate Agent",
+   "clones": [
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       },
+       {
+           "name": "Architect",
+           "image": "ArchitectMale"
+       }
+   ],
+   "image": "Real_Estate_AgentMale"
+ },
+ {
+   "name": "Receptionist",
+   "clones": [
+       {
+           "name": "Secretary",
+           "image": "SecretaryMale"
+       },
+       {
+           "name": "Model",
+           "image": "ModelMale"
+       }
+   ],
+   "image": "ReceptionistMale"
+ },
+ {
+   "name": "Referee",
+   "clones": [
+       {
+           "name": "Judge",
+           "image": "JudgeMale"
+       },
+       {
+           "name": "Coach",
+           "image": "CoachMale"
+       }
+   ],
+   "image": "RefereeMale"
+ },
+ {
+   "name": "Reporter",
+   "clones": [
+       {
+           "name": "Detective",
+           "image": "DetectiveMale"
+       },
+       {
+           "name": "Writer",
+           "image": "WriterMale"
+       }
+   ],
+   "image": "ReporterMale"
+ },
+ {
+   "name": "Ringmaster",
+   "clones": [
+       {
+           "name": "Clown",
+           "image": "ClownMale"
+       },
+       {
+           "name": "Animal Trainer",
+           "image": "Animal_TrainerMale"
+       }
+   ],
+   "image": "RingmasterMale"
+ },
+ {
+   "name": "Rock Climber",
+   "clones": [
+       {
+           "name": "Mountain Climber",
+           "image": "Mountain_ClimberMale"
+       },
+       {
+           "name": "Stunt Double",
+           "image": "Stunt_DoubleMale"
+       }
+   ],
+   "image": "Rock_ClimberMale"
+ },
+ {
+   "name": "Rockstar",
+   "clones": [
+       {
+           "name": "Guitarist",
+           "image": "GuitaristMale"
+       },
+       {
+           "name": "Vocalist",
+           "image": "VocalistMale"
+       }
+   ],
+   "image": "RockstarMale"
+ },
+ {
+   "name": "Sailing Instructor",
+   "clones": [
+       {
+           "name": "Sailor",
+           "image": "SailorMale"
+       },
+       {
+           "name": "Coach",
+           "image": "CoachMale"
+       }
+   ],
+   "image": "Sailing_InstructorMale"
+ },
+ {
+   "name": "Sailor",
+   "clones": [
+       {
+           "name": "Sea Dog",
+           "image": "Sea_DogMale"
+       },
+       {
+           "name": "First Mate",
+           "image": "First_MateMale"
+       }
+   ],
+   "image": "SailorMale"
+ },
+ {
+   "name": "Samurai",
+   "clones": [
+       {
+           "name": "Sumo Wrestler",
+           "image": "Sumo_WrestlerMale"
+       },
+       {
+           "name": "Soldier",
+           "image": "SoldierMale"
+       }
+   ],
+   "image": "SamuraiMale"
+ },
+ {
+   "name": "Scientist",
+   "clones": [
+       {
+           "name": "Philosopher",
+           "image": "PhilosopherMale"
+       },
+       {
+           "name": "Engineer",
+           "image": "EngineerMale"
+       }
+   ],
+   
+   "image": "ScientistMale"
+ },
+ {
+   "name": "Sea Dog",
+   "clones": [
+       {
+           "name": "Captain",
+           "image": "CaptainMale"
+       },
+       {
+           "name": "Buccaneer",
+           "image": "BuccaneerMale"
+       }
+   ],
+   "image": "Sea_DogMale"
+ },
+ {
+   "name": "Secret Agent",
+   "clones": [
+       {
+           "name": "Ninja",
+           "image": "NinjaMale"
+       },
+       {
+           "name": "Detective",
+           "image": "DetectiveMale"
+       }
+   ],
+   "image": "Secret_AgentMale"
+ },
+ {
+   "name": "Secretary",
+   "clones": [
+       {
+           "name": "Mayor",
+           "image": "MayorMale"
+       },
+       {
+           "name": "Deputy",
+           "image": "DeputyMale"
+       }
+   ],
+   "image": "SecretaryMale"
+ },
+ {
+   "name": "Security Guard",
+   "clones": [
+       {
+           "name": "Assistant",
+           "image": "AssistantMale"
+       },
+       {
+           "name": "Police Officer",
+           "image": "Police_OfficerMale"
+       }
+   ],
+   "image": "Security_GuardMale"
+ },
+ {
+   "name": "Sensei",
+   "clones": [
+       {
+           "name": "Martial Artist",
+           "image": "Martial_ArtistMale"
+       },
+       {
+           "name": "Philosopher",
+           "image": "PhilosopherMale"
+       }
+   ],
+   "image": "SenseiMale"
+ },
+ {
+   "name": "Shepherd",
+   "clones": [
+       {
+           "name": "Milkmonger",
+           "image": "MilkmongerMale"
+       },
+       {
+           "name": "Animal Trainer",
+           "image": "Animal_TrainerMale"
+       }
+   ],
+   "image": "ShepherdMale"
+ },
+ {
+   "name": "Sheriff",
+   "clones": [
+       {
+           "name": "Mayor",
+           "image": "MayorMale"
+       },
+       {
+           "name": "Mayor",
+           "image": "MayorMale"
+       }
+   ],
+   "image": "SheriffMale"
+ },
+ {
+   "name": "Skateboarder",
+   "clones": [
+       {
+           "name": "Cyclist",
+           "image": "CyclistMale"
+       },
+       {
+           "name": "Skier",
+           "image": "SkierMale"
+       }
+   ],
+   "image": "SkateboarderMale"
+ },
+ {
+   "name": "Skier",
+   "clones": [
+       {
+           "name": "Figure Skater",
+           "image": "Figure_SkaterMale"
+       },
+       {
+           "name": "Mountain Climber",
+           "image": "Mountain_ClimberMale"
+       }
+   ],
+   "image": "SkierMale"
+ },
+ {
+   "name": "Soccer Star",
+   "clones": [
+       {
+           "name": "Sports Star",
+           "image": "Sports_Star"
+       },
+       {
+           "name": "Actor",
+           "image": "ActorMale"
+       }
+   ],
+   "image": "Soccer_StarMale"
+ },
+ {
+   "name": "Soldier",
+   "clones": [
+       {
+           "name": "Police Officer",
+           "image": "Police_OfficerMale"
+       },
+       {
+           "name": "Explorer",
+           "image": "Explorer"
+       }
+   ],
+   "image": "SoldierMale"
+ },
+ {
+   "name": "Sommelier",
+   "clones": [
+       {
+           "name": "Foodie",
+           "image": "Foodie"
+       },
+       {
+           "name": "Winemaker",
+           "image": "WinemakerMale"
+       }
+   ],
+   "image": "SommelierMale"
+ },
+ {
+   "name": "Songwriter",
+   "clones": [
+       {
+           "name": "Poet",
+           "image": "PoetMale"
+       },
+       {
+           "name": "Poet",
+           "image": "PoetMale"
+       }
+   ],
+   "image": "SongwriterMale"
+ },
+ {
+   "name": "Sports Fan",
+   "clones": [
+       {
+           "name": "Statistician",
+           "image": "StatisticianMale"
+       },
+       {
+           "name": "Athlete",
+           "image": "AthleteMale"
+       }
+   ],
+   "image": "Sports_FanMale"
+ },
+ {
+   "name": "Star Commander",
+   "clones": [
+       {
+           "name": "Travel Agent",
+           "image": "Travel_AgentMale"
+       },
+       {
+           "name": "Astronaut",
+           "image": "AstronautMale"
+       }
+   ],
+   "image": "Star_CommanderMale"
+ },
+ {
+   "name": "Statistician",
+   "clones": [
+       {
+           "name": "Mathematician",
+           "image": "MathematicianMale"
+       },
+       {
+           "name": "Reporter",
+           "image": "ReporterMale"
+       }
+   ],
+   "image": "StatisticianMale"
+ },
+ {
+   "name": "Stunt Double",
+   "clones": [
+       {
+           "name": "Martial Artist",
+           "image": "Martial_ArtistMale"
+       },
+       {
+           "name": "Actor",
+           "image": "ActorMale"
+       }
+   ],
+   "image": "Stunt_DoubleMale"
+ },
+ {
+   "name": "Sumo Wrestler",
+   "clones": [
+       {
+           "name": "Bodybuilder",
+           "image": "BodybuilderMale"
+       },
+       {
+           "name": "Sushi Chef",
+           "image": "Sushi_ChefMale"
+       }
+   ],
+   "image": "Sumo_WrestlerMale"
+ },
+ {
+   "name": "Super Hero",
+   "clones": [
+       {
+           "name": "Soldier",
+           "image": "SoldierMale"
+       },
+       {
+           "name": "Geneticist",
+           "image": "GeneticistMale"
+       }
+   ],
+   "image": "Super_HeroMale"
+ },
+ {
+   "name": "Surfer",
+   "clones": [
+       {
+           "name": "Skateboarder",
+           "image": "SkateboarderMale"
+       },
+       {
+           "name": "Olympic Swimmer",
+           "image": "Olympic_SwimmerMale"
+       }
+   ],
+   "image": "SurferMale"
+ },
+ {
+   "name": "Sushi Chef",
+   "clones": [
+       {
+           "name": "Chef",
+           "image": "ChefMale"
+       },
+       {
+           "name": "Martial Artist",
+           "image": "Martial_ArtistMale"
+       }
+   ],
+   "image": "Sushi_ChefMale"
+ },
+ {
+   "name": "Swimsuit Model",
+   "clones": [
+       {
+           "name": "Olympic Swimmer",
+           "image": "Olympic_SwimmerMale"
+       },
+       {
+           "name": "Model",
+           "image": "ModelMale"
+       }
+   ],
+   "image": "Swimsuit_ModelMale"
+ },
+ {
+   "name": "System Admin",
+   "clones": [
+       {
+           "name": "Programmer",
+           "image": "ProgrammerMale"
+       },
+       {
+           "name": "Programmer",
+           "image": "ProgrammerMale"
+       }
+   ],
+   "image": "System_AdminMale"
+ },
+ {
+   "name": "Tailor",
+   "clones": [
+       {
+           "name": "Artist",
+           "image": "ArtistMale"
+       },
+       {
+           "name": "Model",
+           "image": "ModelMale"
+       }
+   ],
+   "image": "TailorMale"
+ },
+ {
+   "name": "Talkshow Host",
+   "clones": [
+       {
+           "name": "Guru",
+           "image": "Guru"
+       },
+       {
+           "name": "Actor",
+           "image": "ActorMale"
+       }
+   ],
+   "image": "Talkshow_HostMale"
+ },
+ {
+   "name": "Tattoo Artist",
+   "clones": [
+       {
+           "name": "Punk Rocker",
+           "image": "Punk_RockerMale"
+       },
+       {
+           "name": "Calligrapher",
+           "image": "CalligrapherMale"
+       }
+   ],
+   "image": "Tattoo_ArtistMale"
+ },
+ {
+   "name": "Taxidermist",
+   "clones": [
+       {
+           "name": "Vet",
+           "image": "VetMale"
+       },
+       {
+           "name": "Coroner",
+           "image": "CoronerMale"
+       }
+   ],
+   "image": "TaxidermistMale"
+ },
+ {
+   "name": "Telephone Operator",
+   "clones": [
+       {
+           "name": "Electrician",
+           "image": "ElectricianMale"
+       },
+       {
+           "name": "Receptionist",
+           "image": "ReceptionistMale"
+       }
+   ],
+   "image": "Telephone_OperatorMale"
+ },
+ {
+   "name": "Tennis Player",
+   "clones": [
+       {
+           "name": "Sports Star",
+           "image": "Sports_Star"
+       },
+       {
+           "name": "Sports Star",
+           "image": "Sports_Star"
+       }
+   ],
+   "image": "Tennis_PlayerMale"
+ },
+ {
+   "name": "Time Traveller",
+   "clones": [
+       {
+           "name": "Watchmaker",
+           "image": "WatchmakerMale"
+       },
+       {
+           "name": "Explorer",
+           "image": "Explorer"
+       }
+   ],
+   "image": "Time_TravellerMale"
+ },
+ {
+   "name": "Tooth Fairy",
+   "clones": [
+       {
+           "name": "Bee Keeper",
+           "image": "Bee_KeeperMale"
+       },
+       {
+           "name": "Dentist",
+           "image": "DentistMale"
+       }
+   ],
+   "image": "Tooth_FairyMale"
+ },
+ {
+   "name": "Tour Guide",
+   "clones": [
+       {
+           "name": "Hitch Hiker",
+           "image": "Hitch_HikerMale"
+       },
+       {
+           "name": "Salesman",
+           "image": "Salesman"
+       }
+   ],
+   "image": "Tour_GuideMale"
+ },
+ {
+   "name": "Tourist",
+   "clones": [
+       {
+           "name": "Tour Guide",
+           "image": "Tour_GuideMale"
+       },
+       {
+           "name": "Travel Agent",
+           "image": "Travel_AgentMale"
+       }
+   ],
+   "image": "TouristMale"
+ },
+ {
+   "name": "Travel Agent",
+   "clones": [
+       {
+           "name": "Tour Guide",
+           "image": "Tour_GuideMale"
+       },
+       {
+           "name": "Pilot",
+           "image": "PilotMale"
+       }
+   ],
+   "image": "Travel_AgentMale"
+ },
+ {
+   "name": "Treehugger",
+   "clones": [
+       {
+           "name": "Guru",
+           "image": "Guru"
+       },
+       {
+           "name": "Hitch Hiker",
+           "image": "Hitch_Hiker"
+       }
+   ],
+   "image": "TreehuggerMale"
+ },
+ {
+   "name": "Tribal",
+   "clones": [
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       },
+       {
+           "name": "Fishmonger",
+           "image": "FishmongerMale"
+       }
+   ],
+   "image": "TribalMale"
+ },
+ {
+   "name": "Valet",
+   "clones": [
+       {
+           "name": "Hotel Manager",
+           "image": "Hotel_ManagerMale"
+       },
+       {
+           "name": "Car Designer",
+           "image": "Car_DesignerMale"
+       }
+   ],
+   "image": "ValetMale"
+ },
+ {
+   "name": "Ventriloquist",
+   "clones": [
+       {
+           "name": "Carpenter",
+           "image": "CarpenterMale"
+       },
+       {
+           "name": "Actor",
+           "image": "ActorMale"
+       }
+   ],
+   "image": "VentriloquistMale"
+ },
+ {
+   "name": "Vet",
+   "clones": [
+       {
+           "name": "Doctor",
+           "image": "DoctorMale"
+       },
+       {
+           "name": "Park Ranger",
+           "image": "Park_RangerMale"
+       }
+   ],
+   "image": "VetMale"
+ },
+ {
+   "name": "Vigilante",
+   "clones": [
+       {
+           "name": "Detective",
+           "image": "DetectiveMale"
+       },
+       {
+           "name": "Martial Artist",
+           "image": "Martial_ArtistMale"
+       }
+   ],
+   "image": "VigilanteMale"
+ },
+ {
+   "name": "Violinist",
+   "clones": [
+       {
+           "name": "Bassist",
+           "image": "BassistMale"
+       },
+       {
+           "name": "Guitarist",
+           "image": "GuitaristMale"
+       }
+   ],
+   "image": "ViolinistMale"
+ },
+ {
+   "name": "Vocalist",
+   "clones": [
+       {
+           "name": "Songwriter",
+           "image": "SongwriterMale"
+       },
+       {
+           "name": "Actor",
+           "image": "ActorMale"
+       }
+   ],
+   "image": "VocalistMale"
+ },
+ {
+   "name": "Waiter",
+   "clones": [
+       {
+           "name": "Cook",
+           "image": "CookMale"
+       },
+       {
+           "name": "Assistant",
+           "image": "AssistantMale"
+       }
+   ],
+   "image": "WaiterMale"
+ },
+ {
+   "name": "Watchmaker",
+   "clones": [
+       {
+           "name": "Historian",
+           "image": "HistorianMale"
+       },
+       {
+           "name": "Mechanic",
+           "image": "MechanicMale"
+       }
+   ],
+   "image": "WatchmakerMale"
+ },
+ {
+   "name": "Weather Reporter",
+   "clones": [
+       {
+           "name": "Geologist",
+           "image": "GeologistMale"
+       },
+       {
+           "name": "Reporter",
+           "image": "ReporterMale"
+       }
+   ],
+   "image": "Weather_ReporterMale"
+ },
+ {
+   "name": "Wedding Planner",
+   "clones": [
+       {
+           "name": "Baker",
+           "image": "BakerMale"
+       },
+       {
+           "name": "Winemaker",
+           "image": "WinemakerMale"
+       }
+   ],
+   "image": "Wedding_PlannerMale"
+ },
+ {
+   "name": "Welder",
+   "clones": [
+       {
+           "name": "Pyrotechnician",
+           "image": "PyrotechnicianMale"
+       },
+       {
+           "name": "Mechanic",
+           "image": "MechanicMale"
+       }
+   ],
+   "image": "WelderMale"
+ },
+ {
+   "name": "Winemaker",
+   "clones": [
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       },
+       {
+           "name": "Dreamer",
+           "image": "Dreamer"
+       }
+   ],
+   "image": "WinemakerMale"
+ },
+ {
+   "name": "Wizard",
+   "clones": [
+       {
+           "name": "Scientist",
+           "image": "ScientistMale"
+       },
+       {
+           "name": "Magician",
+           "image": "MagicianMale"
+       }
+   ],
+   "image": "WizardMale"
+ },
+ {
+   "name": "Wrestler",
+   "clones": [
+       {
+           "name": "Actor",
+           "image": "ActorMale"
+       },
+       {
+           "name": "Athlete",
+           "image": "AthleteMale"
+       }
+   ],
+   "image": "WrestlerMale"
+ },
+ {
+   "name": "Writer",
+   "clones": [
+       {
+           "name": "Secretary",
+           "image": "SecretaryMale"
+       },
+       {
+           "name": "Dreamer",
+           "image": "Dreamer"
+       }
+   ],
+   "image": "WriterMale"
+ },
+ {
+   "name": "Zookeeper",
+   "clones": [
+       {
+           "name": "Animal Trainer",
+           "image": "Animal_TrainerMale"
+       },
+       {
+           "name": "Park Ranger",
+           "image": "Park_RangerMale"
+       }
+   ],
+   "image": "ZookeeperMale"
+ },
+ {
+   "name": "Zoologist",
+   "clones": [
+       {
+           "name": "Vet",
+           "image": "VetMale"
+       },
+       {
+           "name": "Botanist",
+           "image": "BotanistMale"
+       }
+   ],
+   "image": "ZoologistMale"
+ },
+ {
+   "name": "Witch",
+   "clones": [
+       {
+           "name": "Abomination",
+           "image": "Abomination"
+       },
+       {
+           "name": "Chemist",
+           "image": "ChemistMale"
+       }
+   ],
+   "image": "WitchMale"
+ },
+ {
+   "name": "Jack o Lantern",
+   "clones": [
+       {
+           "name": "Abomination",
+           "image": "Abomination"
+       },
+       {
+           "name": "Greengrocer",
+           "image": "GreengrocerMale"
+       }
+   ],
+   "image": "Jack-O-LanternMale"
+ },
+ {
+   "name": "Werewolf",
+   "clones": [
+       {
+           "name": "Abomination",
+           "image": "Abomination"
+       },
+       {
+           "name": "Mutant",
+           "image": "MutantMale"
+       }
+   ],
+   "image": "WerewolfMale"
+ },
+ {
+   "name": "Mad Scientist",
+   "clones": [
+       {
+           "name": "Abomination",
+           "image": "Abomination"
+       },
+       {
+           "name": "Scientist",
+           "image": "ScientistMale"
+       }
+   ],
+   "image": "Mad_ScientistMale"
+ },
+ {
+   "name": "Troll",
+   "clones": [
+       {
+           "name": "Witch",
+           "image": "WitchMale"
+       },
+       {
+           "name": "Programmer",
+           "image": "ProgrammerMale"
+       }
+   ],
+   "image": "TrollMale"
+ },
+ {
+   "name": "Supervillain",
+   "clones": [
+       {
+           "name": "Mad Scientist",
+           "image": "Mad_ScientistMale"
+       },
+       {
+           "name": "Superhero",
+           "image": "SuperheroMale"
+       }
+   ],
+   "image": "SupervillainMale"
+ },
+ {
+   "name": "Henchman",
+   "clones": [
+       {
+           "name": "Mad Scientist",
+           "image": "Mad_ScientistMale"
+       },
+       {
+           "name": "Bell Ringer",
+           "image": "Bell_RingerMale"
+       }
+   ],
+   "image": "HenchmanMale"
+ },
+ {
+   "name": "Overlord",
+   "clones": [
+       {
+           "name": "Supervillain",
+           "image": "SupervillainMale"
+       },
+       {
+           "name": "Politician",
+           "image": "PoliticianMale"
+       }
+   ],
+   "image": "OverlordMale"
+ },
+ {
+   "name": "CEO",
+   "clones": [
+       {
+           "name": "Supervillain",
+           "image": "SupervillainMale"
+       },
+       {
+           "name": "Industrialist",
+           "image": "IndustrailistMale"
+       }
+   ],
+   "image": "CEOMale"
+ },
+ {
+   "name": "Thief",
+   "clones": [
+       {
+           "name": "Henchman",
+           "image": "HenchmanMale"
+       },
+       {
+           "name": "Henchman",
+           "image": "HenchmanMale"
+       }
+   ],
+   "image": "ThiefMale"
+ },
+ {
+   "name": "Monster",
+   "clones": [
+       {
+           "name": "Henchman",
+           "image": "HenchmanMale"
+       },
+       {
+           "name": "Mad Scientist",
+           "image": "Mad_ScientistMale"
+       }
+   ],
+   "image": "MonsterMale"
+ },
+ {
+   "name": "Assassin",
+   "clones": [
+       {
+           "name": "Thief",
+           "image": "ThiefMale"
+       },
+       {
+           "name": "Ninja",
+           "image": "NinjaMale"
+       }
+   ],
+   "image": "AssassinMale"
+ },
+ {
+   "name": "Slasher",
+   "clones": [
+       {
+           "name": "Assassin",
+           "image": "AssassinMale"
+       },
+       {
+           "name": "Samurai",
+           "image": "SamuraiMale"
+       }
+   ],
+   "image": "SlasherMale"
+ },
+ {
+   "name": "Cyclops",
+   "clones": [
+       {
+           "name": "Monster",
+           "image": "MonsterMale"
+       },
+       {
+           "name": "Optometrist",
+           "image": "OptometristMale"
+       }
+   ],
+   "image": "CyclopsMale"
+ },
+ {
+   "name": "Bandit",
+   "clones": [
+       {
+           "name": "Assassin",
+           "image": "AssassinMale"
+       },
+       {
+           "name": "Cattle Rustler",
+           "image": "Cattle_RustlerMale"
+       }
+   ],
+   "image": "BanditMale"
+ },
+ {
+   "name": "Arsonist",
+   "clones": [
+       {
+           "name": "Thief",
+           "image": "ThiefMale"
+       },
+       {
+           "name": "Pyrotechnician",
+           "image": "PyrotechnicianMale"
+       }
+   ],
+   "image": "ArsonistMale"
+ },
+ {
+   "name": "Monster Hunter",
+   "clones": [
+       {
+           "name": "Monster",
+           "image": "MonsterMale"
+       },
+       {
+           "name": "Lumberjack",
+           "image": "LumberjackMale"
+       }
+   ],
+   "image": "Monster_HunterMale"
+ },
+ {
+   "name": "Exterminator",
+   "clones": [
+       {
+           "name": "Monster Hunter",
+           "image": "Monster_HunterMale"
+       },
+       {
+           "name": "Entomologist",
+           "image": "EntomologistMale"
+       }
+   ],
+   "image": "ExterminatorMale"
+ },
+ {
+   "name": "Lawn Gnome",
+   "clones": [
+       {
+           "name": "Wizard",
+           "image": "WizardMale"
+       },
+       {
+           "name": "Gardener",
+           "image": "GardenerMale"
+       }
+   ],
+   "image": "Lawn_GnomeMale"
+ },
+ {
+   "name": "Dwarf",
+   "clones": [
+       {
+           "name": "Giant",
+           "image": "GiantMale"
+       },
+       {
+           "name": "Giant",
+           "image": "GiantMale"
+       }
+   ],
+   "image": "DwarfMale"
+ },
+ {
+   "name": "Housekeeper",
+   "clones": [
+       {
+           "name": "Fairy Godmother",
+           "image": "Fairy_Godmother"
+       },
+       {
+           "name": "Homemaker",
+           "image": "HomemakerMale"
+       }
+   ],
+   "image": "HouseKeeperMale"
+ },
+ {
+   "name": "Hair Model",
+   "clones": [
+       {
+           "name": "Hair Stylist",
+           "image": "Hair_StylistMale"
+       },
+       {
+           "name": "Successor",
+           "image": "SuccessorMale"
+       }
+   ],
+   "image": "Hair_ModelMale"
+ },
+ {
+   "name": "Giant",
+   "clones": [
+       {
+           "name": "Bean Farmer",
+           "image": "Bean_FarmerMale"
+       },
+       {
+           "name": "Cyclops",
+           "image": "CyclopsMale"
+       }
+   ],
+   "image": "GiantMale"
+ },
+ {
+   "name": "Bean Farmer",
+   "clones": [
+       {
+           "name": "Fairy Godmother",
+           "image": "Fairy_Godmother"
+       },
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       }
+   ],
+   "image": "Bean_FarmerMale"
+ },
+ {
+   "name": "Piper",
+   "clones": [
+       {
+           "name": "Fairy Godmother",
+           "image": "Fairy_GodmotherM"
+       },
+       {
+           "name": "Exterminator",
+           "image": "ExterminatorMale"
+       }
+   ],
+   "image": "Piper_Male"
+ },
+ {
+   "name": "Hooded Rider",
+   "clones": [
+       {
+           "name": "Eagle Scout",
+           "image": "Eagle_ScoutMale"
+       },
+       {
+           "name": "Big Bad Wolf",
+           "image": "Big_Bad_WolfMale"
+       }
+   ],
+   "image": "Hooded_RiderMale"
+ },
+ {
+   "name": "Swashbuckler",
+   "clones": [
+       {
+           "name": "Buccaneer",
+           "image": "BuccaneerMale"
+       },
+       {
+           "name": "Regent",
+           "image": "RegentMale"
+       }
+   ],
+   "image": "SwashbucklerMale"
+ },
+ {
+   "name": "Big Bad Wolf",
+   "clones": [
+       {
+           "name": "Fairy Godmother",
+           "image": "Fairy_Godmother"
+       },
+       {
+           "name": "Werewolf",
+           "image": "WerewolfMale"
+       }
+   ],
+   "image": "Big_Bad_WolfMale"
+ },
+ {
+   "name": "Successor",
+   "clones": [
+       {
+           "name": "Regent",
+           "image": "RegentMale"
+       },
+       {
+           "name": "Apprentice",
+           "image": "ApprenticeMale"
+       }
+   ],
+   "image": "SuccessorMale"
+ },
+ {
+   "name": "Regent",
+   "clones": [
+       {
+           "name": "Fairy Godmother",
+           "image": "Fairy_Godmother"
+       },
+       {
+           "name": "Politician",
+           "image": "PoliticianMale"
+       }
+   ],
+   "image": "RegentMale"
+ },
+ {
+   "name": "Adventurer",
+   "clones": [
+       {
+           "name": "Explorer",
+           "image": "Explorer"
+       },
+       {
+           "name": "Hooded Rider",
+           "image": "Hooded_RiderMale"
+       }
+   ],
+   "image": "AdventurerMale"
+ },
+ {
+   "name": "Submariner",
+   "clones": [
+       {
+           "name": "Adventurer",
+           "image": "AdventurerMale"
+       },
+       {
+           "name": "Deep Sea Diver",
+           "image": "Deep_Sea_DiverMale"
+       }
+   ],
+   "image": "SubmarinerMale"
+ },
+ {
+   "name": "Base Jumper",
+   "clones": [
+       {
+           "name": "Adventurer",
+           "image": "AdventurerMale"
+       },
+       {
+           "name": "Stunt Double",
+           "image": "Stunt_DoubleMale"
+       }
+   ],
+   "image": "Base_JumperMale"
+ },
+ {
+   "name": "Sun Priest",
+   "clones": [
+       {
+           "name": "Preacher",
+           "image": "PreacherMale"
+       },
+       {
+           "name": "Hermit",
+           "image": "HermitMale"
+       }
+   ],
+   "image": "Sun_PriestMale"
+ },
+ {
+   "name": "Wonderlander",
+   "clones": [
+       {
+           "name": "Adventurer",
+           "image": "AdventurerMale"
+       },
+       {
+           "name": "Dreamer",
+           "image": "Dreamer"
+       }
+   ],
+   "image": "WonderlanderMale"
+ },
+ {
+   "name": "Jungle Dweller",
+   "clones": [
+       {
+           "name": "Fairy Godmother",
+           "image": "Fairy_Godmother"
+       },
+       {
+           "name": "Caveman",
+           "image": "CavemanMale"
+       }
+   ],
+   "image": "Jungle_DwellerMale"
+ },
+ {
+   "name": "Hermit",
+   "clones": [
+       {
+           "name": "Jungle Dweller",
+           "image": "Jungle_DwellerMale"
+       },
+       {
+           "name": "Librarian",
+           "image": "LibrarianMale"
+       }
+   ],
+   "image": "HermitMale"
+ },
+ {
+   "name": "Cardiologist",
+   "clones": [
+       {
+           "name": "Romantic",
+           "image": "Romantic"
+       },
+       {
+           "name": "Cosmetic Surgeon",
+           "image": "Cosmetic_SurgeonMale"
+       }
+   ],
+   "image": "CardiologistMale"
+ },
+ {
+   "name": "Balloon Twister",
+   "clones": [
+       {
+           "name": "Hipster",
+           "image": "Hipster"
+       },
+       {
+           "name": "Clown",
+           "image": "ClownMale"
+       }
+   ],
+   "image": "Ballon_TwisterMale"
+ },
+ {
+   "name": "Frisbee Player",
+   "clones": [
+       {
+           "name": "Hipster",
+           "image": "HipsterMale"
+       },
+       {
+           "name": "Athlete",
+           "image": "AthleteMale"
+       }
+   ],
+   "image": "Frisbee_PlayerMale"
+ },
+ {
+   "name": "Organic Farmer",
+   "clones": [
+       {
+           "name": "Hipster",
+           "image": "Hipster"
+       },
+       {
+           "name": "Farmer",
+           "image": "FarmerMale"
+       }
+   ],
+   "image": "Organic_FarmerMale"
+ },
+ {
+   "name": "Matchmaker",
+   "clones": [
+       {
+           "name": "Romantic",
+           "image": "Romantic"
+       },
+       {
+           "name": "Engineer",
+           "image": "EngineerMale"
+       }
+   ],
+   "image": "MatchmakerMale"
+ },
+ {
+   "name": "Vampire",
+   "clones": [
+       {
+           "name": "Abomination",
+           "image": "Abomination"
+       },
+       {
+           "name": "Cardiologist",
+           "image": "CardiologistMale"
+       }
+   ],
+   "image": "VampireMale"
+ },
+ {
+   "name": "Mummy",
+   "clones": [
+       {
+           "name": "Vampire",
+           "image": "VampireMale"
+       },
+       {
+           "name": "Archaeologist",
+           "image": "ArchaeologistMale"
+       }
+   ],
+   "image": "MummyMale"
+ },
+ {
+   "name": "Ghost",
+   "clones": [
+       {
+           "name": "Mummy",
+           "image": "MummyMale"
+       },
+       {
+           "name": "Gravedigger",
+           "image": "GravediggerMale"
+       }
+   ],
+   "image": "GhostMale"
+ },
+ {
+   "name": "Skeleton",
+   "clones": [
+       {
+           "name": "Ghost",
+           "image": "GhostMale"
+       },
+       {
+           "name": "Radiologist",
+           "image": "RadiologistMale"
+       }
+   ],
+   "image": "SkeletonMale"
+ },
+ {
+   "name": "Yoga Instructor",
+   "clones": [
+       {
+           "name": "Guru",
+           "image": "Guru"
+       },
+       {
+           "name": "Balloon Twister",
+           "image": "Balloon_Twister"
+       }
+   ],
+   "image": "Yoga_InstructorMale"
+ },
+ {
+   "name": "Wedding Singer",
+   "clones": [
+       {
+           "name": "Romantic",
+           "image": "Romantic"
+       },
+       {
+           "name": "Vocalist",
+           "image": "VocalistMale"
+       }
+   ],
+   "image": "Wedding_SingerMale"
+ },
+ {
+   "name": "Chocolatier",
+   "clones": [
+       {
+           "name": "Romantic",
+           "image": "Romantic"
+       },
+       {
+           "name": "Baker",
+           "image": "BakerMale"
+       }
+   ],
+   "image": "ChocolatierMale"
+ },
+ {
+   "name": "Jeweller",
+   "clones": [
+       {
+           "name": "Romantic",
+           "image": "Romantic"
+       },
+       {
+           "name": "Miner",
+           "image": "MinerMale"
+       }
+   ],
+   "image": "JewellerMale"
+ },
+ {
+   "name": "Whisky Blender",
+   "clones": [
+       {
+           "name": "Organic Farmer",
+           "image": "Organic_FarmerMale"
+       },
+       {
+           "name": "Winemaker",
+           "image": "WinemakerMale"
+       }
+   ],
+   "image": "Whisky_BlenderMale"
+ },
+ {
+   "name": "Juicer",
+   "clones": [
+       {
+           "name": "Whisky Blender",
+           "image": "Whisky_BlenderMale"
+       },
+       {
+           "name": "Organic Farmer",
+           "image": "Organic_FarmerMale"
+       }
+   ],
+   "image": "JuicierMale"
+ },
+ {
+   "name": "Indie Musician",
+   "clones": [
+       {
+           "name": "Whisky Blender",
+           "image": "Whisky_BlenderMale"
+       },
+       {
+           "name": "Guitarist",
+           "image": "GuitaristMale"
+       }
+   ],
+   "image": "Indie_MusicianMale"
+ },
+ {
+   "name": "Manicurist",
+   "clones": [
+       {
+           "name": "Graffiti Artist",
+           "image": "Graffiti_ArtistMale"
+       },
+       {
+           "name": "Calligrapher",
+           "image": "CalligrapherMale"
+       }
+   ],
+   "image": "ManicuristMale"
+ },
+ {
+   "name": "Graffiti Artist",
+   "clones": [
+       {
+           "name": "Balloon Twister",
+           "image": "Balloon_TwisterMale"
+       },
+       {
+           "name": "Painter",
+           "image": "PainterMale"
+       }
+   ],
+   "image": "Graffiti_ArtistMale"
+ },
+ {
+   "name": "Dog Walker",
+   "clones": [
+       {
+           "name": "Frisbee Player",
+           "image": "Frisbee_PlayerMale"
+       },
+       {
+           "name": "Animal Trainer",
+           "image": "Animal_TrainerMale"
+       }
+   ],
+   "image": "Dog_WalkerMale"
+ },
+ {
+   "name": "Dating Advisor",
+   "clones": [
+       {
+           "name": "Jeweller",
+           "image": "JewellerMale"
+       },
+       {
+           "name": "Chocolatier",
+           "image": "ChocolatierMale"
+       }
+   ],
+   "image": "Dating_AdvisorMale"
+ },
+ {
+   "name": "Treasure Hunter",
+   "clones": [
+       {
+           "name": "Jeweller",
+           "image": "JewellerMale"
+       },
+       {
+           "name": "Buccaneer",
+           "image": "BuccaneerMale"
+       }
+   ],
+   "image": "Treasure_HunterMale"
+ }
+]

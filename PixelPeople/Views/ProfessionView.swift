@@ -23,13 +23,12 @@ struct ProfessionView: View {
                     Text(profession.name)
                         .font(.caption)
                 }
-                    .frame(width: 300, height: 300)
                 VStack {
-                    Text(profession.clone_1!)
-                    Text(profession.clone_2!)
+                    ForEach(profession.clones!) { clone in
+                        CloneView(clone: clone)
+                    }
                 }
             }
-                .background(Color.blue)
                 .foregroundColor(.white)
         }
     }

@@ -21,4 +21,5 @@ struct Building: Codable, Identifiable {
     let multiplier: Int
     let jobs: [Profession]
     let image: String
+    var isBuilt: Bool = false
 }

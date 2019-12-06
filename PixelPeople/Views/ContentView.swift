@@ -14,12 +14,12 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(buildings, id: \.name) { building in
-                NavigationLink(destination: BuildingView(building: building, professions: self.professions)) {
+            List(buildings, id: \.id) { building in
+                NavigationLink(destination: BuildingView(building: building)) {
                     Text(building.name)
                 }
             }
-            .navigationBarTitle("Pixel People")
+            .navigationBarTitle("Pixel People Companion", displayMode: .inline)
         }
     }
 }

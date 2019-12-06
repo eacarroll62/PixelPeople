@@ -11,7 +11,6 @@ import Foundation
 struct Profession: Codable, Identifiable {
     let id = UUID()
     let name: String
-    let clone_1: String?
-    let clone_2: String?
+    let clones: [Clone]?
     let image: String?
 }
