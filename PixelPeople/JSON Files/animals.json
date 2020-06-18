@@ -1,562 +1,2220 @@
 [
- {
-   "name": "Alsatian",
-   "clone_1": "Dogs",
-   "clone_2": "Dogs"
- },
- {
-   "name": "Bat",
-   "clone_1": "Mouse",
-   "clone_2": "Owl"
- },
- {
-   "name": "Black Mare",
-   "clone_1": "Horse",
-   "clone_2": "Panther"
- },
- {
-   "name": "Black Spider",
-   "clone_1": "Bat",
-   "clone_2": "Spider"
- },
- {
-   "name": "Blue Whale",
-   "clone_1": "Elephant",
-   "clone_2": "Elephant"
- },
- {
-   "name": "Box Cat",
-   "clone_1": "Cats",
-   "clone_2": "Cats"
- },
- {
-   "name": "Brown Bear",
-   "clone_1": "Bull",
-   "clone_2": "Wolf"
- },
- {
-   "name": "Bull",
-   "clone_1": "Stag",
-   "clone_2": "Cow"
- },
- {
-   "name": "Calico",
-   "clone_1": "Cats",
-   "clone_2": "Cats"
- },
- {
-   "name": "Camel",
-   "clone_1": "Llama",
-   "clone_2": "Llama"
- },
- {
-   "name": "Cerberus",
-   "clone_1": "Dire Wolf",
-   "clone_2": "Wolf"
- },
- {
-   "name": "Chameleon",
-   "clone_1": "Tiger",
-   "clone_2": "Toucan"
- },
- {
-   "name": "Cheetah",
-   "clone_1": "Horse",
-   "clone_2": "Tiger"
- },
- {
-   "name": "Chicken",
-   "clone_1": "Parrot",
-   "clone_2": "Pig"
- },
- {
-   "name": "Chimera",
-   "clone_1": "Goat",
-   "clone_2": "Lion"
- },
- {
-   "name": "Chimpanzee",
-   "clone_1": "Octopus",
-   "clone_2": "Orangutan"
- },
- {
-   "name": "Chocolate Rabbit",
-   "clone_1": "Gummy Bear",
-   "clone_2": "Rabbit"
- },
- {
-   "name": "Chow Chow",
-   "clone_1": "Dogs",
-   "clone_2": "Dogs"
- },
- {
-   "name": "Chupacabra",
-   "clone_1": "Crocodile",
-   "clone_2": "Elephant"
- },
- {
-   "name": "Corgi",
-   "clone_1": "Dogs",
-   "clone_2": "Dogs"
- },
- {
-   "name": "Cow",
-   "clone_1": "Horse",
-   "clone_2": "Chicken"
- },
- {
-   "name": "Crocodile",
-   "clone_1": "Chameleon",
-   "clone_2": "Snake"
- },
- {
-   "name": "Cthulu",
-   "clone_1": "Dragon",
-   "clone_2": "Octopus"
- },
- {
-   "name": "Mouse",
-   "clone_1": "Tiger",
-   "clone_2": "Wolf"
- },
- {
-   "name": "Dodo",
-   "clone_1": "Chicken",
-   "clone_2": "Unicorn"
- },
- {
-   "name": "Donkey",
-   "clone_1": "Horse",
-   "clone_2": "Pig"
- },
- {
-   "name": "Dragon",
-   "clone_1": "Snake",
-   "clone_2": "Unicorn"
- },
- {
-   "name": "Drop Bear",
-   "clone_1": "Koala",
-   "clone_2": "Red Panda"
- },
- {
-   "name": "Eagle",
-   "clone_1": "Lion",
-   "clone_2": "Parrot"
- },
- {
-   "name": "Elephant",
-   "clone_1": "Cow",
-   "clone_2": "Cow"
- },
- {
-   "name": "Eurasian Beaver",
-   "clone_1": "Mouse",
-   "clone_2": "Platypus"
- },
- {
-   "name": "Fearful Owl",
-   "clone_1": "Owl",
-   "clone_2": "Panther"
- },
- {
-   "name": "Flamingo",
-   "clone_1": "Duck",
-   "clone_2": "Fox"
- },
- {
-   "name": "Fox",
-   "clone_1": "Chow Chow",
-   "clone_2": "Wolf"
- },
- {
-   "name": "French Angelfish",
-   "clone_1": "Mute Swan",
-   "clone_2": "White Bass"
- },
- {
-   "name": "Giraffe",
-   "clone_1": "Horse",
-   "clone_2": "Snake"
- },
- {
-   "name": "Goat",
-   "clone_1": "Donkey",
-   "clone_2": "Horse"
- },
- {
-   "name": "Golden Goose",
-   "clone_1": "Donkey",
-   "clone_2": "Duck"
- },
- {
-   "name": "Golden Retriever",
-   "clone_1": "Dogs",
-   "clone_2": "Dogs"
- },
- {
-   "name": "Duck",
-   "clone_1": "Chicken",
-   "clone_2": "Flamingo"
- },
- {
-   "name": "Gorilla",
-   "clone_1": "Chimpanzee",
-   "clone_2": "Elephant"
- },
- {
-   "name": "Gryphon",
-   "clone_1": "Eagle",
-   "clone_2": "Lion"
- },
- {
-   "name": "Gummy Bear",
-   "clone_1": "Brown Bear",
-   "clone_2": "Unicorn"
- },
- {
-   "name": "Harp Seal",
-   "clone_1": "Poodle",
-   "clone_2": "Sea Lion"
- },
- {
-   "name": "Hippogryph",
-   "clone_1": "Eagle",
-   "clone_2": "Goat"
- },
- {
-   "name": "Hippopotamus",
-   "clone_1": "Cow",
-   "clone_2": "Walrus"
- },
- {
-   "name": "Horse",
-   "clone_1": "Cheetah",
-   "clone_2": "Cow"
- },
- {
-   "name": "Hydra",
-   "clone_1": "Cerberus",
-   "clone_2": "Snake"
- },
- {
-   "name": "Hyena",
-   "clone_1": "Lion",
-   "clone_2": "Wolf"
- },
- {
-   "name": "Koala",
-   "clone_1": "Brown Bear",
-   "clone_2": "Squirrel"
- },
- {
-   "name": "Lion",
-   "clone_1": "Tiger",
-   "clone_2": "Tiger"
- },
- {
-   "name": "Llama",
-   "clone_1": "Donkey",
-   "clone_2": "Donkey"
- },
- {
-   "name": "Loch Ness",
-   "clone_1": "Orca",
-   "clone_2": "Snake"
- },
- {
-   "name": "Love Bird",
-   "clone_1": "Flamingo",
-   "clone_2": "Parrot"
- },
- {
-   "name": "Macaw",
-   "clone_1": "Parrot",
-   "clone_2": "Parrot"
- },
- {
-   "name": "Merlion",
-   "clone_1": "Lion",
-   "clone_2": "Trout"
- },
- {
-   "name": "Moose",
-   "clone_1": "Goat",
-   "clone_2": "Horse"
- },
- {
-   "name": "",
-   "clone_1": "Snail",
-   "clone_2": "Squirrel"
- },
- {
-   "name": "Mousedeer",
-   "clone_1": "Moose",
-   "clone_2": "Mouse"
- },
- {
-   "name": "Mule Deer",
-   "clone_1": "Donkey",
-   "clone_2": "Mousedeer"
- },
- {
-   "name": "Mute Swan",
-   "clone_1": "Duck",
-   "clone_2": "Love Bird"
- },
- {
-   "name": "Narwhal",
-   "clone_1": "Harp Seal",
-   "clone_2": "Unicorn"
- },
- {
-   "name": "Octopus",
-   "clone_1": "Chimpanzee",
-   "clone_2": "Trout"
- },
- {
-   "name": "Orangutan",
-   "clone_1": "Brown Bear",
-   "clone_2": "Octopus"
- },
- {
-   "name": "Orca",
-   "clone_1": "Blue Whale",
-   "clone_2": "Panda"
- },
- {
-   "name": "Oriental Dragon",
-   "clone_1": "Dragon",
-   "clone_2": "Panda"
- },
- {
-   "name": "Otter",
-   "clone_1": "Squirrel",
-   "clone_2": "Trout"
- },
- {
-   "name": "Owl",
-   "clone_1": "Bat",
-   "clone_2": "Chicken"
- },
- {
-   "name": "Panda",
-   "clone_1": "Brown Bear",
-   "clone_2": "Zebra"
- },
- {
-   "name": "Panther",
-   "clone_1": "Bat",
-   "clone_2": "Tiger"
- },
- {
-   "name": "Parrot",
-   "clone_1": "Chicken",
-   "clone_2": "Gummybear"
- },
- {
-   "name": "Pegasus",
-   "clone_1": "Eagle",
-   "clone_2": "Horse"
- },
- {
-   "name": "Penguin",
-   "clone_1": "Polar Bear",
-   "clone_2": "Toucan"
- },
- {
-   "name": "Phoenix",
-   "clone_1": "Dragon",
-   "clone_2": "Flamingo"
- },
- {
-   "name": "Pig",
-   "clone_1": "Horse",
-   "clone_2": "Hippo"
- },
- {
-   "name": "Platypus",
-   "clone_1": "Duck",
-   "clone_2": "Eurasian Beaver"
- },
- {
-   "name": "Polar Bear",
-   "clone_1": "Brown Bear",
-   "clone_2": "Harp Seal"
- },
- {
-   "name": "Poodle",
-   "clone_1": "Dogs",
-   "clone_2": "Dogs"
- },
- {
-   "name": "Pug",
-   "clone_1": "Dogs",
-   "clone_2": "Dogs"
- },
- {
-   "name": "Rabbit",
-   "clone_1": "Cheetah",
-   "clone_2": "Mouse"
- },
- {
-   "name": "Raccoon",
-   "clone_1": "Brown Bear",
-   "clone_2": "Zebra"
- },
- {
-   "name": "Raven",
-   "clone_1": "Bat",
-   "clone_2": "Toucan"
- },
- {
-   "name": "Red Panda",
-   "clone_1": "Fox",
-   "clone_2": "Panda"
- },
- {
-   "name": "Rhinoceros",
-   "clone_1": "Hippopotamus",
-   "clone_2": "Unicorn"
- },
- {
-   "name": "Rocket Cat",
-   "clone_1": "Oriental Dragon",
-   "clone_2": "Tom Cat"
- },
- {
-   "name": "Sabertooth",
-   "clone_1": "Elephant",
-   "clone_2": "Tiger"
- },
- {
-   "name": "Sea Lion",
-   "clone_1": "Lion",
-   "clone_2": "Otter"
- },
- {
-   "name": "Sheep",
-   "clone_1": "Goat",
-   "clone_2": "Poodle"
- },
- {
-   "name": "Siamese Cat",
-   "clone_1": "Cats",
-   "clone_2": "Cats"
- },
- {
-   "name": "Snail",
-   "clone_1": "Snake",
-   "clone_2": "Tortoise"
- },
- {
-   "name": "Snake",
-   "clone_1": "Chameleon",
-   "clone_2": "Platypus"
- },
- {
-   "name": "Sphinx",
-   "clone_1": "Chimpanzee",
-   "clone_2": "Lion"
- },
- {
-   "name": "Spider",
-   "clone_1": "Mouse",
-   "clone_2": "Snake"
- },
- {
-   "name": "Squirrel",
-   "clone_1": "Fox",
-   "clone_2": "Mouse"
- },
- {
-   "name": "Stag",
-   "clone_1": "Bull",
-   "clone_2": "Moose"
- },
- {
-   "name": "Sun Bear",
-   "clone_1": "Brown Bear",
-   "clone_2": "Camel"
- },
- {
-   "name": "Tabby Cat",
-   "clone_1": "Cats",
-   "clone_2": "Cats"
- },
- {
-   "name": "Terrier",
-   "clone_1": "Dogs",
-   "clone_2": "Dogs"
- },
- {
-   "name": "Tiger",
-   "clone_1": "Tabby Cat",
-   "clone_2": "Zebra"
- },
- {
-   "name": "Tom Cat",
-   "clone_1": "Cats",
-   "clone_2": "Cats"
- },
- {
-   "name": "Tortoise",
-   "clone_1": "Snail",
-   "clone_2": "Snake"
- },
- {
-   "name": "Toucan",
-   "clone_1": "Parrot",
-   "clone_2": "Rhinoceros"
- },
- {
-   "name": "Trout",
-   "clone_1": "Blue Whale",
-   "clone_2": "Mouse"
- },
- {
-   "name": "Turkey",
-   "clone_1": "Chicken",
-   "clone_2": "Pig"
- },
- {
-   "name": "Tuxedo Cat",
-   "clone_1": "Cats",
-   "clone_2": "Cats"
- },
- {
-   "name": "Unicorn",
-   "clone_1": "Horse",
-   "clone_2": "Dodo"
- },
- {
-   "name": "Walrus",
-   "clone_1": "Pug",
-   "clone_2": "Sea Lion"
- },
- {
-   "name": "White Bass",
-   "clone_1": "Harp Seal",
-   "clone_2": "Trout"
- },
- {
-   "name": "Wolf",
-   "clone_1": "Dragon",
-   "clone_2": "Stag"
- },
- {
-   "name": "Wooly Mammoth",
-   "clone_1": "Elephant",
-   "clone_2": "Sheep"
- },
- {
-   "name": "Yeti",
-   "clone_1": "Gorilla",
-   "clone_2": "Polar Bear"
- },
- {
-   "name": "Zebra",
-   "clone_1": "Horse",
-   "clone_2": "Panda"
- }
+  {
+    "id": 1,
+    "name": "Tabby Cat",
+    "scientific": "Felis Catus",
+    "season": "Any",
+    "category": [
+      "Mammal",
+      "Cat",
+      "Pet",
+      "Small"
+    ],
+    "tier": 1,
+    "parents": [
+      "Cats",
+      "Cats"
+    ],
+    "image": "Tabby_Cat"
+  },
+  {
+    "id": 2,
+    "name": "Tom Cat",
+    "scientific": "Felis Catus",
+    "season": "Any",
+    "category": [
+      "Mammal",
+      "Cat",
+      "Pet",
+      "Small"
+    ],
+    "tier": 1,
+    "parents": [
+      "Cats",
+      "Cats"
+    ],
+    "image": "Tom_Cat"
+  },
+  {
+    "id": 3,
+    "name": "Tuxedo Cat",
+    "scientific": "Felis Catus",
+    "season": "Any",
+    "category": [
+      "Mammal",
+      "Cat",
+      "Pet",
+      "Small"
+    ],
+    "tier": 1,
+    "parents": [
+      "Cats",
+      "Cats"
+    ],
+    "image": "Tuxedo_Cat"
+  },
+  {
+    "id": 4,
+    "name": "Siamese Cat",
+    "scientific": "Felis Catus",
+    "season": "Any",
+    "category": [
+      "Mammal",
+      "Cat",
+      "Pet",
+      "Small"
+    ],
+    "tier": 1,
+    "parents": [
+      "Cats",
+      "Cats"
+    ],
+    "image": "Siamese_Cat"
+  },
+  {
+    "id": 5,
+    "name": "Calico",
+    "scientific": "Felis Catus",
+    "season": "Any",
+    "category": [
+      "Mammal",
+      "Cat",
+      "Pet",
+      "Small"
+    ],
+    "tier": 1,
+    "parents": [
+      "Cats",
+      "Cats"
+    ],
+    "image": "Calico"
+  },
+  {
+    "id": 6,
+    "name": "Box Cat",
+    "scientific": "Felis Catus",
+    "season": "Any",
+    "category": [
+      "Mammal",
+      "Cat",
+      "Pet",
+      "Small"
+    ],
+    "tier": 1,
+    "parents": [
+      "Cats",
+      "Cats"
+    ],
+    "image": "Box_Cat"
+  },
+  {
+    "id": 7,
+    "name": "Corgi",
+    "scientific": "Canis Lupus Familiaris",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Dog",
+      "Pet",
+      "Special"
+    ],
+    "tier": 1,
+    "parents": [
+      "Dogs",
+      "Dogs"
+    ],
+    "image": "Corgi"
+  },
+  {
+    "id": 8,
+    "name": "Alsatian",
+    "scientific": "Canis Lupus Familiaris",
+    "season": "Any",
+    "category": [
+      "Mammal",
+      "Dog",
+      "Farm",
+      "Pet",
+      "Special"
+    ],
+    "tier": 1,
+    "parents": [
+      "Dogs",
+      "Dogs"
+    ],
+    "image": "Alsatian"
+  },
+  {
+    "id": 9,
+    "name": "Pug",
+    "scientific": "Canis Lupus Familiaris",
+    "season": "Any",
+    "category": [
+      "Mammal",
+      "Dog",
+      "Pet",
+      "Special"
+    ],
+    "tier": 1,
+    "parents": [
+      "Dogs",
+      "Dogs"
+    ],
+    "image": "Pug"
+  },
+  {
+    "id": 10,
+    "name": "Golden Retriever",
+    "scientific": "Canis Lupus Familiaris",
+    "season": "Any",
+    "category": [
+      "Mammal",
+      "Dog",
+      "Farm",
+      "Pet",
+      "Special"
+    ],
+    "tier": 1,
+    "parents": [
+      "Dogs",
+      "Dogs"
+    ],
+    "image": "Golden_Retriever"
+  },
+  {
+    "id": 11,
+    "name": "Poodle",
+    "scientific": "Canis Lupus Familiaris",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Dog",
+      "Pet",
+      "Small",
+      "Special"
+    ],
+    "tier": 1,
+    "parents": [
+      "Dogs",
+      "Dogs"
+    ],
+    "image": "Poodle"
+  },
+  {
+    "id": 12,
+    "name": "Chow Chow",
+    "scientific": "Canis Lupus Familiaris",
+    "season": "Any",
+    "category": [
+      "Mammal",
+      "Dog",
+      "Pet",
+      "Special"
+    ],
+    "tier": 1,
+    "parents": [
+      "Dogs",
+      "Dogs"
+    ],
+    "image": "Chow_Chow"
+  },
+  {
+    "id": 13,
+    "name": "Tortoise",
+    "season": "Any",
+    "scientific": "Testudo Graeca",
+    "category": [
+      "Reptile",
+      "Pet",
+      "Small",
+      "Herbivore"
+    ],
+    "tier": 1,
+    "parents": [
+      "Snail",
+      "Snake"
+    ],
+    "image": "Tortoise"
+  },
+  {
+    "id": 14,
+    "name": "Snail",
+    "season": "Any",
+    "scientific": "Helix Pomatia",
+    "category": [
+      "Mollusc",
+      "Small"
+    ],
+    "tier": 1,
+    "parents": [
+      "Snake",
+      "Tortoise"
+    ],
+    "image": "Snail"
+  },
+  {
+    "id": 15,
+    "name": "Parrot",
+    "scientific": "Ara Ararauna",
+    "season": "Any",
+    "category": [
+      "Bird",
+      "Pet",
+      "Arboreal"
+    ],
+    "tier": 1,
+    "parents": [
+      "Chicken",
+      "Gummybear"
+    ],
+    "image": "Parrot"
+  },
+  {
+    "id": 16,
+    "name": "Chameleon",
+    "scientific": "Bradypodion Pumilum",
+    "season": "Any",
+    "category": [
+      "Reptile",
+      "Arboreal"
+    ],
+    "tier": 1,
+    "parents": [
+      "Tiger",
+      "Toucan"
+    ],
+    "image": "Chameleon"
+  },
+  {
+    "id": 17,
+    "name": "Octopus",
+    "scientific": "Octopus Vulgaris",
+    "season": "Any",
+    "category": [
+      "Mollusc",
+      "Aquatic",
+      "Special"
+    ],
+    "tier": 1,
+    "parents": [
+      "Chimpanzee",
+      "Trout"
+    ],
+    "image": "Octopus"
+  },
+  {
+    "id": 18,
+    "name": "Snake",
+    "scientific": "Elaphe Obsoleta",
+    "season": "Any",
+    "category": [
+      "Reptile"
+    ],
+    "tier": 1,
+    "parents": [
+      "Chameleon",
+      "Platypus"
+    ],
+    "image": "Snake"
+  },
+  {
+    "id": 19,
+    "name": "Terrier",
+    "scientific": "Canis Lupus Familiaris",
+    "season": "Any",
+    "category": [
+      "Dog",
+      "Special",
+      "Mammal"
+    ],
+    "tier": 5,
+    "parents": [
+      "Dogs",
+      "Dogs"
+    ],
+    "image": "Terrier"
+  },
+  {
+    "id": 20,
+    "name": "Narwhal",
+    "scientific": "Monodon Monoceros",
+    "season": "Any",
+    "category": [
+      "Aquatic"
+    ],
+    "tier": 1,
+    "parents": [
+      "Harp Seal",
+      "Unicorn"
+    ],
+    "image": "Narwhal"
+  },
+  {
+    "id": 21,
+    "name": "Belgian Shepherd",
+    "scientific": "Canis Lupus Familiaris",
+    "season": "Any",
+    "category": [
+      "Mammal",
+      "Dog",
+      "Farm",
+      "Pet"
+    ],
+    "tier": 1,
+    "parents": [
+      "Dogs",
+      "Dogs"
+    ],
+    "image": "Empty"
+  },
+  {
+    "id": 22,
+    "name": "Pig",
+    "scientific": "Sus Scorfa Domesticus",
+    "season": "Harvest",
+    "category": [
+      "Mammal",
+      "Tasty",
+      "Farm",
+      "Special"
+    ],
+    "tier": 2,
+    "parents": [
+      "Horse",
+      "Hippo"
+    ],
+    "image": "Pig"
+  },
+  {
+    "id": 23,
+    "name": "Cow",
+    "scientific": "Bos Primigenius",
+    "season": "Harvest",
+    "category": [
+      "Mammal",
+      "Tasty",
+      "Farm",
+      "Special",
+      "Herbivore",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Horse",
+      "Chicken"
+    ],
+    "image": "Cow"
+  },
+  {
+    "id": 24,
+    "name": "Bull",
+    "scientific": "Bos Primigenius",
+    "season": "Harvest",
+    "category": [
+      "Mammal",
+      "Farm",
+      "Special",
+      "Herbivore",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Stag",
+      "Cow"
+    ],
+    "image": "Bull"
+  },
+  {
+    "id": 25,
+    "name": "Horse",
+    "scientific": "Equus Ferus Caballus",
+    "season": "Harvest",
+    "category": [
+      "Mammal",
+      "Farm",
+      "Special",
+      "Herbivore",
+      "Pet",
+      "Fast",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Cheetah",
+      "Cow"
+    ],
+    "image": "Horse"
+  },
+  {
+    "id": 26,
+    "name": "Unicorn",
+    "scientific": "Equus Hocuspocus",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Mythical",
+      "Special",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Horse",
+      "Dodo"
+    ],
+    "image": "Unicorn"
+  },
+  {
+    "id": 27,
+    "name": "Zebra",
+    "scientific": "Equus Simplicidens",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Special",
+      "Herbivore",
+      "Wild",
+      "Fast",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Horse",
+      "Panda"
+    ],
+    "image": "Zebra"
+  },
+  {
+    "id": 28,
+    "name": "Donkey",
+    "scientific": "Equus Africanus Asinus",
+    "season": "Harvest",
+    "category": [
+      "Mammal",
+      "Farm",
+      "Herbivore",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Horse",
+      "Pig"
+    ],
+    "image": "Donkey"
+  },
+  {
+    "id": 29,
+    "name": "Camel",
+    "scientific": "Camelus Bactrianus",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Special",
+      "Wild",
+      "Herbivore",
+      "Fast",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Llama",
+      "Llama"
+    ],
+    "image": "Camel"
+  },
+  {
+    "id": 30,
+    "name": "Mousedeer",
+    "scientific": "Tragulus Napu",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Herbivore"
+    ],
+    "tier": 2,
+    "parents": [
+      "Moose",
+      "Mouse"
+    ],
+    "image": "Mousedeer"
+  },
+  {
+    "id": 31,
+    "name": "Llama",
+    "scientific": "Lama Glama",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Special",
+      "Herbivore",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Donkey",
+      "Donkey"
+    ],
+    "image": "Llama"
+  },
+  {
+    "id": 32,
+    "name": "Moose",
+    "scientific": "Alces Alces",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Omnivore",
+      "Snow"
+    ],
+    "tier": 2,
+    "parents": [
+      "Goat",
+      "Horse"
+    ],
+    "image": "Moose"
+  },
+  {
+    "id": 33,
+    "name": "Hippopotamus",
+    "scientific": "Hippopotamus Amphibius",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Herbivore",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Cow",
+      "Walrus"
+    ],
+    "image": "Hippopotamus"
+  },
+  {
+    "id": 34,
+    "name": "Chicken",
+    "scientific": "Gallus Gallus",
+    "season": "Harvest",
+    "category": [
+      "Bird",
+      "Tasty",
+      "Farm",
+      "Special",
+      "Small"
+    ],
+    "tier": 2,
+    "parents": [
+      "Parrot",
+      "Pig"
+    ],
+    "image": "Chicken"
+  },
+  {
+    "id": 35,
+    "name": "Duck",
+    "scientific": "Anas Platyrhynchos",
+    "season": "Swell",
+    "category": [
+      "Bird",
+      "Tasty",
+      "Farm",
+      "Special",
+      "Small"
+    ],
+    "tier": 2,
+    "parents": [
+      "Chicken",
+      "Flamingo"
+    ],
+    "image": "Duck"
+  },
+  {
+    "id": 36,
+    "name": "Rabbit",
+    "scientific": "Oryctolagus Cuniculus",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Farm",
+      "Special",
+      "Small",
+      "Pet",
+      "Fast"
+    ],
+    "tier": 2,
+    "parents": [
+      "Cheetah",
+      "Mouse"
+    ],
+    "image": "Rabbit"
+  },
+  {
+    "id": 37,
+    "name": "Elephant",
+    "scientific": "Elephas Maximus",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Herbivore",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Cow",
+      "Cow"
+    ],
+    "image": "Elephant"
+  },
+  {
+    "id": 38,
+    "name": "Tiger",
+    "scientific": "Panthera Tigris",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Cat",
+      "Big Cat",
+      "Special",
+      "Wild",
+      "Carnivore"
+    ],
+    "tier": 2,
+    "parents": [
+      "Tabby Cat",
+      "Zebra"
+    ],
+    "image": "Tiger"
+  },
+  {
+    "id": 39,
+    "name": "Lion",
+    "scientific": "Panthera Leo",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Cat",
+      "Big Cat",
+      "Special",
+      "Wild",
+      "Carnivore",
+      "Fast"
+    ],
+    "tier": 2,
+    "parents": [
+      "Tiger",
+      "Tiger"
+    ],
+    "image": "Lion"
+  },
+  {
+    "id": 40,
+    "name": "Panther",
+    "scientific": "Panthera Panthera",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Cat",
+      "Big Cat",
+      "Wild",
+      "Carnivore",
+      "Arboreal"
+    ],
+    "tier": 2,
+    "parents": [
+      "Bat",
+      "Tiger"
+    ],
+    "image": "Panther"
+  },
+  {
+    "id": 41,
+    "name": "Cheetah",
+    "scientific": "Acinonyx Jubatus",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Cat",
+      "Big Cat",
+      "Wild",
+      "Carnivore",
+      "Fast"
+    ],
+    "tier": 2,
+    "parents": [
+      "Horse",
+      "Tiger"
+    ],
+    "image": "Cheetah"
+  },
+  {
+    "id": 42,
+    "name": "Giraffe",
+    "scientific": "Giraffa Camelopardalis",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Herbivore",
+      "Fast"
+    ],
+    "tier": 2,
+    "parents": [
+      "Horse",
+      "Snake"
+    ],
+    "image": "Giraffe"
+  },
+  {
+    "id": 43,
+    "name": "Rhinoceros",
+    "scientific": "Rhinoceros Unicornis",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Herbivore",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Hippopotamus",
+      "Unicorn"
+    ],
+    "image": "Rhinoceros"
+  },
+  {
+    "id": 44,
+    "name": "Harp Seal",
+    "scientific": "Pagophilus Groenlandicus",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Aquatic",
+      "Carnivore",
+      "Snow"
+    ],
+    "tier": 2,
+    "parents": [
+      "Poodle",
+      "Sea Lion"
+    ],
+    "image": "Harp_Seal"
+  },
+  {
+    "id": 45,
+    "name": "Walrus",
+    "scientific": "Odobenus Rosmarus",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Aquatic",
+      "Special",
+      "Snow",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Pug",
+      "Sea Lion"
+    ],
+    "image": "Walrus"
+  },
+  {
+    "id": 46,
+    "name": "Panda",
+    "scientific": "Ailuropoda Melanoleuca",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Brown Bear",
+      "Zebra"
+    ],
+    "image": "Panda"
+  },
+  {
+    "id": 47,
+    "name": "Polar Bear",
+    "scientific": "Ursus Maritimus",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Bear",
+      "Wild",
+      "Carnivore",
+      "Snow"
+    ],
+    "tier": 2,
+    "parents": [
+      "Brown Bear",
+      "Harp Seal"
+    ],
+    "image": "Polar_Bear"
+  },
+  {
+    "id": 48,
+    "name": "Brown Bear",
+    "scientific": "Ursus Arctos",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Bear",
+      "Wild",
+      "Omnivore",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Bull",
+      "Wolf"
+    ],
+    "image": "Brown_Bear"
+  },
+  {
+    "id": 49,
+    "name": "Sun Bear",
+    "scientific": "Helarctos Malayanus",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Bear",
+      "Wild",
+      "Omnivore"
+    ],
+    "tier": 2,
+    "parents": [
+      "Brown Bear",
+      "Camel"
+    ],
+    "image": "Sun_Bear"
+  },
+  {
+    "id": 50,
+    "name": "Koala",
+    "scientific": "Phascolarctos Cinereus",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Omnivore"
+    ],
+    "tier": 2,
+    "parents": [
+      "Brown Bear",
+      "Squirrel"
+    ],
+    "image": "Koala"
+  },
+  {
+    "id": 51,
+    "name": "Gummy Bear",
+    "scientific": "Ursus Deilicious",
+    "season": "Harvest",
+    "category": [
+      "Mammal",
+      "Bear",
+      "Tasty",
+      "Mythical",
+      "Small"
+    ],
+    "tier": 2,
+    "parents": [
+      "Brown Bear",
+      "Unicorn"
+    ],
+    "image": "Gummy_Bear"
+  },
+  {
+    "id": 52,
+    "name": "Fox",
+    "scientific": "Vulpes Vulpes",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Carnivore"
+    ],
+    "tier": 2,
+    "parents": [
+      "Chow Chow",
+      "Wolf"
+    ],
+    "image": "Fox"
+  },
+  {
+    "id": 53,
+    "name": "Wolf",
+    "scientific": "Canis Lupus Familiaris",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Special",
+      "Wild",
+      "Carnivore",
+      "Snow"
+    ],
+    "tier": 2,
+    "parents": [
+      "Dragon",
+      "Stag"
+    ],
+    "image": "Wolf"
+  },
+  {
+    "id": 54,
+    "name": "Orangutan",
+    "scientific": "Pongo Pygmaeus",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Primate",
+      "Wild",
+      "Omnivore",
+      "Arboreal"
+    ],
+    "tier": 2,
+    "parents": [
+      "Brown Bear",
+      "Octopus"
+    ],
+    "image": "Orangutan"
+  },
+  {
+    "id": 55,
+    "name": "Gorilla",
+    "scientific": "Gorilla Gorilla",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Primate",
+      "Wild",
+      "Omnivore",
+      "Arboreal",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Chimpanzee",
+      "Elephant"
+    ],
+    "image": "Gorilla"
+  },
+  {
+    "id": 56,
+    "name": "Chimpanzee",
+    "scientific": "Pan Troglodytes",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Primate",
+      "Wild",
+      "Omnivore",
+      "Arboreal"
+    ],
+    "tier": 2,
+    "parents": [
+      "Octopus",
+      "Orangutan"
+    ],
+    "image": "Chimpanzee"
+  },
+  {
+    "id": 57,
+    "name": "Penguin",
+    "scientific": "Aptenodytes Forsteri",
+    "season": "Frost",
+    "category": [
+      "Bird",
+      "Aquatic",
+      "Snow"
+    ],
+    "tier": 2,
+    "parents": [
+      "Polar Bear",
+      "Toucan"
+    ],
+    "image": "Penguin"
+  },
+  {
+    "id": 58,
+    "name": "Blue Whale",
+    "scientific": "Balaenoptera Musculus",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Aquatic",
+      "Wild",
+      "Snow",
+      "Special"
+    ],
+    "tier": 2,
+    "parents": [
+      "Elephant",
+      "Elephant"
+    ],
+    "image": "Blue_Whale"
+  },
+  {
+    "id": 59,
+    "name": "Orca",
+    "scientific": "Orcinus Orca",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Aquatic",
+      "Wild",
+      "Snow",
+      "Carnivore"
+    ],
+    "tier": 2,
+    "parents": [
+      "Blue Whale",
+      "Panda"
+    ],
+    "image": "Orca"
+  },
+  {
+    "id": 60,
+    "name": "Owl",
+    "scientific": "Athene Noctua",
+    "season": "Thaw",
+    "category": [
+      "Bird",
+      "Small",
+      "Arboreal",
+      "Snow"
+    ],
+    "tier": 2,
+    "parents": [
+      "Bat",
+      "Chicken"
+    ],
+    "image": "Owl"
+  },
+  {
+    "id": 61,
+    "name": "Macaw",
+    "scientific": "Ara Macao",
+    "season": "Swell",
+    "category": [
+      "Bird",
+      "Pet",
+      "Arboreal"
+    ],
+    "tier": 2,
+    "parents": [
+      "Parrot",
+      "Parrot"
+    ],
+    "image": "Macaw"
+  },
+  {
+    "id": 62,
+    "name": "Toucan",
+    "scientific": "Ramphastos Toco",
+    "season": "Swell",
+    "category": [
+      "Bird",
+      "Arboreal"
+    ],
+    "tier": 2,
+    "parents": [
+      "Parrot",
+      "Rhinoceros"
+    ],
+    "image": "Toucan"
+  },
+  {
+    "id": 63,
+    "name": "Eagle",
+    "scientific": "Haliaeetus Leuococephalus",
+    "season": "Thaw",
+    "category": [
+      "Bird",
+      "Special",
+      "Fast"
+    ],
+    "tier": 2,
+    "parents": [
+      "Lion",
+      "Parrot"
+    ],
+    "image": "Eagle"
+  },
+  {
+    "id": 64,
+    "name": "Raccoon",
+    "scientific": "Procyon Lotor",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Omnivore"
+    ],
+    "tier": 2,
+    "parents": [
+      "Red Panda",
+      "Zebra"
+    ],
+    "image": "Raccoon"
+  },
+  {
+    "id": 65,
+    "name": "Red Panda",
+    "scientific": "Ailurus Fulgens",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Arboreal"
+    ],
+    "tier": 2,
+    "parents": [
+      "Fox",
+      "Panda"
+    ],
+    "image": "Red_Panda"
+  },
+  {
+    "id": 66,
+    "name": "Goat",
+    "scientific": "Capra Aegagrus",
+    "season": "Harvest",
+    "category": [
+      "Mammal",
+      "Farm",
+      "Tasty",
+      "Herbivore"
+    ],
+    "tier": 2,
+    "parents": [
+      "Donkey",
+      "Horse"
+    ],
+    "image": "Goat"
+  },
+  {
+    "id": 67,
+    "name": "Sheep",
+    "scientific": "Ovis Aries",
+    "season": "Harvest",
+    "category": [
+      "Mammal",
+      "Farm",
+      "Tasty",
+      "Herbivore"
+    ],
+    "tier": 2,
+    "parents": [
+      "Goat",
+      "Poodle"
+    ],
+    "image": "Sheep"
+  },
+  {
+    "id": 68,
+    "name": "Mouse",
+    "scientific": "Mus Musculus",
+    "season": "Harvest",
+    "category": [
+      "Mammal",
+      "Pet",
+      "Small"
+    ],
+    "tier": 2,
+    "parents": [
+      "Snail",
+      "Squirrel"
+    ],
+    "image": "Mouse"
+  },
+  {
+    "id": 69,
+    "name": "Spider",
+    "scientific": "Phidippus Audax",
+    "season": "Harvest",
+    "category": [
+      "Insect",
+      "Small",
+      "Arboreal"
+    ],
+    "tier": 2,
+    "parents": [
+      "Mouse",
+      "Snake"
+    ],
+    "image": "Spider"
+  },
+  {
+    "id": 70,
+    "name": "Bat",
+    "scientific": "Desmodus Rotundus",
+    "season": "Harvest",
+    "category": [
+      "Mammal",
+      "Special",
+      "Small"
+    ],
+    "tier": 2,
+    "parents": [
+      "Mouse",
+      "Owl"
+    ],
+    "image": "Bat"
+  },
+  {
+    "id": 71,
+    "name": "Dodo",
+    "scientific": "Raphus Cucullatus",
+    "season": "Frost",
+    "category": [
+      "Bird",
+      "Special"
+    ],
+    "tier": 2,
+    "parents": [
+      "Chicken",
+      "Unicorn"
+    ],
+    "image": "Dodo"
+  },
+  {
+    "id": 72,
+    "name": "Dragon",
+    "scientific": "Draconis Occidentalis",
+    "season": "Frost",
+    "category": [
+      "Reptile",
+      "Mythical",
+      "Special",
+      "Carnivore"
+    ],
+    "tier": 2,
+    "parents": [
+      "Snake",
+      "Unicorn"
+    ],
+    "image": "Dragon"
+  },
+  {
+    "id": 73,
+    "name": "Stag",
+    "scientific": "Cervus Elaphus",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Special",
+      "Herbivore",
+      "Wild"
+    ],
+    "tier": 2,
+    "parents": [
+      "Bull",
+      "Moose"
+    ],
+    "image": "Stag"
+  },
+  {
+    "id": 74,
+    "name": "Trout",
+    "scientific": "Salmo Trutta",
+    "season": "Harvest",
+    "category": [
+      "Aquatic",
+      "Special",
+      "Small"
+    ],
+    "tier": 2,
+    "parents": [
+      "Blue Whale",
+      "Mouse"
+    ],
+    "image": "Trout"
+  },
+  {
+    "id": 75,
+    "name": "Turkey",
+    "scientific": "Meleagris Gallopavo",
+    "season": "Harvest",
+    "category": [
+      "Bird",
+      "Farm",
+      "Tasty"
+    ],
+    "tier": 2,
+    "parents": [
+      "Chicken",
+      "Pig"
+    ],
+    "image": "Turkey"
+  },
+  {
+    "id": 76,
+    "name": "Squirrel",
+    "scientific": "Xerus Rutilus",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Arboreal"
+    ],
+    "tier": 2,
+    "parents": [
+      "Fox",
+      "Mouse"
+    ],
+    "image": "Squirrel"
+  },
+  {
+    "id": 77,
+    "name": "Flamingo",
+    "scientific": "Phoenicopterus Roseus",
+    "season": "Swell",
+    "category": [
+      "Bird"
+    ],
+    "tier": 2,
+    "parents": [
+      "Duck",
+      "Fox"
+    ],
+    "image": "Flamingo"
+  },
+  {
+    "id": 78,
+    "name": "Otter",
+    "scientific": "Lutra Lutra",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Aquatic"
+    ],
+    "tier": 2,
+    "parents": [
+      "Squirrel",
+      "Trout"
+    ],
+    "image": "Otter"
+  },
+  {
+    "id": 79,
+    "name": "Sea Lion",
+    "scientific": "Zalophus Caliornianus",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Aquatic"
+    ],
+    "tier": 2,
+    "parents": [
+      "Lion",
+      "Otter"
+    ],
+    "image": "Sea_Lion"
+  },
+  {
+    "id": 80,
+    "name": "Hyena",
+    "scientific": "Hyaenidae Protelinae",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Carnivore",
+      "Scavenger"
+    ],
+    "tier": 2,
+    "parents": [
+      "Lion",
+      "Wolf"
+    ],
+    "image": "Hyena"
+  },
+  {
+    "id": 81,
+    "name": "Crocodile",
+    "scientific": "Crocodylus Niloticus",
+    "season": "Swell",
+    "category": [
+      "Reptile",
+      "Wild",
+      "Carnivore"
+    ],
+    "tier": 2,
+    "parents": [
+      "Chameleon",
+      "Snake"
+    ],
+    "image": "Crocodile"
+  },
+  {
+    "id": 82,
+    "name": "Platypus",
+    "scientific": "Ornithorhynchus Anatinus",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Aquatic"
+    ],
+    "tier": 2,
+    "parents": [
+      "Duck",
+      "Eurasian Beaver"
+    ],
+    "image": "Platypus"
+  },
+  {
+    "id": 83,
+    "name": "Fearful Owl",
+    "scientific": "Nesasio Solomonensis",
+    "season": "Harvest",
+    "category": [
+      "Bird",
+      "Small",
+      "Special",
+      "Arboreal"
+    ],
+    "tier": 2,
+    "parents": [
+      "Owl",
+      "Panther"
+    ],
+    "image": "Fearful_Owl"
+  },
+  {
+    "id": 84,
+    "name": "Black Mare",
+    "scientific": "Nigreos Caballa",
+    "season": "Harvest",
+    "category": [
+      "Mammal",
+      "Special",
+      "Herbivore",
+      "Fast",
+      "Strong"
+    ],
+    "tier": 2,
+    "parents": [
+      "Horse",
+      "Panther"
+    ],
+    "image": "Black_Mare"
+  },
+  {
+    "id": 85,
+    "name": "Raven",
+    "scientific": "Corvus Huginnius",
+    "season": "Harvest",
+    "category": [
+      "Bird",
+      "Small",
+      "Special",
+      "Arboreal",
+      "Fast"
+    ],
+    "tier": 2,
+    "parents": [
+      "Bat",
+      "Toucan"
+    ],
+    "image": "Raven"
+  },
+  {
+    "id": 86,
+    "name": "Black Spider",
+    "scientific": "Araneae Cavatica",
+    "season": "Harvest",
+    "category": [
+      "Insect",
+      "Small",
+      "Special",
+      "Arboreal"
+    ],
+    "tier": 2,
+    "parents": [
+      "Bat",
+      "Spider"
+    ],
+    "image": "Black_Spider"
+  },
+  {
+    "id": 87,
+    "name": "Chocolate Rabbit",
+    "scientific": "Leporidae Scelerisque",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Farm",
+      "Special",
+      "Small",
+      "Pet",
+      "Fast"
+    ],
+    "tier": 2,
+    "parents": [
+      "Gummy Bear",
+      "Rabbit"
+    ],
+    "image": "Chocolate_Rabbit"
+  },
+  {
+    "id": 88,
+    "name": "Mule Deer",
+    "scientific": "Hemionus Bambinus",
+    "season": "Thaw",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Herbivore",
+      "Special"
+    ],
+    "tier": 2,
+    "parents": [
+      "Donkey",
+      "Mousedeer"
+    ],
+    "image": "Mule_Deer"
+  },
+  {
+    "id": 89,
+    "name": "Golden Goose",
+    "scientific": "Anser Aurum Pario",
+    "season": "Thaw",
+    "category": [
+      "Bird",
+      "Special",
+      "Small"
+    ],
+    "tier": 2,
+    "parents": [
+      "Donkey",
+      "Duck"
+    ],
+    "image": "Golden_Goose"
+  },
+  {
+    "id": 90,
+    "name": "White Bass",
+    "scientific": "Morone Chrysops",
+    "season": "Thaw",
+    "category": [
+      "Aquatic",
+      "Special",
+      "Small"
+    ],
+    "tier": 2,
+    "parents": [
+      "Harp Seal",
+      "Trout"
+    ],
+    "image": "White_Bass"
+  },
+  {
+    "id": 91,
+    "name": "Mute Swan",
+    "scientific": "Cygnus Olor",
+    "season": "Swell",
+    "category": [
+      "Bird",
+      "Special"
+    ],
+    "tier": 2,
+    "parents": [
+      "Duck",
+      "Lovebird"
+    ],
+    "image": "Mute_Swan"
+  },
+  {
+    "id": 92,
+    "name": "Lovebird",
+    "scientific": "Agapomis Coonimium",
+    "season": "Swell",
+    "category": [
+      "Bird",
+      "Small",
+      "Special",
+      "Arboreal",
+      "Fast"
+    ],
+    "tier": 2,
+    "parents": [
+      "Flamingo",
+      "Parrot"
+    ],
+    "image": "Lovebird"
+  },
+  {
+    "id": 93,
+    "name": "Eurasian Beaver",
+    "scientific": "Castor Fiber",
+    "season": "Swell",
+    "category": [
+      "Mammal",
+      "Aquatic",
+      "Special"
+    ],
+    "tier": 2,
+    "parents": [
+      "Mouse",
+      "Platypus"
+    ],
+    "image": "Eurasian_Beaver"
+  },
+  {
+    "id": 94,
+    "name": "French Angelfish",
+    "scientific": "Pomacanthus Paru",
+    "season": "Swell",
+    "category": [
+      "Aquatic",
+      "Special",
+      "Small"
+    ],
+    "tier": 2,
+    "parents": [
+      "Mute Swan",
+      "White Bass"
+    ],
+    "image": "French_Angelfish"
+  },
+  {
+    "id": 95,
+    "name": "Artic Fox",
+    "scientific": "Vulpes Lagopus",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Carnivore",
+      "Special",
+      "Snow"
+    ],
+    "tier": 2,
+    "parents": [
+      "Fox",
+      "Polar Bear"
+    ],
+    "image": "Artic_Fox"
+  },
+  {
+    "id": 96,
+    "name": "Beluga Whale",
+    "scientific": "Delphinapterus Leucas",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Aquatic",
+      "Wild",
+      "Snow",
+      "Special"
+    ],
+    "tier": 2,
+    "parents": [
+      "Blue Whale",
+      "Polar Bear"
+    ],
+    "image": "Beluga_Whale"
+  },
+  {
+    "id": 97,
+    "name": "Chinstrap Penguin",
+    "scientific": "Pygoscelis Antarticus",
+    "season": "Frost",
+    "category": [
+      "Bird",
+      "Aquatic",
+      "Snow"
+    ],
+    "tier": 2,
+    "parents": [
+      "Penguin",
+      "Penguin"
+    ],
+    "image": "Chinstrap_Penguin"
+  },
+  {
+    "id": 98,
+    "name": "Reindeer",
+    "scientific": "Rangifer Tarandus",
+    "season": "Frost",
+    "category": [
+      "Mammal",
+      "Special",
+      "Herbivore",
+      "Wild",
+      "Snow"
+    ],
+    "tier": 2,
+    "parents": [
+      "Moose",
+      "Moose"
+    ],
+    "image": "Reindeer"
+  },
+  {
+    "id": 99,
+    "name": "Pegasus",
+    "scientific": "Equus Avis",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Eagle",
+      "Horse"
+    ],
+    "image": "Pegasus"
+  },
+  {
+    "id": 100,
+    "name": "Gryphon",
+    "scientific": "Gryphus Gryphus",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Eagle",
+      "Lion"
+    ],
+    "image": "Gryphon"
+  },
+  {
+    "id": 101,
+    "name": "Phoenix",
+    "scientific": "Phoenicopterus Vulcans",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret",
+      "Bird"
+    ],
+    "tier": 3,
+    "parents": [
+      "Dragon",
+      "Flamingo"
+    ],
+    "image": "Phoenix"
+  },
+  {
+    "id": 102,
+    "name": "Hydra",
+    "scientific": "Hydra Vulgaris",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Cerberus",
+      "Snake"
+    ],
+    "image": "Hydra"
+  },
+  {
+    "id": 103,
+    "name": "Cerberus",
+    "scientific": "Canis Canis Canis",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Dire Wolf",
+      "Wolf"
+    ],
+    "image": "Cerberus"
+  },
+  {
+    "id": 104,
+    "name": "Oriental Dragon",
+    "scientific": "Dracanis Orientalis",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Dragon",
+      "Panda"
+    ],
+    "image": "Oriental_Dragon"
+  },
+  {
+    "id": 105,
+    "name": "Loch Ness Monster",
+    "scientific": "Nessiteras Rhombopteryx",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Orca",
+      "Snake"
+    ],
+    "image": "Nessie"
+  },
+  {
+    "id": 106,
+    "name": "Yeti",
+    "scientific": "Homo Himalayens",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Gorilla",
+      "Polar Bear"
+    ],
+    "image": "Yeti"
+  },
+  {
+    "id": 107,
+    "name": "Drop Bear",
+    "scientific": "Thylarctos Plummetus",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret",
+      "Arboreal"
+    ],
+    "tier": 3,
+    "parents": [
+      "Koala",
+      "Red Panda"
+    ],
+    "image": "Drop_Bear"
+  },
+  {
+    "id": 108,
+    "name": "Merlion",
+    "scientific": "Salmo Leo",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret",
+      "Aquatic"
+    ],
+    "tier": 3,
+    "parents": [
+      "Lion",
+      "Trout"
+    ],
+    "image": "Merlion"
+  },
+  {
+    "id": 109,
+    "name": "Rocket Cat",
+    "scientific": "Felis Blastus",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret",
+      "Cat"
+    ],
+    "tier": 3,
+    "parents": [
+      "Oriental Dragon",
+      "Tom Cat"
+    ],
+    "image": "Rocket_Cat"
+  },
+  {
+    "id": 110,
+    "name": "Cthulu",
+    "scientific": "Architeuthis Lovecraftus",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Aquatic",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Dragon",
+      "Octopus"
+    ],
+    "image": "Cthulu"
+  },
+  {
+    "id": 111,
+    "name": "Sabertooth",
+    "scientific": "Smilodon Falalis",
+    "season": "Altar",
+    "category": [
+      "Carnivore",
+      "Extinct",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Elephant",
+      "Tiger"
+    ],
+    "image": "Sabertooth"
+  },
+  {
+    "id": 112,
+    "name": "Direwolf",
+    "scientific": "Canis Dirus",
+    "season": "Altar",
+    "category": [
+      "Carnivore",
+      "Extinct",
+      "Secret",
+      "Snow"
+    ],
+    "tier": 3,
+    "parents": [
+      "Wolf",
+      "Tiger"
+    ],
+    "image": "Dire_Wolf"
+  },
+  {
+    "id": 113,
+    "name": "Sphinx",
+    "scientific": "Homo Leo",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Chimpanzee",
+      "Lion"
+    ],
+    "image": "Sphinx"
+  },
+  {
+    "id": 114,
+    "name": "Wooly Mammoth",
+    "scientific": "Mannuthus Primigenius",
+    "season": "Altar",
+    "category": [
+      "Extinct",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Elephant",
+      "Sheep"
+    ],
+    "image": "Wooly_Mammoth"
+  },
+  {
+    "id": 115,
+    "name": "Chimera",
+    "scientific": "Surplus Animus",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Goat",
+      "Lion"
+    ],
+    "image": "Chimera"
+  },
+  {
+    "id": 116,
+    "name": "Chupacabra",
+    "scientific": "Hirquus Lac",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Crocodile",
+      "Elephant"
+    ],
+    "image": "Chupacabra"
+  },
+  {
+    "id": 117,
+    "name": "Hippogryph",
+    "scientific": "Hirquus Volantis",
+    "season": "Altar",
+    "category": [
+      "Mythical",
+      "Secret"
+    ],
+    "tier": 3,
+    "parents": [
+      "Eagle",
+      "Goat"
+    ],
+    "image": "Hippogryph"
+  },
+  {
+    "id": 118,
+    "name": "Peacock",
+    "scientific": "Pavo Cristatus",
+    "season": "Altar",
+    "category": [
+      "Bird",
+      "Wild",
+      "Fast"
+    ],
+    "tier": 3,
+    "parents": [
+      "Macaw",
+      "Flamingo"
+    ],
+    "image": "Empty"
+  },
+  {
+    "id": 119,
+    "name": "Gecko",
+    "scientific": "Gekko Insuritus",
+    "season": "Altar",
+    "category": [
+      "Reptile",
+      "Arboreal"
+    ],
+    "tier": 3,
+    "parents": [
+      "Crocodile",
+      "Chameleon"
+    ],
+    "image": "Empty"
+  },
+  {
+    "id": 120,
+    "name": "Porcupine",
+    "scientific": "Erethizon Dorsatum",
+    "season": "Altar",
+    "category": [
+      "Mammal",
+      "Wild",
+      "Herbivore"
+    ],
+    "tier": 3,
+    "parents": [
+      "Raccoon",
+      "Tortoise"
+    ],
+    "image": "Empty"
+  },
+  {
+    "id": 121,
+    "name": "Carp",
+    "scientific": "Cyprinus Carpio",
+    "season": "Altar",
+    "category": [
+      "Aquatic",
+      "Small"
+    ],
+    "tier": 3,
+    "parents": [
+      "Trout",
+      "Macaw"
+    ],
+    "image": "Empty"
+  },
+  {
+    "id": 122,
+    "name": "Pangolin",
+    "scientific": "Smutsia Volubilem",
+    "season": "Altar",
+    "category": [
+      "Mammal",
+      "Wild"
+    ],
+    "tier": 3,
+    "parents": [
+      "Tortoise",
+      "Squirrel"
+    ],
+    "image": "Empty"
+  },
+  {
+    "id": 123,
+    "name": "Buffalo",
+    "scientific": "Bubalus Bulbousus",
+    "season": "Altar",
+    "category": [
+      "Mammal",
+      "Farm",
+      "Herbivore",
+      "Strong"
+    ],
+    "tier": 3,
+    "parents": [
+      "Bull",
+      "Brown Bear"
+    ],
+    "image": "Empty"
+  },
+  {
+    "id": 124,
+    "name": "Snakehead Fish",
+    "scientific": "Channa Asiata",
+    "season": "Altar",
+    "category": [
+      "Aquatic",
+      "Carnivore"
+    ],
+    "tier": 3,
+    "parents": [
+      "Trout",
+      "Snake"
+    ],
+    "image": "Empty"
+  },
+  {
+      "id": 158,
+      "name": "Stingray",
+      "scientific": "Myliobatoidei Ouchus",
+      "season": "Altar",
+      "category": [
+          "Aquatic",
+          "Carnivore"
+      ],
+      "tier": 4,
+      "parents": [
+          "Scorpion",
+          "Trout"
+      ],
+      "image": "Empty"
+  },
+  {
+      "id": 159,
+      "name": "Scorpion",
+      "scientific": "Scopiones Quearocauda",
+      "season": "Altar",
+      "category": [
+          "Small",
+          "Wild",
+          "Carnivore"
+      ],
+      "tier": 4,
+      "parents": [
+          "Pangolin",
+          "Spider"
+      ],
+      "image": "Empty"
+  }
 ]

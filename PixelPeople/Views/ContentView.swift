@@ -9,23 +9,59 @@
 import SwiftUI
 
 struct ContentView: View {
-    let buildings: [Building] = Bundle.main.decode([Building].self, from: "buildings.json")
-    let professions: [Profession] = Bundle.main.decode([Profession].self, from: "professions.json")
+    @State var showView = false
     
     var body: some View {
+        /*
         NavigationView {
-            List(buildings, id: \.id) { building in
-                NavigationLink(destination: BuildingView(building: building)) {
-                    Text(building.name)
-                }
+            ZStack {
+                Rectangle()
+                    .fill(Color.black)
+                    .edgesIgnoringSafeArea(.all)
+                Image("Pixelpeople101")
+                .resizable()
+                .frame(width: 256, height: 256)
             }
-            .navigationBarTitle("Pixel People Companion", displayMode: .inline)
+            .navigationBarTitle(Text("Pixel People Companion"), displayMode: .inline)
+            .navigationBarItems(trailing:
+                Button(action: {
+                    self.showView.toggle()
+                }) {
+                    Image(systemName: "bell.circle.fill")
+                        .font(Font.system(.title))
+                }.sheet(isPresented: $showView) {
+                    MenuView()
+                }
+            )
         }
+        
+  */
+        TabView {
+            
+            HomeView().tabItem {
+                Image(systemName: "globe")
+                Text("Home")
+            }
+  //          BuildingView().tabItem {
+  //              Image(systemName: "globe")
+  //              Text("Buildings")
+  //          }
+            
+            ProfessionView().tabItem {
+                Image(systemName: "globe")
+                Text("Jobs")
+            }
+            
+            AnimalView().tabItem {
+                Image(systemName: "globe")
+                Text("Animals")
+            }
+        }
+ 
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    
     static var previews: some View {
         ContentView()
     }
