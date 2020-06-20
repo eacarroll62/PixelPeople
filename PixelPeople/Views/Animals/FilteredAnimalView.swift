@@ -8,12 +8,13 @@
 
 import SwiftUI
 
-struct SeasonView: View {
+struct FilteredAnimalView: View {
     @EnvironmentObject var animals: Animals
     @Binding var isPresented: Bool
     @State private var showDetailView = false
     
     let season: Seasons
+    let dg = DragGesture()
     
     var filteredAnimals: [Animal] {
         return animals.animal.filter { $0.season == season.rawValue}
@@ -25,9 +26,16 @@ struct SeasonView: View {
                 VStack {
                     GridView(rows: filteredAnimals.count/4, columns: 4, content: card)
                     Spacer()
-                }.padding()
-                .sheet(isPresented: $showDetailView) {
+                }
+           //     .background(Color.gray)
+                .padding()
+           //     .sheet(isPresented: $showDetailView) {
+           //         AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[1])
+           //             .highPriorityGesture(self.dg)
+           //     }
+                .popover(isPresented: $showDetailView) {
                     AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[1])
+                    .highPriorityGesture(self.dg)
                 }
                 .navigationBarTitle("\(season.rawValue)", displayMode: .inline)
                 .navigationBarItems(trailing:
@@ -77,12 +85,12 @@ struct AnimalThumb: View {
     }
 }
 
-/*
-struct SeasonView_Previews: PreviewProvider {
+
+struct FilteredAnimalView_Previews: PreviewProvider {
     @Binding var showView: Bool
     
     static var previews: some View {
-        SeasonView(isPresented: .constant(true), season: .frost, animalIndex: 0)
+        FilteredAnimalView(isPresented: .constant(true), season: .frost)
     }
 }
-*/
+

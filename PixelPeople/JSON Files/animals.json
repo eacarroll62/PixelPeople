@@ -2185,6 +2185,141 @@
     "image": "Empty"
   },
   {
+      "id": 126,
+      "name": "Ant",
+      "scientific": "Formicidae Formidolosi",
+      "season": "Altar",
+      "category": [
+          "Insect",
+          "Small"
+      ],
+      "tier": 3,
+      "parents": [
+          "Spider",
+          "Stag"
+      ],
+      "image": "Empty"
+  },
+  {
+      "id": 128,
+      "name": "Rattlesnake",
+      "scientific": "Crotalus Atrox",
+      "season": "Altar",
+      "category": [
+          "Reptile"
+      ],
+      "tier": 3,
+      "parents": [
+          "Snake",
+          "Spider"
+      ],
+      "image": "Empty"
+  },
+  {
+      "id": 129,
+      "name": "Spider Monkey",
+      "scientific": "Ateles Parkerus",
+      "season": "Altar",
+      "category": [
+          "Mammal",
+          "Primate",
+          "Wild",
+          "Omnivore",
+          "Arboreal"
+      ],
+      "tier": 3,
+      "parents": [
+          "Spider",
+          "Chimpanzee"
+      ],
+      "image": "Empty"
+  },
+  {
+      "id": 130,
+      "name": "Ostrich",
+      "scientific": "Struthio Camelus",
+      "season": "Altar",
+      "category": [
+          "Bird",
+          "Wild"
+      ],
+      "tier": 3,
+      "parents": [
+          "Turkey",
+          "Cheetah"
+      ],
+      "image": "Empty"
+  },
+  {
+      "id": 131,
+      "name": "Tasmanian Devil",
+      "scientific": "Sarcophilus Harrisii",
+      "season": "Altar",
+      "category": [
+          "Mammal",
+          "Carnivore",
+          "Wild",
+          "Small"
+      ],
+      "tier": 3,
+      "parents": [
+          "Hyena",
+          "Koala"
+      ],
+      "image": "Empty"
+  },
+  {
+      "id": 137,
+      "name": "Sperm Whale",
+      "scientific": "Physeter Macrocephalus",
+      "season": "Altar",
+      "category": [
+          "Mammal",
+          "Aquatic",
+          "Wild"
+      ],
+      "tier": 3,
+      "parents": [
+          "Orca",
+          "Bull"
+      ],
+      "image": "Empty"
+  },
+  {
+      "id": 139,
+      "name": "Puffin",
+      "scientific": "Fratercula Arctica",
+      "season": "Altar",
+      "category": [
+          "Bird",
+          "Small",
+          "Wild"
+      ],
+      "tier": 3,
+      "parents": [
+          "Penguin",
+          "Toucan"
+      ],
+      "image": "Empty"
+  },
+  {
+      "id": 140,
+      "name": "Wild Boar",
+      "scientific": "Sus Scrofa",
+      "season": "Altar",
+      "category": [
+          "Mammal",
+          "Wild",
+          "Omnivore"
+      ],
+      "tier": 3,
+      "parents": [
+          "Pig",
+          "Bull"
+      ],
+      "image": "Empty"
+  },
+  {
       "id": 158,
       "name": "Stingray",
       "scientific": "Myliobatoidei Ouchus",

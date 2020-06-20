@@ -96,7 +96,7 @@ struct AnimalDetailsView: View {
                         .background(Color.white)
                         .foregroundColor(Color.red)
                 }
-                .offset(x: 130, y: -230)
+                    .offset(x: 130, y: -230)
             }.offset(x: 0, y: -50)
         }
     }

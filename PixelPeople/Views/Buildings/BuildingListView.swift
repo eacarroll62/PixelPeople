@@ -13,7 +13,7 @@ struct BuildingListView: View {
     
     var body: some View {
         List(building.jobs) { job in
-            NavigationLink(destination: ProfessionDetailsView(profession: job)) {
+            NavigationLink(destination: ProfessionDetailsView(isPresented: .constant(true), profession: job)) {
                 Text(job.name)
                     .font(.title)
            //         .padding([.leading, .trailing], 2)

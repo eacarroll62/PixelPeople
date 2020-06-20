@@ -51,3 +51,29 @@ enum Category: String, Equatable, CaseIterable {
     
     var localizedName: LocalizedStringKey { LocalizedStringKey(rawValue) }
 }
+
+enum Genomes: String, Equatable, CaseIterable {
+    case academic = "Academic"
+    case administration = "Administration"
+    case business = "Business"
+    case creative = "Creative"
+    case curious = "Curious"
+    case enchanted = "Enchanted"
+    case evil = "Evil"
+    case explorers = "Explorers"
+    case hospitality = "Hospitality"
+    case law = "law"
+    case media = "Media"
+    case medical = "Medical"
+    case music = "Music"
+    case performers = "Performers"
+    case production = "Production"
+    case resident = "Resident"
+    case services = "Services"
+    case special = "Special"
+    case sports = "Sports"
+    case technical = "Technical"
+    case transport = "Transport"
+    
+    var localizedName: LocalizedStringKey { LocalizedStringKey(rawValue) }
+}

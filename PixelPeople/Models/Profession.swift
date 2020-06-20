@@ -22,5 +22,5 @@ class Profession: Codable, Identifiable {
     let motto: String
     let genome: String
     let clones: [Clone]
-    let image: String?
+    let image: String
 }
