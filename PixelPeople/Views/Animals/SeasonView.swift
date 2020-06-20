@@ -21,25 +21,27 @@ struct SeasonView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                GridView(rows: filteredAnimals.count/4, columns: 4, content: card)
-                Spacer()
-            }.padding()
-            .sheet(isPresented: $showDetailView) {
-                AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[1])
-            }
-            .navigationBarTitle("\(season.rawValue)", displayMode: .inline)
-            .navigationBarItems(trailing:
-                Button(action: {
-                    self.isPresented = false
-                }) {
-                    Image(systemName: "clear.fill")
-                    .resizable()
-                    .frame(width: 32, height: 32)
-                    .background(Color.white)
-                    .foregroundColor(Color.red)
+            ScrollView {
+                VStack {
+                    GridView(rows: filteredAnimals.count/4, columns: 4, content: card)
+                    Spacer()
+                }.padding()
+                .sheet(isPresented: $showDetailView) {
+                    AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[1])
                 }
-            )
+                .navigationBarTitle("\(season.rawValue)", displayMode: .inline)
+                .navigationBarItems(trailing:
+                    Button(action: {
+                        self.isPresented = false
+                    }) {
+                        Image(systemName: "clear.fill")
+                        .resizable()
+                        .frame(width: 32, height: 32)
+                        .background(Color.white)
+                        .foregroundColor(Color.red)
+                    }
+                )
+            }
         }
     }
     
