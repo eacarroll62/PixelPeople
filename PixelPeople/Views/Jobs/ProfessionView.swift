@@ -17,13 +17,14 @@ struct ProfessionView: View {
     var body: some View {
         NavigationView {
             Form {
-                  Section(header: Text("Select Genome")) {
+                  Section(header: Text("Select Genome Type")) {
                       Picker(selection: self.$selectedGenome, label: Text("Select Genome")) {
                           ForEach(Genomes.allCases, id: \.self) {value in
                               Text(value.localizedName).tag(value)
                           }
                       }.pickerStyle(WheelPickerStyle())
                         .labelsHidden()
+                        .frame(width: 150, height: 150)
                   }
               }
               .navigationBarTitle("Professions")

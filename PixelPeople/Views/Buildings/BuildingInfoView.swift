@@ -5,7 +5,7 @@
 //  Created by Eric Carroll on 3/15/20.
 //  Copyright © 2020 Eric Carroll. All rights reserved.
 //
-
+/*
 import SwiftUI
 
 struct BuildingInfoView: View {
@@ -57,3 +57,4 @@ struct BuildingInfoView_Previews: PreviewProvider {
         BuildingInfoView(landCost: building.landCost, coinSecond: building.cps, workTime: building.adjustedWorkTime, level: building.level)
     }
 }
+*/

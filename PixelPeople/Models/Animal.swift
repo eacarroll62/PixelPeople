@@ -9,10 +9,10 @@
 import Foundation
 
 class Animals: ObservableObject {
-    @Published var animal: [Animal]
+    @Published var animals: [Animal]
     
     init() {
-        self.animal = Bundle.main.decode([Animal].self, from: "animals.json")
+        self.animals = Bundle.main.decode([Animal].self, from: "animals.json")
     }
 }
 

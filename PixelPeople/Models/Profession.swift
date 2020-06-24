@@ -9,10 +9,10 @@
 import Foundation
 
 class Professions: ObservableObject {
-    @Published var profession: [Profession]
+    @Published var professions: [Profession]
  
     init() {
-        self.profession = Bundle.main.decode([Profession].self, from: "professions.json")
+        self.professions = Bundle.main.decode([Profession].self, from: "professions.json")
     }
 }
 
@@ -22,5 +22,5 @@ class Profession: Codable, Identifiable {
     let motto: String
     let genome: String
     let clones: [Clone]
-    let image: String
+    let image: String 
 }

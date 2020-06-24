@@ -9,39 +9,48 @@
 import SwiftUI
 
 struct BuildingDetailsView: View {
+    @Binding var isPresented: Bool
+    
     var building: Building
-//    @EnvironmentObject private var building: Buildings
-    @State private var level = "1"
-    @State private var isBuilt = false
+    
+    let colors: [String : [Color]] = ["Administration": [Color.olive, Color.oliveYellow],
+                                      "Business": [Color.gray, Color.black],
+                                      "Creative": [Color.yellowGreen, Color.greenYellow],
+                                      "Entertainment": [Color.yellowGreen, Color.greenYellow],
+                                      "F&B": [Color.yellowGreen, Color.greenYellow],
+                                      "Science": [Color.yellowGreen, Color.greenYellow],
+                                      "Services": [Color.yellowGreen, Color.greenYellow],
+                                      "Nome": [Color.fluorescentOrange, Color.darkOrange],
+    ]
     
     var body: some View {
         ZStack {
-            Color(red: 60 / 255, green: 160 / 255, blue: 240 / 255)
-            
-            VStack {
-                BuildingInfoView(landCost: building.landCost, coinSecond: building.cps, workTime: building.adjustedWorkTime, level: building.level)
-                Image(building.image).asThumbnail()
-            
-                List(self.building.jobs) { job in
-                    NavigationLink(destination: ProfessionDetailsView(isPresented: .constant(true), profession: job)) {
-                        Text(job.name)
-                            .font(.title)
-                            .padding([.leading, .trailing], 2)
-                    }
-                }
-                    .background(Color.lightBlue)
-                    .navigationBarTitle(Text("\(building.name)"), displayMode: .inline)
-                    
- 
+            Group {
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(colors[building.category]![1])
+                    .frame(width: 320, height: 520)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.black)
+                    .frame(width: 304, height: 504)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(colors[building.category]![0])
+                    .frame(width: 300, height: 500)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(colors[building.category]![1])
+                    .frame(width: 244, height: 354)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(RadialGradient(gradient: Gradient(colors: [.whiteSmoke, .black]), center: .center, startRadius: 5, endRadius: 180))
+                    .frame(width: 240, height: 350)
             }
+            Image(building.image)
+            .resizable()
+            .frame(width: 128, height: 128)
  
         }
     }
     
     var aspectRatio: CGFloat {
-            let size
-                = UIImage(named: building.image)?.size
-                    ?? CGSize(width: 1, height: 1)
+            let size = UIImage(named: building.image)?.size ?? CGSize(width: 1, height: 1)
             return size.width/size.height
     }
 }
@@ -49,6 +58,6 @@ struct BuildingDetailsView: View {
 struct BuildingDetailsView_Previews: PreviewProvider {
     static let buildings: [Building] = Bundle.main.decode([Building].self, from: "buildings.json")
     static var previews: some View {
-        BuildingDetailsView(building: buildings[102])
+        BuildingDetailsView(isPresented: .constant(true), building: buildings[0])
     }
 }

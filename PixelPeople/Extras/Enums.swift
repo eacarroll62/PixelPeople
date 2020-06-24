@@ -77,3 +77,16 @@ enum Genomes: String, Equatable, CaseIterable {
     
     var localizedName: LocalizedStringKey { LocalizedStringKey(rawValue) }
 }
+
+enum BuildingTypes: String, Equatable, CaseIterable {
+    case administration = "Administration"
+    case business = "Business"
+    case creative = "Creative"
+    case entertainment = "Entertainment"
+    case fb = "F & B"
+    case science = "Science"
+    case services = "Services"
+    case none = "None"
+    
+    var localizedName: LocalizedStringKey { LocalizedStringKey(rawValue) }
+}

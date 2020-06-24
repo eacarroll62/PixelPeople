@@ -17,8 +17,7 @@ struct FilteredGenomeView: View {
     let dg = DragGesture()
     
     var filteredProfessions: [Profession] {
-        return professions.profession.filter { $0.genome == genome.rawValue}
-        
+        return professions.professions.filter { $0.genome == genome.rawValue}
     }
 
     var body: some View {

@@ -5,7 +5,7 @@
 //  Created by Eric Carroll on 3/15/20.
 //  Copyright © 2020 Eric Carroll. All rights reserved.
 //
-
+/*
 import SwiftUI
 
 struct BuildingListView: View {
@@ -34,3 +34,4 @@ struct BuildingListView_Previews: PreviewProvider {
         BuildingListView(building: building)
     }
 }
+*/

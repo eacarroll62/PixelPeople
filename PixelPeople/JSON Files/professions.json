@@ -1209,8 +1209,8 @@
   {
     "id": 72,
     "name": "Cheerleader",
-    "genome": "Performers",
     "motto": "RAH RAH RAH",
+    "genome": "Performers",
     "clones": [
       {
         "name": "Ballet Dancer",

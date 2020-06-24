@@ -17,7 +17,7 @@ struct FilteredAnimalView: View {
     let dg = DragGesture()
     
     var filteredAnimals: [Animal] {
-        return animals.animal.filter { $0.season == season.rawValue}
+        return animals.animals.filter { $0.season == season.rawValue}
     }
     
     var body: some View {

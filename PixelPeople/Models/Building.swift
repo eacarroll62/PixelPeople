@@ -13,12 +13,12 @@ class Buildings: ObservableObject {
     static let saveKey = "SavedData"
     
     init() {
-//        if let data = UserDefaults.standard.data(forKey: Self.saveKey) {
-//            if let decoded = try? JSONDecoder().decode([Building].self, from: data) {
-//                self.buildings = decoded
-//                return
-//            }
-//        }
+        if let data = UserDefaults.standard.data(forKey: Self.saveKey) {
+            if let decoded = try? JSONDecoder().decode([Building].self, from: data) {
+                self.buildings = decoded
+                return
+            }
+        }
             
         self.buildings = Bundle.main.decode([Building].self, from: "buildings.json")
     }

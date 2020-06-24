@@ -12,40 +12,15 @@ struct ContentView: View {
     @State var showView = false
     
     var body: some View {
-        /*
-        NavigationView {
-            ZStack {
-                Rectangle()
-                    .fill(Color.black)
-                    .edgesIgnoringSafeArea(.all)
-                Image("Pixelpeople101")
-                .resizable()
-                .frame(width: 256, height: 256)
-            }
-            .navigationBarTitle(Text("Pixel People Companion"), displayMode: .inline)
-            .navigationBarItems(trailing:
-                Button(action: {
-                    self.showView.toggle()
-                }) {
-                    Image(systemName: "bell.circle.fill")
-                        .font(Font.system(.title))
-                }.sheet(isPresented: $showView) {
-                    MenuView()
-                }
-            )
-        }
-        
-  */
         TabView {
-            
             HomeView().tabItem {
                 Image(systemName: "globe")
                 Text("Home")
             }
-  //          BuildingView().tabItem {
-  //              Image(systemName: "globe")
-  //              Text("Buildings")
-  //          }
+            BuildingView().tabItem {
+                Image(systemName: "globe")
+                Text("Buildings")
+            }
             
             ProfessionView().tabItem {
                 Image(systemName: "globe")
@@ -57,7 +32,6 @@ struct ContentView: View {
                 Text("Animals")
             }
         }
- 
     }
 }
 

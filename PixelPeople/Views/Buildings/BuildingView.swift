@@ -9,41 +9,36 @@
 import SwiftUI
 
 struct BuildingView: View {
+    @State var showFilteredView = false
+    @State private var selectedType: BuildingTypes = .administration
+    
     var buildings = Buildings()
     
     var body: some View {
         NavigationView {
-            UITabBarWrapper([
-                    TabBarElement(tabBarElementItem: .init(title: "Administration", systemImageName: "person.3")) {
-                        CategoryView(category: .administration)
-                    },
-                    TabBarElement(tabBarElementItem: .init(title: "Business", systemImageName: "checkmark.circle")) {
-                        CategoryView(category: .business)
-                    },
-                    TabBarElement(tabBarElementItem: .init(title: "Creative", systemImageName: "questionmark.diamond")) {
-                        CategoryView(category: .creative)
-                    },
-                    TabBarElement(tabBarElementItem: .init(title: "Entertainment", systemImageName: "house.fill")) {
-                        CategoryView(category: .entertainment)
-                    },
-                    TabBarElement(tabBarElementItem: .init(title: "F&B", systemImageName: "person.2")) {
-                        CategoryView(category: .fb)
-                    },
-                    TabBarElement(tabBarElementItem: .init(title: "Science", systemImageName: "globe")) {
-                        CategoryView(category: .science)
-                    },
-                    TabBarElement(tabBarElementItem: .init(title: "Services", systemImageName: "person")) {
-                        CategoryView(category: .services)
-                    },
-                    TabBarElement(tabBarElementItem: .init(title: "None", systemImageName: "link.circle.fill")) {
-                        CategoryView(category: .none)
-                    }
-                ]
-            )
-            .environmentObject(buildings)
-            .navigationBarItems(leading: Button("Save") {
-                self.buildings.save()
-            })
+            Form {
+                  Section(header: Text("Select Building Type")) {
+                      Picker(selection: self.$selectedType, label: Text("Select Type")) {
+                          ForEach(BuildingTypes.allCases, id: \.self) {value in
+                              Text(value.localizedName).tag(value)
+                          }
+                      }.pickerStyle(WheelPickerStyle())
+                        .labelsHidden()
+                        .frame(width: 150, height: 150)
+                  }
+              }
+              .navigationBarTitle("Building Types")
+              .navigationBarItems(trailing:
+                  Button(action: {
+                      self.showFilteredView.toggle()
+                  }) {
+                      Image(systemName: "bell.circle.fill")
+                          .font(Font.system(.title))
+                  }
+                    .padding()
+                    .sheet(isPresented: $showFilteredView) {
+                        FilteredBuildingView(isPresented: self.$showFilteredView, category: self.selectedType).environmentObject(self.buildings)
+                })
         }
     }
 }
