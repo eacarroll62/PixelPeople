@@ -17,7 +17,25 @@ struct FilteredGenomeView: View {
     let dg = DragGesture()
     
     var filteredProfessions: [Profession] {
-        return professions.professions.filter { $0.genome == genome.rawValue}
+        var filterProfessions = professions.professions.filter { $0.genome == genome.rawValue}
+        let mod = filterProfessions.count % 4
+        
+        switch mod {
+        case 1:
+            for _ in 1...3 {
+                filterProfessions.append(professions.professions[professions.professions.endIndex - 1])
+            }
+        case 2:
+            for _ in 1...2 {
+                filterProfessions.append(professions.professions[professions.professions.endIndex - 1])
+            }
+        case 3:
+            filterProfessions.append(professions.professions[professions.professions.endIndex - 1])
+        default:
+            print("\(filterProfessions.count)")
+        }
+        
+        return filterProfessions
     }
 
     var body: some View {

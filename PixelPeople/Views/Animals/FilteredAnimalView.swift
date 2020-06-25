@@ -17,7 +17,25 @@ struct FilteredAnimalView: View {
     let dg = DragGesture()
     
     var filteredAnimals: [Animal] {
-        return animals.animals.filter { $0.season == season.rawValue}
+        var filterAnimals = animals.animals.filter { $0.season == season.rawValue}
+        let mod = animals.animals.count % 4
+        
+        switch mod {
+        case 1:
+            for _ in 1...3 {
+                filterAnimals.append(animals.animals[animals.animals.endIndex - 1])
+            }
+        case 2:
+            for _ in 1...2 {
+                filterAnimals.append(animals.animals[animals.animals.endIndex - 1])
+            }
+        case 3:
+            filterAnimals.append(animals.animals[animals.animals.endIndex - 1])
+        default:
+            print("\(filterAnimals.count)")
+        }
+        
+        return filterAnimals
     }
     
     var body: some View {
@@ -27,12 +45,7 @@ struct FilteredAnimalView: View {
                     GridView(rows: filteredAnimals.count/4, columns: 4, content: card)
                     Spacer()
                 }
-           //     .background(Color.gray)
                 .padding()
-           //     .sheet(isPresented: $showDetailView) {
-           //         AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[1])
-           //             .highPriorityGesture(self.dg)
-           //     }
                 .popover(isPresented: $showDetailView) {
                     AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[1])
                     .highPriorityGesture(self.dg)

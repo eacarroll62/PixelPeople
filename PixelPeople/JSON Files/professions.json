@@ -6135,5 +6135,18 @@
       }
     ],
     "image": "NecromancerMale"
+  },
+  {
+      "id": 999,
+      "name": "Empty",
+      "motto": " ",
+      "genome": " ",
+      "clones": [
+          {
+              "name": " ",
+              "image": " "
+          }
+      ],
+      "image": " "
   }
 ]

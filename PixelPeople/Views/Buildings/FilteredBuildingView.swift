@@ -17,7 +17,25 @@ struct FilteredBuildingView: View {
     let dg = DragGesture()
     
     var filteredBuildings: [Building] {
-        return buildings.buildings.filter { $0.category == category.rawValue}
+        var filterBuildings = buildings.buildings.filter { $0.category == category.rawValue}
+        let mod = filterBuildings.count % 4
+        
+        switch mod {
+        case 1:
+            for _ in 1...3 {
+                filterBuildings.append(buildings.buildings[buildings.buildings.endIndex - 1])
+            }
+        case 2:
+            for _ in 1...2 {
+                filterBuildings.append(buildings.buildings[buildings.buildings.endIndex - 1])
+            }
+        case 3:
+            filterBuildings.append(buildings.buildings[buildings.buildings.endIndex - 1])
+        default:
+            print("\(filterBuildings.count)")
+        }
+        
+        return filterBuildings
     }
     
     var body: some View {

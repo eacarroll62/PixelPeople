@@ -2351,5 +2351,19 @@
           "Spider"
       ],
       "image": "Empty"
+  },
+  {
+      "id": 999,
+      "name": "Empty",
+      "scientific": " ",
+      "season": " ",
+      "category": [
+          " "
+      ],
+      "tier": 0,
+      "parents": [
+          " "
+      ],
+      "image": " "
   }
 ]

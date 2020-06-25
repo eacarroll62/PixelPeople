@@ -12057,5 +12057,41 @@
         ],
         "image": "Cabin_In_The_Woods",
         "isBuilt": false
+    },
+    {
+        "id": 999,
+        "name": "Empty",
+        "level": 0,
+        "landCost": 0,
+        "adjustedWorkTime": 0,
+        "coinsPerUse": "",
+        "coinsPerLand": "",
+        "cps": 0,
+        "workTime": 0,
+        "multiplier": 0,
+        "category": "",
+        "jobs": [
+            {
+                "id": 342,
+                "name": "Forester",
+                "motto": "AFTER WINTER, MOST TREES ARE RELIEVED",
+                "genome": "Services",
+                "clones": [
+                    {
+                        "name": "Amazon",
+                        "genome": "Special",
+                        "image": "AmazonMale"
+                    },
+                    {
+                        "name": "Park Ranger",
+                        "genome": "Services",
+                        "image": "Park_RangerMale"
+                    }
+                ],
+                "image": "ForesterMale"
+            }
+        ],
+        "image": "",
+        "isBuilt": false
     }
 ]
