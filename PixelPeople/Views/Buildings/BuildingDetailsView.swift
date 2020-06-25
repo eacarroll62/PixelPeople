@@ -16,37 +16,67 @@ struct BuildingDetailsView: View {
     let colors: [String : [Color]] = ["Administration": [Color.olive, Color.oliveYellow],
                                       "Business": [Color.gray, Color.black],
                                       "Creative": [Color.yellowGreen, Color.greenYellow],
-                                      "Entertainment": [Color.yellowGreen, Color.greenYellow],
+                                      "Entertainment": [Color.fluorescentOrange, Color.darkOrange],
                                       "F&B": [Color.yellowGreen, Color.greenYellow],
                                       "Science": [Color.yellowGreen, Color.greenYellow],
                                       "Services": [Color.yellowGreen, Color.greenYellow],
-                                      "Nome": [Color.fluorescentOrange, Color.darkOrange],
+                                      "None": [Color.yellowGreen, Color.greenYellow],
     ]
     
     var body: some View {
-        ZStack {
-            Group {
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(colors[building.category]![1])
-                    .frame(width: 320, height: 520)
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(Color.black)
-                    .frame(width: 304, height: 504)
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(colors[building.category]![0])
-                    .frame(width: 300, height: 500)
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(colors[building.category]![1])
-                    .frame(width: 244, height: 354)
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(RadialGradient(gradient: Gradient(colors: [.whiteSmoke, .black]), center: .center, startRadius: 5, endRadius: 180))
-                    .frame(width: 240, height: 350)
+        NavigationView {
+            ZStack {
+                Group {
+                    RoundedRectangle(cornerRadius: 10)
+                        .fill(colors[building.category]![0])
+                        .frame(width: 320, height: 520)
+                    RoundedRectangle(cornerRadius: 10)
+                        .fill(Color.black)
+                        .frame(width: 304, height: 504)
+                    RoundedRectangle(cornerRadius: 10)
+                        .fill(colors[building.category]![1])
+                        .frame(width: 244, height: 354)
+                    RoundedRectangle(cornerRadius: 10)
+                        .fill(LinearGradient(gradient: Gradient(colors: [colors[building.category]![0], colors[building.category]![1]]), startPoint: UnitPoint(x: 100, y: 150), endPoint: UnitPoint(x: 100, y: 300)))
+                        .frame(width: 300, height: 500)
+                    Rectangle()
+                        .fill(colors[building.category]![0])
+                        .frame(width: 205, height: 35)
+                        .offset(x: 0, y: -243)
+                    Rectangle()
+                        .fill(Color.gray)
+                        .frame(width: 200, height: 30)
+                        .offset(x: 0, y: -243)
+                }
+                Image(building.image)
+                    .resizable()
+                    .frame(width: 128, height: 128)
+                    .offset(x: 0, y: -100)
+                Text(building.name.uppercased())
+                    .foregroundColor(.white)
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .offset(x: 0, y: -25)
+                Text("Land Cost: \(building.landCost)")
+                    .foregroundColor(.white)
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .offset(x: 0, y: 20)
+                Text(building.category.uppercased())
+                    .foregroundColor(.white)
+                    .offset(x: 0, y: -241)
+                Button(action: {
+                    self.isPresented = false
+                }) {
+                    Image(systemName: "clear.fill")
+                    .resizable()
+                        .frame(width: 32, height: 32)
+                        .background(Color.white)
+                        .foregroundColor(Color.red)
+                }
+                .offset(x: 130, y: -230)
             }
-            Image(building.image)
-            .resizable()
-            .frame(width: 128, height: 128)
- 
-        }
+        }.offset(x: 0, y: -50)
     }
     
     var aspectRatio: CGFloat {
@@ -58,6 +88,6 @@ struct BuildingDetailsView: View {
 struct BuildingDetailsView_Previews: PreviewProvider {
     static let buildings: [Building] = Bundle.main.decode([Building].self, from: "buildings.json")
     static var previews: some View {
-        BuildingDetailsView(isPresented: .constant(true), building: buildings[0])
+        BuildingDetailsView(isPresented: .constant(true), building: buildings[88])
     }
 }

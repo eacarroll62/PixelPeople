@@ -83,7 +83,7 @@ enum BuildingTypes: String, Equatable, CaseIterable {
     case business = "Business"
     case creative = "Creative"
     case entertainment = "Entertainment"
-    case fb = "F & B"
+    case fb = "F&B"
     case science = "Science"
     case services = "Services"
     case none = "None"
