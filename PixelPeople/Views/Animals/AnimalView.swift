@@ -45,7 +45,7 @@ struct AnimalView: View {
                 }
                     .padding()
                     .sheet(isPresented: $showFilteredView) {
-                        FilteredAnimalView(isPresented: self.$showFilteredView, season: self.selectedSeason).environmentObject(self.animals)
+                        FilteredAnimalView(animals: self.animals, isPresented: self.$showFilteredView, season: self.selectedSeason).environmentObject(self.animals)
                     }
             )
         }

@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct FilteredAnimalView: View {
-    @EnvironmentObject var animals: Animals
+    @ObservedObject var animals: Animals
     @Binding var isPresented: Bool
     @State private var showDetailView = false
     
@@ -47,7 +47,7 @@ struct FilteredAnimalView: View {
                 }
                 .padding()
                 .popover(isPresented: $showDetailView) {
-                    AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[1])
+                    AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[0])
                     .highPriorityGesture(self.dg)
                 }
                 .navigationBarTitle("\(season.rawValue)", displayMode: .inline)
@@ -90,6 +90,7 @@ struct AnimalThumb: View {
                     .resizable()
                     .frame(width: 80, height: 80)
                     .scaledToFit()
+                    .background(Color.black)
                 Text(animal.name)
                     .scaledFont(name: "Georgia", size: 8)
                     .foregroundColor(Color.white)
@@ -103,7 +104,7 @@ struct FilteredAnimalView_Previews: PreviewProvider {
     @Binding var showView: Bool
     
     static var previews: some View {
-        FilteredAnimalView(isPresented: .constant(true), season: .frost)
+        FilteredAnimalView(animals: Animals(), isPresented: .constant(true), season: .frost)
     }
 }
 

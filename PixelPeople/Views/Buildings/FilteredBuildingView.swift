@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct FilteredBuildingView: View {
-    @EnvironmentObject var buildings: Buildings
+    @ObservedObject var buildings: Buildings
     @Binding var isPresented: Bool
     @State private var showDetailView = false
     
@@ -100,6 +100,6 @@ struct BuildingThumb: View {
 
 struct FilteredBuildingView_Previews: PreviewProvider {
     static var previews: some View {
-        FilteredBuildingView(isPresented: .constant(true), category: .business)
+        FilteredBuildingView(buildings: Buildings(), isPresented: .constant(true), category: .business)
     }
 }

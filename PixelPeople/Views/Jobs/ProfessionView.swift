@@ -37,7 +37,7 @@ struct ProfessionView: View {
                   }
                     .padding()
                     .sheet(isPresented: $showFilteredView) {
-                        FilteredGenomeView(isPresented: self.$showFilteredView, genome: self.selectedGenome).environmentObject(self.professions)
+                        FilteredGenomeView(professions: self.professions, isPresented: self.$showFilteredView, genome: self.selectedGenome).environmentObject(self.professions)
                 })
         }
     }

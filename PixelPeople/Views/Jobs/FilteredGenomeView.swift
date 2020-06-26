@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct FilteredGenomeView: View {
-    @EnvironmentObject var professions: Professions
+    @ObservedObject var professions: Professions
     @Binding var isPresented: Bool
     @State private var showDetailView = false
     
@@ -105,6 +105,6 @@ struct JobThumb: View {
 
 struct FilteredGenomeView_Previews: PreviewProvider {
     static var previews: some View {
-        FilteredGenomeView(isPresented: .constant(true), genome: .academic)
+        FilteredGenomeView(professions: Professions(), isPresented: .constant(true), genome: .academic)
     }
 }

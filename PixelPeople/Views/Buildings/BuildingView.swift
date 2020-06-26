@@ -37,7 +37,7 @@ struct BuildingView: View {
                   }
                     .padding()
                     .sheet(isPresented: $showFilteredView) {
-                        FilteredBuildingView(isPresented: self.$showFilteredView, category: self.selectedType).environmentObject(self.buildings)
+                        FilteredBuildingView(buildings: self.buildings, isPresented: self.$showFilteredView, category: self.selectedType).environmentObject(self.buildings)
                 })
         }
     }
