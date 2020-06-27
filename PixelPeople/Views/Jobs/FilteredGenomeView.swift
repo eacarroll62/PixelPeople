@@ -8,6 +8,8 @@
 
 import SwiftUI
 
+var index: String = ""
+
 struct FilteredGenomeView: View {
     @ObservedObject var professions: Professions
     @Binding var isPresented: Bool
@@ -47,7 +49,7 @@ struct FilteredGenomeView: View {
                 }
                  .padding()
                  .sheet(isPresented: $showDetailView) {
-                     ProfessionDetailsView(isPresented: self.$showDetailView, profession: self.filteredProfessions[1])
+                    ProfessionDetailsView(isPresented: self.$showDetailView, profession: self.filteredProfessions[self.filteredProfessions.firstIndex(where: {$0.name == index}) ?? 0])
                      .highPriorityGesture(self.dg)
                  }
                  .navigationBarTitle("\(genome.rawValue)", displayMode: .inline)
@@ -83,6 +85,7 @@ struct JobThumb: View {
     var body: some View {
         Button(action: {
             self.showDetail.toggle()
+            index = self.profession.name
         }) {
             VStack {
                 Image(profession.image)

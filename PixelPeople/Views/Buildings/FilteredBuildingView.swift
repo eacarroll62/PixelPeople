@@ -8,6 +8,8 @@
 
 import SwiftUI
 
+var idx: String = ""
+
 struct FilteredBuildingView: View {
     @ObservedObject var buildings: Buildings
     @Binding var isPresented: Bool
@@ -32,7 +34,7 @@ struct FilteredBuildingView: View {
         case 3:
             filterBuildings.append(buildings.buildings[buildings.buildings.endIndex - 1])
         default:
-            print("\(filterBuildings.count)")
+            break
         }
         
         return filterBuildings
@@ -47,7 +49,7 @@ struct FilteredBuildingView: View {
                 }
                 .padding()
                 .sheet(isPresented: $showDetailView) {
-                    BuildingDetailsView(isPresented: self.$showDetailView, building: self.filteredBuildings[1])
+                    BuildingDetailsView(isPresented: self.$showDetailView, building: self.filteredBuildings[self.filteredBuildings.firstIndex(where: {$0.name == idx}) ?? 0])
                     .highPriorityGesture(self.dg)
                 }
             }
@@ -83,6 +85,7 @@ struct BuildingThumb: View {
     var body: some View {
         Button(action: {
             self.showDetail.toggle()
+            idx = self.building.name
         }) {
             VStack {
                 Image(building.image)

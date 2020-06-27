@@ -8,6 +8,8 @@
 
 import SwiftUI
 
+var pos: String = ""
+
 struct FilteredAnimalView: View {
     @ObservedObject var animals: Animals
     @Binding var isPresented: Bool
@@ -47,7 +49,7 @@ struct FilteredAnimalView: View {
                 }
                 .padding()
                 .sheet(isPresented: $showDetailView) {
-                    AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[0])
+                    AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[self.filteredAnimals.firstIndex(where: {$0.name == pos}) ?? 0])
                     .highPriorityGesture(self.dg)
                 }
                 .navigationBarTitle("\(season.rawValue)", displayMode: .inline)
@@ -84,6 +86,7 @@ struct AnimalThumb: View {
     var body: some View {
         Button(action: {
             self.showDetail.toggle()
+            pos = self.animal.name
         }) {
             VStack {
                 Image(animal.image)
