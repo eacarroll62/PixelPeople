@@ -45,13 +45,8 @@ struct FilteredGenomeView: View {
                      GridView(rows: filteredProfessions.count/4, columns: 4, content: card)
                      Spacer()
                 }
-            //     .background(Color.gray)
                  .padding()
-            //     .sheet(isPresented: $showDetailView) {
-            //         AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[1])
-            //             .highPriorityGesture(self.dg)
-            //     }
-                 .popover(isPresented: $showDetailView) {
+                 .sheet(isPresented: $showDetailView) {
                      ProfessionDetailsView(isPresented: self.$showDetailView, profession: self.filteredProfessions[1])
                      .highPriorityGesture(self.dg)
                  }

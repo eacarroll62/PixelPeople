@@ -869,7 +869,7 @@
                 "image": "PaladinMale"
             }
         ],
-        "image": "AuctionHouse",
+        "image": "Auction_House",
         "isBuilt": false
     },
     {
@@ -8931,7 +8931,7 @@
                 "image": "Train_Conductor"
             }
         ],
-        "image": "Raildroad Station",
+        "image": "Rail_Terminal",
         "isBuilt": false
     },
     {
@@ -9749,7 +9749,7 @@
                 "image": "Online_ShopperMale"
             }
         ],
-        "image": "Souvenir_Store",
+        "image": "Souvenir_Shop",
         "isBuilt": false
     },
     {
@@ -11182,7 +11182,7 @@
                 "image": "Toy_Soldier"
             }
         ],
-        "image": "Toy Factory",
+        "image": "Toy_Factory",
         "isBuilt": false
     },
     {
@@ -11738,7 +11738,7 @@
                 "image": "Newlywed"
             }
         ],
-        "image": "Wedding_Chapel",
+        "image": "WeddingChapel",
         "isBuilt": false
     },
     {
@@ -12091,7 +12091,7 @@
                 "image": "ForesterMale"
             }
         ],
-        "image": "",
+        "image": "Empty",
         "isBuilt": false
     }
 ]

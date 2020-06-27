@@ -46,7 +46,7 @@ struct FilteredBuildingView: View {
                      Spacer()
                 }
                 .padding()
-                .popover(isPresented: $showDetailView) {
+                .sheet(isPresented: $showDetailView) {
                     BuildingDetailsView(isPresented: self.$showDetailView, building: self.filteredBuildings[1])
                     .highPriorityGesture(self.dg)
                 }

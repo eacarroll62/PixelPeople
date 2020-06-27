@@ -62,7 +62,7 @@ enum Genomes: String, Equatable, CaseIterable {
     case evil = "Evil"
     case explorers = "Explorers"
     case hospitality = "Hospitality"
-    case law = "law"
+    case law = "Law"
     case media = "Media"
     case medical = "Medical"
     case music = "Music"

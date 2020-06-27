@@ -46,7 +46,7 @@ struct FilteredAnimalView: View {
                     Spacer()
                 }
                 .padding()
-                .popover(isPresented: $showDetailView) {
+                .sheet(isPresented: $showDetailView) {
                     AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[0])
                     .highPriorityGesture(self.dg)
                 }
@@ -78,6 +78,7 @@ struct FilteredAnimalView: View {
 
 struct AnimalThumb: View {
     @Binding var showDetail: Bool
+    
     var animal: Animal
     
     var body: some View {

@@ -643,7 +643,7 @@
         "image": "Salesman"
       }
     ],
-    "image": "Hotel_ManaagerMale"
+    "image": "Hotel_ManagerMale"
   },
   {
     "id": 39,
@@ -1204,7 +1204,7 @@
         "image": "MechanicMale"
       }
     ],
-    "image": "CamaramanMale"
+    "image": "CameramanMale"
   },
   {
     "id": 72,
@@ -1238,7 +1238,7 @@
         "image": "AthleteMale"
       }
     ],
-    "image": "CoachrMale"
+    "image": "CoachMale"
   },
   {
     "id": 74,
@@ -2513,7 +2513,7 @@
         "image": "MagicianMale"
       }
     ],
-    "image": "GenierMale"
+    "image": "GenieMale"
   },
   {
     "id": 149,
@@ -3516,7 +3516,7 @@
         "image": "Hitch_Hiker"
       }
     ],
-    "image": "TreehuggerMale"
+    "image": "Tree_HuggerMale"
   },
   {
     "id": 208,
@@ -4196,7 +4196,7 @@
         "image": "Cattle_RustlerMale"
       }
     ],
-    "image": "MariachiMale"
+    "image": "Mariachi2Male"
   },
   {
     "id": 248,
@@ -4213,7 +4213,7 @@
         "image": "VocalistMale"
       }
     ],
-    "image": "RockstarMale"
+    "image": "Rockstar2Male"
   },
   {
     "id": 249,
@@ -4655,7 +4655,7 @@
         "image": "MutantMale"
       }
     ],
-    "image": "WerewolfMale"
+    "image": "Werewolf2Male"
   },
   {
     "id": 275,
@@ -5284,7 +5284,7 @@
         "image": "ExterminatorMale"
       }
     ],
-    "image": "Piper_Male"
+    "image": "PiperMale"
   },
   {
     "id": 312,
@@ -5522,7 +5522,7 @@
         "image": "HomemakerMale"
       }
     ],
-    "image": "HouseKeeperMale"
+    "image": "HousekeeperMale"
   },
   {
     "id": 326,
@@ -5964,7 +5964,7 @@
         "image": "ClownMale"
       }
     ],
-    "image": "Ballon_TwisterMale"
+    "image": "Balloon_TwisterMale"
   },
   {
     "id": 352,
@@ -6147,6 +6147,6 @@
               "image": " "
           }
       ],
-      "image": " "
+      "image": "Empty"
   }
 ]
