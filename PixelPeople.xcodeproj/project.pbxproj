@@ -29,6 +29,10 @@
 		A890529223EBC7F3002C46C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890529123EBC7F3002C46C5 /* HomeView.swift */; };
 		A8AA85F0247C70DD0041D878 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA85EF247C70DC0041D878 /* Enums.swift */; };
 		A8AA85F2247C72FC0041D878 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA85F1247C72FC0041D878 /* Colors.swift */; };
+		A8B4489E24AF530F00F6851C /* ProfessionFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4489D24AF530F00F6851C /* ProfessionFilters.swift */; };
+		A8B448A124AF543900F6851C /* ProfessionGenomeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B448A024AF543900F6851C /* ProfessionGenomeFilter.swift */; };
+		A8B448A324AF5F1900F6851C /* ProfessionCloneFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B448A224AF5F1900F6851C /* ProfessionCloneFilter.swift */; };
+		A8B448A524AF755800F6851C /* BuildingCloneFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B448A424AF755800F6851C /* BuildingCloneFilter.swift */; };
 		A8BACB7E23B6F5D2003188A0 /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BACB7D23B6F5D2003188A0 /* AnimalView.swift */; };
 		A8BACB8223B83962003188A0 /* AnimalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BACB8123B83962003188A0 /* AnimalDetailsView.swift */; };
 		A8BACB8423B8442D003188A0 /* BuildingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BACB8323B8442D003188A0 /* BuildingDetailsView.swift */; };
@@ -81,6 +85,10 @@
 		A890529123EBC7F3002C46C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A8AA85EF247C70DC0041D878 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		A8AA85F1247C72FC0041D878 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A8B4489D24AF530F00F6851C /* ProfessionFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfessionFilters.swift; path = PixelPeople/Views/Animals/ProfessionFilters.swift; sourceTree = SOURCE_ROOT; };
+		A8B448A024AF543900F6851C /* ProfessionGenomeFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfessionGenomeFilter.swift; path = PixelPeople/Assets.xcassets/ProfessionGenomeFilter.swift; sourceTree = SOURCE_ROOT; };
+		A8B448A224AF5F1900F6851C /* ProfessionCloneFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessionCloneFilter.swift; sourceTree = "<group>"; };
+		A8B448A424AF755800F6851C /* BuildingCloneFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingCloneFilter.swift; path = PixelPeople/Views/Filters/Professions/BuildingCloneFilter.swift; sourceTree = SOURCE_ROOT; };
 		A8BACB7D23B6F5D2003188A0 /* AnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalView.swift; sourceTree = "<group>"; };
 		A8BACB8123B83962003188A0 /* AnimalDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsView.swift; sourceTree = "<group>"; };
 		A8BACB8323B8442D003188A0 /* BuildingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingDetailsView.swift; sourceTree = "<group>"; };
@@ -139,7 +147,7 @@
 			children = (
 				A8F0078C2390ACBB000587DB /* ProfessionView.swift */,
 				A8BACB8523B8483F003188A0 /* ProfessionDetailsView.swift */,
-				A8DA1BC223DE553200D137EA /* FilteredGenomeView.swift */,
+				A8B4489D24AF530F00F6851C /* ProfessionFilters.swift */,
 				A82B2D6824AB8C2000728C1C /* JobThumb.swift */,
 			);
 			path = Jobs;
@@ -179,6 +187,7 @@
 				A8739EA4248C87000036951F /* MenuView.swift */,
 				A8DA1BBE23DCE3E900D137EA /* UITabBarWrapper.swift */,
 				A8DA1BC023DCE54100D137EA /* TabBarElement.swift */,
+				A8DA1BC223DE553200D137EA /* FilteredGenomeView.swift */,
 			);
 			path = Extras;
 			sourceTree = "<group>";
@@ -186,6 +195,7 @@
 		A889605024AE10E2001794B4 /* Filters */ = {
 			isa = PBXGroup;
 			children = (
+				A8B4489F24AF540800F6851C /* Professions */,
 				A889605A24AEE61E001794B4 /* Buildings */,
 				A889605924AEE5A2001794B4 /* Animals */,
 			);
@@ -206,9 +216,19 @@
 		A889605A24AEE61E001794B4 /* Buildings */ = {
 			isa = PBXGroup;
 			children = (
+				A8B448A424AF755800F6851C /* BuildingCloneFilter.swift */,
 				A889605D24AEE927001794B4 /* BuildingCategoryFilter.swift */,
 			);
 			path = Buildings;
+			sourceTree = "<group>";
+		};
+		A8B4489F24AF540800F6851C /* Professions */ = {
+			isa = PBXGroup;
+			children = (
+				A8B448A024AF543900F6851C /* ProfessionGenomeFilter.swift */,
+				A8B448A224AF5F1900F6851C /* ProfessionCloneFilter.swift */,
+			);
+			path = Professions;
 			sourceTree = "<group>";
 		};
 		A8E381242392F8C000F5B6AF /* Views */ = {
@@ -374,9 +394,11 @@
 				A82B2D5D24A80F0E00728C1C /* FilteredCategoryView.swift in Sources */,
 				A889605424AE18F8001794B4 /* AnimalCategoryFilter.swift in Sources */,
 				A8739EA7248D07210036951F /* GridView.swift in Sources */,
+				A8B448A124AF543900F6851C /* ProfessionGenomeFilter.swift in Sources */,
 				A8F0078B23909AC2000587DB /* BuildingView.swift in Sources */,
 				A889605824AEAAF1001794B4 /* HeaderText.swift in Sources */,
 				A8F0076D238F25BE000587DB /* AppDelegate.swift in Sources */,
+				A8B4489E24AF530F00F6851C /* ProfessionFilters.swift in Sources */,
 				A8DA1BBF23DCE3E900D137EA /* UITabBarWrapper.swift in Sources */,
 				A8F0076F238F25BE000587DB /* SceneDelegate.swift in Sources */,
 				A8F00771238F25BE000587DB /* ContentView.swift in Sources */,
@@ -392,6 +414,7 @@
 				A8696762241ED896006053AC /* BuildingListView.swift in Sources */,
 				A8F00791239163AD000587DB /* Building.swift in Sources */,
 				A82B2D6124A8BD3500728C1C /* FilterProfessions.swift in Sources */,
+				A8B448A524AF755800F6851C /* BuildingCloneFilter.swift in Sources */,
 				A8739EA5248C87000036951F /* MenuView.swift in Sources */,
 				A82B2D6524AB833000728C1C /* BuildingThumb.swift in Sources */,
 				A889605C24AEE6D4001794B4 /* BuildingFilters.swift in Sources */,
@@ -399,6 +422,7 @@
 				A8F007932391640D000587DB /* Profession.swift in Sources */,
 				A82B2D6924AB8C2000728C1C /* JobThumb.swift in Sources */,
 				A8AA85F0247C70DD0041D878 /* Enums.swift in Sources */,
+				A8B448A324AF5F1900F6851C /* ProfessionCloneFilter.swift in Sources */,
 				A8CA3F7623CFF08F002E9A1C /* FilteredSeasonView.swift in Sources */,
 				A82B2D5F24A8233200728C1C /* AnimalThumb.swift in Sources */,
 			);
@@ -536,7 +560,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"PixelPeople/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KD95CCYA7;
 				ENABLE_PREVIEWS = YES;
@@ -547,6 +572,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Carroll.PixelPeople;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Pixel People";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -556,7 +582,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"PixelPeople/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KD95CCYA7;
 				ENABLE_PREVIEWS = YES;
@@ -567,6 +594,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Carroll.PixelPeople;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Pixel People";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

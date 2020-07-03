@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ProfessionView: View {
     @State private var showDetailView = false
+    @State private var showProfessionFilters = false
     
     let professions = Professions()
     let dg = DragGesture()
@@ -23,8 +24,12 @@ struct ProfessionView: View {
                 }
                 .navigationBarTitle("Pixel People Professions", displayMode: .inline)
                 .navigationBarItems(trailing:
-                    Button(action: {}) {
+                    Button(action: {self.showProfessionFilters = true}) {
                         Text("Filters")
+                    }
+                    .sheet(isPresented: $showProfessionFilters) {
+                        ProfessionFilters(professions: self.professions, isPresented: self.$showProfessionFilters)
+                            .highPriorityGesture(self.dg)
                     }
                 )
                 .sheet(isPresented: $showDetailView) {
