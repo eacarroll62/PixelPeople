@@ -9,37 +9,44 @@
 import SwiftUI
 
 struct BuildingView: View {
-    @State var showFilteredView = false
-    @State private var selectedType: BuildingTypes = .administration
+    @State private var showDetailView = false
+    @State private var showBuildingFilters = false
     
-    var buildings = Buildings()
+    let buildings = Buildings()
+    let dg = DragGesture()
     
     var body: some View {
         NavigationView {
-            Form {
-                  Section(header: Text("Select Building Type")) {
-                      Picker(selection: self.$selectedType, label: Text("Select Type")) {
-                          ForEach(BuildingTypes.allCases, id: \.self) {value in
-                              Text(value.localizedName).tag(value)
-                          }
-                      }.pickerStyle(WheelPickerStyle())
-                        .labelsHidden()
-                        .frame(width: 150, height: 150)
-                  }
-              }
-              .navigationBarTitle("Building Types")
-              .navigationBarItems(trailing:
-                  Button(action: {
-                      self.showFilteredView.toggle()
-                  }) {
-                      Image(systemName: "bell.circle.fill")
-                          .font(Font.system(.title))
-                  }
-                    .padding()
-                    .sheet(isPresented: $showFilteredView) {
-                        FilteredBuildingView(buildings: self.buildings, isPresented: self.$showFilteredView, category: self.selectedType).environmentObject(self.buildings)
-                })
+            ScrollView {
+                VStack {
+                    GridView(rows: buildings.buildings.count/4, columns: 4, content: card)
+                    Spacer()
+                }
+                .navigationBarTitle("Pixel People Professions Buildings", displayMode: .inline)
+                .navigationBarItems(trailing:
+                    Button(action: {self.showBuildingFilters = true}) {
+                        Text("Filters")
+                    }
+                    .sheet(isPresented: $showBuildingFilters) {
+                        BuildingFilters(buildings: self.buildings, isPresented: self.$showBuildingFilters)
+                            .highPriorityGesture(self.dg)
+                    }
+                )
+                .sheet(isPresented: $showDetailView) {
+                    BuildingDetailsView(isPresented: self.$showDetailView, building: self.buildings.buildings[self.buildings.buildings.firstIndex(where: {$0.name == index}) ?? 0])
+                    .highPriorityGesture(self.dg)
+                }
+            }
         }
+    }
+    
+    func card(atRow row: Int, column: Int) -> some View {
+        let index = (row * 4) + column
+        let building = buildings.buildings[index]
+        
+        return BuildingThumb(showDetail: $showDetailView, building: building)
+            .accessibility(addTraits: .isButton)
+            .accessibility(label: Text("Open \(building.name) Detail"))
     }
 }
 

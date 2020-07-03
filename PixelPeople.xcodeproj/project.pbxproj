@@ -7,10 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A82B2D5B24A7AF1F00728C1C /* ExitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B2D5A24A7AF1F00728C1C /* ExitButton.swift */; };
+		A82B2D5D24A80F0E00728C1C /* FilteredCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B2D5C24A80F0E00728C1C /* FilteredCategoryView.swift */; };
+		A82B2D5F24A8233200728C1C /* AnimalThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B2D5E24A8233200728C1C /* AnimalThumb.swift */; };
+		A82B2D6124A8BD3500728C1C /* FilterProfessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B2D6024A8BD3500728C1C /* FilterProfessions.swift */; };
+		A82B2D6324AAEA7100728C1C /* FilterBuildings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B2D6224AAEA7100728C1C /* FilterBuildings.swift */; };
+		A82B2D6524AB833000728C1C /* BuildingThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B2D6424AB833000728C1C /* BuildingThumb.swift */; };
+		A82B2D6724AB892800728C1C /* AnimalSeasonFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B2D6624AB892800728C1C /* AnimalSeasonFilter.swift */; };
+		A82B2D6924AB8C2000728C1C /* JobThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B2D6824AB8C2000728C1C /* JobThumb.swift */; };
+		A82B2D6B24AC098800728C1C /* AnimalFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B2D6A24AC098800728C1C /* AnimalFilters.swift */; };
 		A8696760241E89B6006053AC /* BuildingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A869675F241E89B6006053AC /* BuildingInfoView.swift */; };
 		A8696762241ED896006053AC /* BuildingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8696761241ED896006053AC /* BuildingListView.swift */; };
 		A8739EA5248C87000036951F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8739EA4248C87000036951F /* MenuView.swift */; };
 		A8739EA7248D07210036951F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8739EA6248D07210036951F /* GridView.swift */; };
+		A889605224AE147E001794B4 /* AnimalTierFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A889605124AE147E001794B4 /* AnimalTierFilter.swift */; };
+		A889605424AE18F8001794B4 /* AnimalCategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A889605324AE18F8001794B4 /* AnimalCategoryFilter.swift */; };
+		A889605624AE1A9B001794B4 /* AnimalParentFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A889605524AE1A9B001794B4 /* AnimalParentFilter.swift */; };
+		A889605824AEAAF1001794B4 /* HeaderText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A889605724AEAAF0001794B4 /* HeaderText.swift */; };
+		A889605C24AEE6D4001794B4 /* BuildingFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A889605B24AEE6D4001794B4 /* BuildingFilters.swift */; };
+		A889605E24AEE927001794B4 /* BuildingCategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A889605D24AEE927001794B4 /* BuildingCategoryFilter.swift */; };
 		A890529223EBC7F3002C46C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890529123EBC7F3002C46C5 /* HomeView.swift */; };
 		A8AA85F0247C70DD0041D878 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA85EF247C70DC0041D878 /* Enums.swift */; };
 		A8AA85F2247C72FC0041D878 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA85F1247C72FC0041D878 /* Colors.swift */; };
@@ -18,7 +33,7 @@
 		A8BACB8223B83962003188A0 /* AnimalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BACB8123B83962003188A0 /* AnimalDetailsView.swift */; };
 		A8BACB8423B8442D003188A0 /* BuildingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BACB8323B8442D003188A0 /* BuildingDetailsView.swift */; };
 		A8BACB8623B8483F003188A0 /* ProfessionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BACB8523B8483F003188A0 /* ProfessionDetailsView.swift */; };
-		A8CA3F7623CFF08F002E9A1C /* FilteredAnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA3F7523CFF08F002E9A1C /* FilteredAnimalView.swift */; };
+		A8CA3F7623CFF08F002E9A1C /* FilteredSeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA3F7523CFF08F002E9A1C /* FilteredSeasonView.swift */; };
 		A8DA1BBD23DCDAA400D137EA /* FilteredBuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DA1BBC23DCDAA400D137EA /* FilteredBuildingView.swift */; };
 		A8DA1BBF23DCE3E900D137EA /* UITabBarWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DA1BBE23DCE3E900D137EA /* UITabBarWrapper.swift */; };
 		A8DA1BC123DCE54100D137EA /* TabBarElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DA1BC023DCE54100D137EA /* TabBarElement.swift */; };
@@ -44,10 +59,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A82B2D5A24A7AF1F00728C1C /* ExitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitButton.swift; sourceTree = "<group>"; };
+		A82B2D5C24A80F0E00728C1C /* FilteredCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FilteredCategoryView.swift; path = PixelPeople/Extras/FilteredCategoryView.swift; sourceTree = SOURCE_ROOT; };
+		A82B2D5E24A8233200728C1C /* AnimalThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalThumb.swift; sourceTree = "<group>"; };
+		A82B2D6024A8BD3500728C1C /* FilterProfessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterProfessions.swift; sourceTree = "<group>"; };
+		A82B2D6224AAEA7100728C1C /* FilterBuildings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBuildings.swift; sourceTree = "<group>"; };
+		A82B2D6424AB833000728C1C /* BuildingThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingThumb.swift; sourceTree = "<group>"; };
+		A82B2D6624AB892800728C1C /* AnimalSeasonFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimalSeasonFilter.swift; path = ../AnimalSeasonFilter.swift; sourceTree = "<group>"; };
+		A82B2D6824AB8C2000728C1C /* JobThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobThumb.swift; sourceTree = "<group>"; };
+		A82B2D6A24AC098800728C1C /* AnimalFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFilters.swift; sourceTree = "<group>"; };
 		A869675F241E89B6006053AC /* BuildingInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingInfoView.swift; sourceTree = "<group>"; };
 		A8696761241ED896006053AC /* BuildingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingListView.swift; sourceTree = "<group>"; };
 		A8739EA4248C87000036951F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		A8739EA6248D07210036951F /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		A889605124AE147E001794B4 /* AnimalTierFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalTierFilter.swift; sourceTree = "<group>"; };
+		A889605324AE18F8001794B4 /* AnimalCategoryFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalCategoryFilter.swift; sourceTree = "<group>"; };
+		A889605524AE1A9B001794B4 /* AnimalParentFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalParentFilter.swift; sourceTree = "<group>"; };
+		A889605724AEAAF0001794B4 /* HeaderText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderText.swift; sourceTree = "<group>"; };
+		A889605B24AEE6D4001794B4 /* BuildingFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingFilters.swift; path = PixelPeople/Views/Animals/BuildingFilters.swift; sourceTree = SOURCE_ROOT; };
+		A889605D24AEE927001794B4 /* BuildingCategoryFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingCategoryFilter.swift; path = PixelPeople/Views/Filters/Animals/BuildingCategoryFilter.swift; sourceTree = SOURCE_ROOT; };
 		A890529123EBC7F3002C46C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A8AA85EF247C70DC0041D878 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		A8AA85F1247C72FC0041D878 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -55,7 +85,7 @@
 		A8BACB8123B83962003188A0 /* AnimalDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsView.swift; sourceTree = "<group>"; };
 		A8BACB8323B8442D003188A0 /* BuildingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingDetailsView.swift; sourceTree = "<group>"; };
 		A8BACB8523B8483F003188A0 /* ProfessionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionDetailsView.swift; sourceTree = "<group>"; };
-		A8CA3F7523CFF08F002E9A1C /* FilteredAnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredAnimalView.swift; sourceTree = "<group>"; };
+		A8CA3F7523CFF08F002E9A1C /* FilteredSeasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredSeasonView.swift; sourceTree = "<group>"; };
 		A8DA1BBC23DCDAA400D137EA /* FilteredBuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredBuildingView.swift; sourceTree = "<group>"; };
 		A8DA1BBE23DCE3E900D137EA /* UITabBarWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarWrapper.swift; sourceTree = "<group>"; };
 		A8DA1BC023DCE54100D137EA /* TabBarElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarElement.swift; sourceTree = "<group>"; };
@@ -98,9 +128,8 @@
 			children = (
 				A8F0078A23909AC2000587DB /* BuildingView.swift */,
 				A8BACB8323B8442D003188A0 /* BuildingDetailsView.swift */,
-				A8DA1BBC23DCDAA400D137EA /* FilteredBuildingView.swift */,
-				A869675F241E89B6006053AC /* BuildingInfoView.swift */,
-				A8696761241ED896006053AC /* BuildingListView.swift */,
+				A889605B24AEE6D4001794B4 /* BuildingFilters.swift */,
+				A82B2D6424AB833000728C1C /* BuildingThumb.swift */,
 			);
 			path = Buildings;
 			sourceTree = "<group>";
@@ -111,7 +140,7 @@
 				A8F0078C2390ACBB000587DB /* ProfessionView.swift */,
 				A8BACB8523B8483F003188A0 /* ProfessionDetailsView.swift */,
 				A8DA1BC223DE553200D137EA /* FilteredGenomeView.swift */,
-				A8E381222392F8A000F5B6AF /* CloneView.swift */,
+				A82B2D6824AB8C2000728C1C /* JobThumb.swift */,
 			);
 			path = Jobs;
 			sourceTree = "<group>";
@@ -121,7 +150,8 @@
 			children = (
 				A8BACB7D23B6F5D2003188A0 /* AnimalView.swift */,
 				A8BACB8123B83962003188A0 /* AnimalDetailsView.swift */,
-				A8CA3F7523CFF08F002E9A1C /* FilteredAnimalView.swift */,
+				A82B2D6A24AC098800728C1C /* AnimalFilters.swift */,
+				A82B2D5E24A8233200728C1C /* AnimalThumb.swift */,
 			);
 			path = Animals;
 			sourceTree = "<group>";
@@ -136,21 +166,60 @@
 				A8AA85EF247C70DC0041D878 /* Enums.swift */,
 				A8E936EB248299DA0040665C /* RoundedCorner.swift */,
 				A8739EA6248D07210036951F /* GridView.swift */,
+				A82B2D5A24A7AF1F00728C1C /* ExitButton.swift */,
+				A82B2D6024A8BD3500728C1C /* FilterProfessions.swift */,
+				A8CA3F7523CFF08F002E9A1C /* FilteredSeasonView.swift */,
+				A82B2D5C24A80F0E00728C1C /* FilteredCategoryView.swift */,
+				A8E381222392F8A000F5B6AF /* CloneView.swift */,
+				A8DA1BBC23DCDAA400D137EA /* FilteredBuildingView.swift */,
+				A869675F241E89B6006053AC /* BuildingInfoView.swift */,
+				A8696761241ED896006053AC /* BuildingListView.swift */,
+				A82B2D6224AAEA7100728C1C /* FilterBuildings.swift */,
+				A889605724AEAAF0001794B4 /* HeaderText.swift */,
+				A8739EA4248C87000036951F /* MenuView.swift */,
+				A8DA1BBE23DCE3E900D137EA /* UITabBarWrapper.swift */,
+				A8DA1BC023DCE54100D137EA /* TabBarElement.swift */,
 			);
 			path = Extras;
+			sourceTree = "<group>";
+		};
+		A889605024AE10E2001794B4 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				A889605A24AEE61E001794B4 /* Buildings */,
+				A889605924AEE5A2001794B4 /* Animals */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		A889605924AEE5A2001794B4 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				A82B2D6624AB892800728C1C /* AnimalSeasonFilter.swift */,
+				A889605124AE147E001794B4 /* AnimalTierFilter.swift */,
+				A889605324AE18F8001794B4 /* AnimalCategoryFilter.swift */,
+				A889605524AE1A9B001794B4 /* AnimalParentFilter.swift */,
+			);
+			path = Animals;
+			sourceTree = "<group>";
+		};
+		A889605A24AEE61E001794B4 /* Buildings */ = {
+			isa = PBXGroup;
+			children = (
+				A889605D24AEE927001794B4 /* BuildingCategoryFilter.swift */,
+			);
+			path = Buildings;
 			sourceTree = "<group>";
 		};
 		A8E381242392F8C000F5B6AF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A889605024AE10E2001794B4 /* Filters */,
 				A869675E241C3B63006053AC /* Animals */,
 				A869675D241C3B40006053AC /* Jobs */,
 				A869675C241C3B0B006053AC /* Buildings */,
 				A8F00770238F25BE000587DB /* ContentView.swift */,
-				A8739EA4248C87000036951F /* MenuView.swift */,
 				A890529123EBC7F3002C46C5 /* HomeView.swift */,
-				A8DA1BBE23DCE3E900D137EA /* UITabBarWrapper.swift */,
-				A8DA1BC023DCE54100D137EA /* TabBarElement.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,8 +359,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8BACB7E23B6F5D2003188A0 /* AnimalView.swift in Sources */,
+				A889605224AE147E001794B4 /* AnimalTierFilter.swift in Sources */,
 				A8DA1BC323DE553200D137EA /* FilteredGenomeView.swift in Sources */,
 				A8DA1BBD23DCDAA400D137EA /* FilteredBuildingView.swift in Sources */,
+				A82B2D6324AAEA7100728C1C /* FilterBuildings.swift in Sources */,
+				A82B2D6B24AC098800728C1C /* AnimalFilters.swift in Sources */,
 				A8E3812923932FD500F5B6AF /* Animal.swift in Sources */,
 				A8E936EC248299DA0040665C /* RoundedCorner.swift in Sources */,
 				A8F0078D2390ACBB000587DB /* ProfessionView.swift in Sources */,
@@ -299,24 +371,36 @@
 				A8AA85F2247C72FC0041D878 /* Colors.swift in Sources */,
 				A8F00781238F2708000587DB /* Extensions.swift in Sources */,
 				A8BACB8423B8442D003188A0 /* BuildingDetailsView.swift in Sources */,
+				A82B2D5D24A80F0E00728C1C /* FilteredCategoryView.swift in Sources */,
+				A889605424AE18F8001794B4 /* AnimalCategoryFilter.swift in Sources */,
 				A8739EA7248D07210036951F /* GridView.swift in Sources */,
 				A8F0078B23909AC2000587DB /* BuildingView.swift in Sources */,
+				A889605824AEAAF1001794B4 /* HeaderText.swift in Sources */,
 				A8F0076D238F25BE000587DB /* AppDelegate.swift in Sources */,
 				A8DA1BBF23DCE3E900D137EA /* UITabBarWrapper.swift in Sources */,
 				A8F0076F238F25BE000587DB /* SceneDelegate.swift in Sources */,
 				A8F00771238F25BE000587DB /* ContentView.swift in Sources */,
+				A889605624AE1A9B001794B4 /* AnimalParentFilter.swift in Sources */,
 				A8BACB8223B83962003188A0 /* AnimalDetailsView.swift in Sources */,
+				A82B2D5B24A7AF1F00728C1C /* ExitButton.swift in Sources */,
 				A8E3812623932F8B00F5B6AF /* Clone.swift in Sources */,
 				A890529223EBC7F3002C46C5 /* HomeView.swift in Sources */,
 				A8696760241E89B6006053AC /* BuildingInfoView.swift in Sources */,
 				A8DA1BC123DCE54100D137EA /* TabBarElement.swift in Sources */,
+				A889605E24AEE927001794B4 /* BuildingCategoryFilter.swift in Sources */,
+				A82B2D6724AB892800728C1C /* AnimalSeasonFilter.swift in Sources */,
 				A8696762241ED896006053AC /* BuildingListView.swift in Sources */,
 				A8F00791239163AD000587DB /* Building.swift in Sources */,
+				A82B2D6124A8BD3500728C1C /* FilterProfessions.swift in Sources */,
 				A8739EA5248C87000036951F /* MenuView.swift in Sources */,
+				A82B2D6524AB833000728C1C /* BuildingThumb.swift in Sources */,
+				A889605C24AEE6D4001794B4 /* BuildingFilters.swift in Sources */,
 				A8BACB8623B8483F003188A0 /* ProfessionDetailsView.swift in Sources */,
 				A8F007932391640D000587DB /* Profession.swift in Sources */,
+				A82B2D6924AB8C2000728C1C /* JobThumb.swift in Sources */,
 				A8AA85F0247C70DD0041D878 /* Enums.swift in Sources */,
-				A8CA3F7623CFF08F002E9A1C /* FilteredAnimalView.swift in Sources */,
+				A8CA3F7623CFF08F002E9A1C /* FilteredSeasonView.swift in Sources */,
+				A82B2D5F24A8233200728C1C /* AnimalThumb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,14 +8,12 @@
 
 import SwiftUI
 
-var idx: String = ""
-
 struct FilteredBuildingView: View {
     @ObservedObject var buildings: Buildings
     @Binding var isPresented: Bool
     @State private var showDetailView = false
     
-    let category: BuildingTypes
+    let category: Filter
     let dg = DragGesture()
     
     var filteredBuildings: [Building] {
@@ -49,7 +47,7 @@ struct FilteredBuildingView: View {
                 }
                 .padding()
                 .sheet(isPresented: $showDetailView) {
-                    BuildingDetailsView(isPresented: self.$showDetailView, building: self.filteredBuildings[self.filteredBuildings.firstIndex(where: {$0.name == idx}) ?? 0])
+                    BuildingDetailsView(isPresented: self.$showDetailView, building: self.filteredBuildings[self.filteredBuildings.firstIndex(where: {$0.name == index}) ?? 0])
                     .highPriorityGesture(self.dg)
                 }
             }
@@ -75,29 +73,6 @@ struct FilteredBuildingView: View {
         return BuildingThumb(showDetail: $showDetailView, building: building)
             .accessibility(addTraits: .isButton)
             .accessibility(label: Text("Open \(building.name) Detail"))
-    }
-}
-
-struct BuildingThumb: View {
-    @Binding var showDetail: Bool
-    var building: Building
-    
-    var body: some View {
-        Button(action: {
-            self.showDetail.toggle()
-            idx = self.building.name
-        }) {
-            VStack {
-                Image(building.image)
-                    .renderingMode(.original)
-                    .resizable()
-                    .frame(width: 80, height: 80)
-                    .scaledToFit()
-                Text(building.name)
-                    .scaledFont(name: "Georgia", size: 8)
-                    .foregroundColor(Color.white)
-            }
-        }
     }
 }
 

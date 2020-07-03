@@ -2185,34 +2185,43 @@
     "image": "Empty"
   },
   {
+      "id": 125,
+      "name": "Weasel",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mammal", "Wild", "Arboreal", "Fast"],
+      "tier": 3,
+      "parents": ["Snake", "Squirrel"],
+      "image": "Weasel"
+  },
+  {
       "id": 126,
       "name": "Ant",
       "scientific": "Formicidae Formidolosi",
       "season": "Altar",
-      "category": [
-          "Insect",
-          "Small"
-      ],
+      "category": ["Insect", "Small"],
       "tier": 3,
-      "parents": [
-          "Spider",
-          "Stag"
-      ],
+      "parents": ["Spider", "Stag"],
       "image": "Empty"
+  },
+  {
+      "id": 127,
+      "name": "Mole",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Small", "Wild"],
+      "tier": 3,
+      "parents": ["Ant", "Squirrel"],
+      "image": "Mole"
   },
   {
       "id": 128,
       "name": "Rattlesnake",
       "scientific": "Crotalus Atrox",
       "season": "Altar",
-      "category": [
-          "Reptile"
-      ],
+      "category": ["Reptile"],
       "tier": 3,
-      "parents": [
-          "Snake",
-          "Spider"
-      ],
+      "parents": ["Snake", "Spider"],
       "image": "Empty"
   },
   {
@@ -2220,18 +2229,9 @@
       "name": "Spider Monkey",
       "scientific": "Ateles Parkerus",
       "season": "Altar",
-      "category": [
-          "Mammal",
-          "Primate",
-          "Wild",
-          "Omnivore",
-          "Arboreal"
-      ],
+      "category": ["Mammal", "Primate", "Wild", "Omnivore", "Arboreal"],
       "tier": 3,
-      "parents": [
-          "Spider",
-          "Chimpanzee"
-      ],
+      "parents": ["Spider", "Chimpanzee"],
       "image": "Empty"
   },
   {
@@ -2239,15 +2239,9 @@
       "name": "Ostrich",
       "scientific": "Struthio Camelus",
       "season": "Altar",
-      "category": [
-          "Bird",
-          "Wild"
-      ],
+      "category": ["Bird", "Wild"],
       "tier": 3,
-      "parents": [
-          "Turkey",
-          "Cheetah"
-      ],
+      "parents": ["Turkey", "Cheetah"],
       "image": "Empty"
   },
   {
@@ -2255,51 +2249,89 @@
       "name": "Tasmanian Devil",
       "scientific": "Sarcophilus Harrisii",
       "season": "Altar",
-      "category": [
-          "Mammal",
-          "Carnivore",
-          "Wild",
-          "Small"
-      ],
+      "category": ["Mammal", "Carnivore", "Wild", "Small"],
       "tier": 3,
-      "parents": [
-          "Hyena",
-          "Koala"
-      ],
+      "parents": ["Hyena", "Koala"],
       "image": "Empty"
+  },
+  {
+      "id": 132,
+      "name": "Lar Gibbon",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mammal", "Primate", "Wild", "Omnivore", "Arboreal"],
+      "tier": 3,
+      "parents": ["Gorilla", "Red Panda"],
+      "image": "Lar_Gibbon"
+  },
+  {
+      "id": 133,
+      "name": "Three Toed Sloth",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mammal", "Herbivore"],
+      "tier": 3,
+      "parents": ["Snail", "Koala"],
+      "image": "Three_Toed_Sloth"
+  },
+  {
+      "id": 134,
+      "name": "Pigeon",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Bird", "Small"],
+      "tier": 3,
+      "parents": ["Mouse", "Parrot"],
+      "image": "Pigeon"
+  },
+  {
+      "id": 135,
+      "name": "Black Rhinoceros",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Extinct", "Mammal", "Wild", "Herbivore", "Strong"],
+      "tier": 3,
+      "parents": ["Rhinoceros", "Black Mare"],
+      "image": "Black_Rhinoceros"
+  },
+  {
+      "id": 136,
+      "name": "Flying Fox",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mammal", "Wild", "Small"],
+      "tier": 3,
+      "parents": ["Squirrel", "Bat"],
+      "image": "Flying_Fox"
   },
   {
       "id": 137,
       "name": "Sperm Whale",
       "scientific": "Physeter Macrocephalus",
       "season": "Altar",
-      "category": [
-          "Mammal",
-          "Aquatic",
-          "Wild"
-      ],
+      "category": ["Mammal", "Aquatic", "Wild"],
       "tier": 3,
-      "parents": [
-          "Orca",
-          "Bull"
-      ],
-      "image": "Empty"
+      "parents": ["Orca", "Bull"],
+      "image": "Sperm_Whale"
+  },
+  {
+      "id": 138,
+      "name": "Humpback Whale",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mammal", "Aquatic", "Wild"],
+      "tier": 3,
+      "parents": ["Dolphin", "Blue Whale"],
+      "image": "Humpback_Whale"
   },
   {
       "id": 139,
       "name": "Puffin",
       "scientific": "Fratercula Arctica",
       "season": "Altar",
-      "category": [
-          "Bird",
-          "Small",
-          "Wild"
-      ],
+      "category": ["Bird", "Small", "Wild"],
       "tier": 3,
-      "parents": [
-          "Penguin",
-          "Toucan"
-      ],
+      "parents": ["Penguin", "Toucan"],
       "image": "Empty"
   },
   {
@@ -2307,63 +2339,219 @@
       "name": "Wild Boar",
       "scientific": "Sus Scrofa",
       "season": "Altar",
-      "category": [
-          "Mammal",
-          "Wild",
-          "Omnivore"
-      ],
+      "category": ["Mammal", "Wild", "Omnivore"],
       "tier": 3,
-      "parents": [
-          "Pig",
-          "Bull"
-      ],
+      "parents": ["Pig", "Bull"],
       "image": "Empty"
+  },
+  {
+      "id": 141,
+      "name": "Tarantula",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Wild", "Small"],
+      "tier": 3,
+      "parents": ["Spider", "Gorilla"],
+      "image": "Tarantula"
+  },
+  {
+      "id": 142,
+      "name": "Mongoose",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mammal", "Aquatic", "Wild"],
+      "tier": 3,
+      "parents": ["Squirrel", "Tiger"],
+      "image": "Mongoose"
+  },
+  {
+      "id": 143,
+      "name": "Opossum",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mammal", "Wild", "Small", "Omnivore"],
+      "tier": 3,
+      "parents": ["Koala", "Squirrel"],
+      "image": "Opossum"
+  },
+  {
+      "id": 144,
+      "name": "Pygmy Hippo",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mammal", "Wild", "Herbivore"],
+      "tier": 3,
+      "parents": ["Hippo", "Pig"],
+      "image": "Pygmy_Hippo"
+  },
+  {
+      "id": 145,
+      "name": "Python",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Reptile"],
+      "tier": 3,
+      "parents": ["Snake", "Elephant"],
+      "image": "Python"
+  },
+  {
+      "id": 146,
+      "name": "Scape Goat",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mythical"],
+      "tier": 3,
+      "parents": ["Raccoon", "Wolf"],
+      "image": "Scape_Goat"
+  },
+  {
+      "id": 147,
+      "name": "Sacred Cow",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Secret", "Farm"],
+      "tier": 3,
+      "parents": ["Donkey", "Elephant"],
+      "image": "Sacred_Cow"
+  },
+  {
+      "id": 148,
+      "name": "Cold Turkey",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Secret", "Bird"],
+      "tier": 3,
+      "parents": ["Turkey", "Arctic Fox"],
+      "image": "Cold_Turkey"
+  },
+  {
+      "id": 149,
+      "name": "Sausage Dog",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Secret", "Tasty"],
+      "tier": 3,
+      "parents": ["Corgi", "Giraffe"],
+      "image": "Sausage_Dog"
+  },
+  {
+      "id": 150,
+      "name": "Chamrosh",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mythical"],
+      "tier": 3,
+      "parents": ["Belgian Sheperd", "Eagle"],
+      "image": "Chamrosh"
+  },
+  {
+      "id": 151,
+      "name": "Bicorn",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mythical"],
+      "tier": 3,
+      "parents": ["Cow", "Panther"],
+      "image": "Bicorn"
+  },
+  {
+      "id": 152,
+      "name": "Sha",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Mythical"],
+      "tier": 3,
+      "parents": ["Wolf", "Crocodile"],
+      "image": "Sha"
+  },
+  {
+      "id": 153,
+      "name": "Capricornus",
+      "scientific": " ",
+      "season": "Altar",
+      "category": ["Mythical"],
+      "tier": 3,
+      "parents": ["Goat", "French Angelfish"],
+      "image": "Capricornus"
+  },
+  {
+      "id": 154,
+      "name": "Ratatoskr",
+      "scientific": " ",
+      "season": "Altar",
+      "category": ["Mythical"],
+      "tier": 3,
+      "parents": ["Narwhal", "Squirrel"],
+      "image": "Ratatoskr"
+  },
+  {
+      "id": 155,
+      "name": "Afanc",
+      "scientific": " ",
+      "season": "Altar",
+      "category": ["Mythical"],
+      "tier": 3,
+      "parents": ["Crocodile", "Eurasian Beaver"],
+      "image": "Afanc"
+  },
+  {
+      "id": 156,
+      "name": "Dolphin",
+      "scientific": " ",
+      "season": "Altar",
+      "category": ["Mammal", "Aquatic", "Wild", "Carnivore"],
+      "tier": 3,
+      "parents": ["Orca", "Sea Lion"],
+      "image": "Dolphin"
+  },
+  {
+      "id": 157,
+      "name": "Electric Eel",
+      "scientific": " ",
+      "season": "Altar",
+      "category": ["Aquatic", "Carnivore"],
+      "tier": 4,
+      "parents": ["Snake", "Stingray"],
+      "image": "Electric_Eel"
   },
   {
       "id": 158,
       "name": "Stingray",
       "scientific": "Myliobatoidei Ouchus",
       "season": "Altar",
-      "category": [
-          "Aquatic",
-          "Carnivore"
-      ],
+      "category": ["Aquatic", "Carnivore"],
       "tier": 4,
-      "parents": [
-          "Scorpion",
-          "Trout"
-      ],
-      "image": "Empty"
+      "parents": ["Scorpion", "Trout"],
+      "image": "Stingray"
   },
   {
       "id": 159,
       "name": "Scorpion",
       "scientific": "Scopiones Quearocauda",
       "season": "Altar",
-      "category": [
-          "Small",
-          "Wild",
-          "Carnivore"
-      ],
+      "category": ["Small", "Wild", "Carnivore"],
       "tier": 4,
-      "parents": [
-          "Pangolin",
-          "Spider"
-      ],
-      "image": "Empty"
+      "parents": ["Pangolin","Spider"],
+      "image": "Scorpion"
+  },
+  {
+      "id": 160,
+      "name": "Toad",
+      "scientific": "",
+      "season": "Altar",
+      "category": ["Reptile", "Small"],
+      "tier": 4,
+      "parents": ["Chameleon", "Snakehead Fish"],
+      "image": "Toad"
   },
   {
       "id": 999,
       "name": "Empty",
       "scientific": " ",
       "season": " ",
-      "category": [
-          " "
-      ],
+      "category": [" "],
       "tier": 0,
-      "parents": [
-          " "
-      ],
+      "parents": [" "],
       "image": "Empty"
   }
 ]

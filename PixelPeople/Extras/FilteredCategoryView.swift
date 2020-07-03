@@ -1,25 +1,25 @@
 //
-//  SeasonView.swift
+//  FilteredMammalView.swift
 //  PixelPeople
 //
-//  Created by Eric Carroll on 1/15/20.
+//  Created by Eric Carroll on 6/27/20.
 //  Copyright © 2020 Eric Carroll. All rights reserved.
 //
 
 import SwiftUI
 
-var pos: String = ""
-
-struct FilteredAnimalView: View {
+struct FilteredCategoryView: View {
     @ObservedObject var animals: Animals
     @Binding var isPresented: Bool
     @State private var showDetailView = false
     
-    let season: Seasons
+    let category: Filter
     let dg = DragGesture()
     
     var filteredAnimals: [Animal] {
-        var filterAnimals = animals.animals.filter { $0.season == season.rawValue}
+//        var filterAnimals = animals.animals.filter { $0.category. == category.rawValue}
+        var filterAnimals = animals.animals.filter { $0.category.contains(category.rawValue) }
+        
         let mod = animals.animals.count % 4
         
         switch mod {
@@ -49,10 +49,10 @@ struct FilteredAnimalView: View {
                 }
                 .padding()
                 .sheet(isPresented: $showDetailView) {
-                    AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[self.filteredAnimals.firstIndex(where: {$0.name == pos}) ?? 0])
+                    AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[self.filteredAnimals.firstIndex(where: {$0.name == index}) ?? 0])
                     .highPriorityGesture(self.dg)
                 }
-                .navigationBarTitle("\(season.rawValue)", displayMode: .inline)
+                .navigationBarTitle("\(category.rawValue)", displayMode: .inline)
                 .navigationBarItems(trailing:
                     Button(action: {
                         self.isPresented = false
@@ -78,37 +78,10 @@ struct FilteredAnimalView: View {
     }
 }
 
-struct AnimalThumb: View {
-    @Binding var showDetail: Bool
-    
-    var animal: Animal
-    
-    var body: some View {
-        Button(action: {
-            self.showDetail.toggle()
-            pos = self.animal.name
-        }) {
-            VStack {
-                Image(animal.image)
-                    .renderingMode(.original)
-                    .resizable()
-                    .frame(width: 80, height: 80)
-                    .scaledToFit()
-                    .background(Color.black)
-                Text(animal.name)
-                    .scaledFont(name: "Georgia", size: 8)
-                    .foregroundColor(Color.white)
-            }
-        }
-    }
-}
-
-
-struct FilteredAnimalView_Previews: PreviewProvider {
+struct FilteredCategoryView_Previews: PreviewProvider {
     @Binding var showView: Bool
     
     static var previews: some View {
-        FilteredAnimalView(animals: Animals(), isPresented: .constant(true), season: .frost)
+        FilteredCategoryView(animals: Animals(), isPresented: .constant(true), category: .small)
     }
 }
-

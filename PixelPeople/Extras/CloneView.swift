@@ -158,6 +158,7 @@ struct ColorfulToggleStyle: ToggleStyle {
 struct CloneView: View {
 //    let clone: Clone
     @State private var isToggled = false
+    @State private var selectedSeason = Filter.one
     var body: some View {
         /*
         NavigationView {
@@ -200,9 +201,21 @@ struct CloneView: View {
             .rotationEffect(.degrees(180))
             .frame(width: 200, height: 200)
         
+        /*
+        NavigationView {
+            Form {
+                Picker("Select Season", selection: self.$selectedSeason) {
+                    ForEach(73..<Filter.allCases.count, id: \.self) { value in
+                        Text(SeasonFilter(hashValue: value)!.rawValue).tag(value)
+                    }
+                }
+                Text("\(self.selectedSeason.rawValue) was picked")
+            }
+        }
+ */
     }
 }
-
+// unsafeBitCast(UInt8(index), to: Self.self)
 struct CloneView_Previews: PreviewProvider {
 //    static let professions: [Profession] = Bundle.main.decode([Profession].self, from: "professions.json")
     static var previews: some View {

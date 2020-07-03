@@ -1,26 +1,25 @@
 //
-//  AnimalView.swift
+//  DetailView.swift
 //  PixelPeople
 //
-//  Created by Eric Carroll on 12/27/19.
-//  Copyright © 2019 Eric Carroll. All rights reserved.
+//  Created by Eric Carroll on 6/28/20.
+//  Copyright © 2020 Eric Carroll. All rights reserved.
 //
 
 import SwiftUI
 
-struct AnimalView: View {
+struct AnimalTierFilter: View {
+    @ObservedObject var animals: Animals
+    @Binding var isPresented: Bool
     @State private var showDetailView = false
-    @State private var showAnimalFilters = false
-    @State private var showTierFilter = false
-    @State private var seasonFilter: SeasonFilter = .altar
     
-    let animals = Animals()
     let dg = DragGesture()
+    let filter: TierFilter
     
     var filteredAnimals: [Animal] {
         var filterAnimals: [Animal]
-
-        filterAnimals = animals.animals.filter { $0.name != "Empty"}
+        
+        filterAnimals = animals.animals.filter { String($0.tier) == filter.rawValue }
         
         let mod = animals.animals.count % 4
       
@@ -36,7 +35,9 @@ struct AnimalView: View {
         case 3:
             filterAnimals.append(animals.animals[animals.animals.endIndex - 1])
         default:
-            break
+            for _ in 1...4 {
+                filterAnimals.append(animals.animals[animals.animals.endIndex - 1])
+            }
         }
       
         return filterAnimals
@@ -49,27 +50,20 @@ struct AnimalView: View {
                     GridView(rows: filteredAnimals.count/4, columns: 4, content: card)
                     Spacer()
                 }
-                .navigationBarTitle("Pixel People Animals", displayMode: .inline)
-                .navigationBarItems(trailing:
-                    Button(action: {self.showAnimalFilters = true}) {
-                        Text("Filters")
-                    }
-                    .sheet(isPresented: $showAnimalFilters) {
-                        AnimalFilters(animals: self.animals, isPresented: self.$showAnimalFilters)
-                            .highPriorityGesture(self.dg)
-                    }
-                )
+                .padding()
                 .sheet(isPresented: $showDetailView) {
                     AnimalDetailsView(isPresented: self.$showDetailView, animal: self.filteredAnimals[self.filteredAnimals.firstIndex(where: {$0.name == index}) ?? 0])
                     .highPriorityGesture(self.dg)
                 }
+                .navigationBarTitle("\(filter.rawValue)", displayMode: .inline)
+                .navigationBarItems(trailing: ExitButton(isPresented: self.$isPresented))
             }
         }
     }
     
     func card(atRow row: Int, column: Int) -> some View {
         let index = (row * 4) + column
-        let animal = animals.animals[index]
+        let animal = filteredAnimals[index]
         
         return AnimalThumb(showDetail: $showDetailView, animal: animal)
             .accessibility(addTraits: .isButton)
@@ -77,8 +71,8 @@ struct AnimalView: View {
     }
 }
 
-struct AnimalView_Previews: PreviewProvider {
+struct AnimalTierFilter_Previews: PreviewProvider {
     static var previews: some View {
-        AnimalView()
+        AnimalTierFilter(animals: Animals(), isPresented: .constant(true), filter: .three)
     }
 }

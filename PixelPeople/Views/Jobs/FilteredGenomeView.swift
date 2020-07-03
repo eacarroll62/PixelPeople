@@ -15,7 +15,7 @@ struct FilteredGenomeView: View {
     @Binding var isPresented: Bool
     @State private var showDetailView = false
     
-    let genome: Genomes
+    let genome: Filter
     let dg = DragGesture()
     
     var filteredProfessions: [Profession] {
@@ -75,29 +75,6 @@ struct FilteredGenomeView: View {
         return JobThumb(showDetail: $showDetailView, profession: profession)
             .accessibility(addTraits: .isButton)
             .accessibility(label: Text("Open \(profession.name) Detail"))
-    }
-}
-
-struct JobThumb: View {
-    @Binding var showDetail: Bool
-    var profession: Profession
-    
-    var body: some View {
-        Button(action: {
-            self.showDetail.toggle()
-            index = self.profession.name
-        }) {
-            VStack {
-                Image(profession.image)
-                    .renderingMode(.original)
-                    .resizable()
-                    .frame(width: 80, height: 80)
-                    .scaledToFit()
-                Text(profession.name)
-                    .scaledFont(name: "Georgia", size: 8)
-                    .foregroundColor(Color.white)
-            }
-        }
     }
 }
 

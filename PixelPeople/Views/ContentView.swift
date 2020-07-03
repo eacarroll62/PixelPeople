@@ -9,29 +9,39 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var showView = false
-    
     var body: some View {
-        TabView {
+ //       TabView {
+        
+        NavigationView {
             HomeView().tabItem {
                 Image(systemName: "globe")
                 Text("Home")
             }
-            BuildingView().tabItem {
-                Image(systemName: "globe")
-                Text("Buildings")
-            }
-            
-            ProfessionView().tabItem {
-                Image(systemName: "globe")
-                Text("Jobs")
-            }
-            
-            AnimalView().tabItem {
-                Image(systemName: "globe")
-                Text("Animals")
-            }
+            .offset(x: 0, y: -100)
+            .navigationBarItems(trailing:
+                HStack {
+                    NavigationLink("Buildings", destination: BuildingView())
+                    NavigationLink("Animals", destination: AnimalView())
+                    NavigationLink("Professions", destination: ProfessionView())
+                }
+            )
         }
+ 
+//            BuildingView().tabItem {
+//                Image(systemName: "globe")
+//                Text("Buildings")
+//            }
+            
+//            ProfessionView().tabItem {
+//                Image(systemName: "globe")
+//                Text("Jobs")
+//            }
+            
+//            AnimalView().tabItem {
+//                Image(systemName: "globe")
+//                Text("Animals")
+//            }
+ //       }
     }
 }
 

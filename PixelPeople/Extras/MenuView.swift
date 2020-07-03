@@ -9,6 +9,27 @@
 import SwiftUI
 
 struct MenuView: View {
+    var body: some View {
+        NavigationView {
+            Form {
+                Text("Select:")
+            }
+            .frame(width: 150, height: 175)
+            .contextMenu {
+                NavigationLink(destination: BuildingView()) {
+                    Text("Buildings")
+                }
+                NavigationLink(destination: ProfessionView()) {
+                    Text("Professions")
+                }
+                NavigationLink(destination: AnimalView()) {
+                    Text("Animals")
+                }
+            }
+        }
+
+    }
+/*
     let animalFilters = ["Category", "Season", "Name", "Tier"]
     @State private var animalFilter = 0
     @State var expand = false
@@ -52,6 +73,7 @@ struct MenuView: View {
             }
         }
     }
+ */
 }
 
 struct MenuView_Previews: PreviewProvider {

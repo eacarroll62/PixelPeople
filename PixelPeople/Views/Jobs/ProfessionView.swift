@@ -9,39 +9,40 @@
 import SwiftUI
 
 struct ProfessionView: View {
-    @State var showFilteredView = false
-    @State private var selectedGenome: Genomes = .academic
+    @State private var showDetailView = false
     
     let professions = Professions()
+    let dg = DragGesture()
     
     var body: some View {
         NavigationView {
-            Form {
-                  Section(header: Text("Select Genome Type")) {
-                      Picker(selection: self.$selectedGenome, label: Text("Select Genome")) {
-                          ForEach(Genomes.allCases, id: \.self) {value in
-                              Text(value.localizedName).tag(value)
-                          }
-                      }.pickerStyle(WheelPickerStyle())
-                        .labelsHidden()
-                        .frame(width: 150, height: 150)
-                  }
-              }
-              .navigationBarTitle("Professions")
-              .navigationBarItems(trailing:
-                  Button(action: {
-                      self.showFilteredView.toggle()
-                  }) {
-                      Image(systemName: "bell.circle.fill")
-                          .font(Font.system(.title))
-                  }
-                    .padding()
-                    .sheet(isPresented: $showFilteredView) {
-                        FilteredGenomeView(professions: self.professions, isPresented: self.$showFilteredView, genome: self.selectedGenome).environmentObject(self.professions)
-                })
+            ScrollView {
+                VStack {
+                    GridView(rows: professions.professions.count/4, columns: 4, content: card)
+                    Spacer()
+                }
+                .navigationBarTitle("Pixel People Professions", displayMode: .inline)
+                .navigationBarItems(trailing:
+                    Button(action: {}) {
+                        Text("Filters")
+                    }
+                )
+                .sheet(isPresented: $showDetailView) {
+                    ProfessionDetailsView(isPresented: self.$showDetailView, profession: self.professions.professions[self.professions.professions.firstIndex(where: {$0.name == index}) ?? 0])
+                    .highPriorityGesture(self.dg)
+                }
+            }
         }
     }
-
+        
+    func card(atRow row: Int, column: Int) -> some View {
+        let index = (row * 4) + column
+        let profession = professions.professions[index]
+        
+        return JobThumb(showDetail: $showDetailView, profession: profession)
+            .accessibility(addTraits: .isButton)
+            .accessibility(label: Text("Open \(profession.name) Detail"))
+    }
 }
 
 struct ProfessionView_Previews: PreviewProvider {
