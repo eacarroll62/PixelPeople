@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ProfessionFilters: View {
+    @Environment(\.presentationMode) var presentation
     @ObservedObject var professions: Professions
     @Binding var isPresented: Bool
 
@@ -48,7 +49,18 @@ struct ProfessionFilters: View {
                     }.sheet(isPresented: $showCloneFilter) {
                         ProfessionCloneFilter(professions: self.professions, isPresented: self.$isPresented, filter: self.selectedClone)}
                 }
-            }
+                }
+                .navigationBarTitle("Profession Filters", displayMode: .inline)
+                .navigationBarItems(leading:
+                    Button(action: {
+                        self.presentation.wrappedValue.dismiss()
+                    }) {
+                        HStack {
+                            Image(systemName: "arrow.left")
+                            Text("Back")
+                        }
+                    }
+                )
         }
     }
 }
