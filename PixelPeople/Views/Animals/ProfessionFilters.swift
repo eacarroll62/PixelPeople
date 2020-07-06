@@ -33,7 +33,7 @@ struct ProfessionFilters: View {
                         Text("Filter by Genome")
                             .foregroundColor(Color.blue).offset(x: 200, y: 0)
                     }.sheet(isPresented: $showGenomeFilter) {
-                        ProfessionGenomeFilter(professions: self.professions, isPresented: self.$isPresented, filter: self.selectedGenome)}
+                        ProfessionGenomeFilter(professions: self.professions, isPresented: self.isPresented, filter: self.selectedGenome)}
                 }
                 
                 Section(header: HeaderText(header: "Clones")) {

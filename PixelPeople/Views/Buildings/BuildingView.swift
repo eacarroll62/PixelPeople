@@ -15,11 +15,36 @@ struct BuildingView: View {
     let buildings = Buildings()
     let dg = DragGesture()
     
+    var filteredBuildings: [Building] {
+        var filterBuildings: [Building]
+
+        filterBuildings = buildings.buildings.filter { $0.name != "Empty"}
+        
+        let mod = filterBuildings.count % 4
+      
+        switch mod {
+        case 1:
+            for _ in 1...3 {
+                filterBuildings.append(buildings.buildings[buildings.buildings.endIndex - 1])
+            }
+        case 2:
+            for _ in 1...2 {
+                filterBuildings.append(buildings.buildings[buildings.buildings.endIndex - 1])
+            }
+        case 3:
+            filterBuildings.append(buildings.buildings[buildings.buildings.endIndex - 1])
+        default:
+            break
+        }
+      
+        return filterBuildings
+    }
+    
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack {
-                    GridView(rows: buildings.buildings.count/4, columns: 4, content: card)
+                    GridView(rows: filteredBuildings.count/4, columns: 4, content: card)
                     Spacer()
                 }
                 .navigationBarTitle("Pixel People Professions Buildings", displayMode: .inline)

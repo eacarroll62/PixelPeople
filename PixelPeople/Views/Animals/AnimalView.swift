@@ -22,7 +22,7 @@ struct AnimalView: View {
 
         filterAnimals = animals.animals.filter { $0.name != "Empty"}
         
-        let mod = animals.animals.count % 4
+        let mod = filterAnimals.count % 4
       
         switch mod {
         case 1:

@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ProfessionGenomeFilter: View {
     @ObservedObject var professions: Professions
-    @Binding var isPresented: Bool
+    @State var isPresented = true
     @State private var showDetailView = false
     
     let dg = DragGesture()
@@ -71,6 +71,6 @@ struct ProfessionGenomeFilter: View {
 
 struct ProfessionGenomeFilter_Previews: PreviewProvider {
     static var previews: some View {
-        ProfessionGenomeFilter(professions: Professions(), isPresented: .constant(true), filter: .explorers)
+        ProfessionGenomeFilter(professions: Professions(), isPresented: true, filter: .explorers)
     }
 }

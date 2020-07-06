@@ -15,11 +15,36 @@ struct ProfessionView: View {
     let professions = Professions()
     let dg = DragGesture()
     
+    var filteredProfessions: [Profession] {
+        var filterProfessions: [Profession]
+
+        filterProfessions = professions.professions.filter { $0.name != "Empty"}
+        
+        let mod = filterProfessions.count % 4
+      
+        switch mod {
+        case 1:
+            for _ in 1...3 {
+                filterProfessions.append(professions.professions[professions.professions.endIndex - 1])
+            }
+        case 2:
+            for _ in 1...2 {
+                filterProfessions.append(professions.professions[professions.professions.endIndex - 1])
+            }
+        case 3:
+            filterProfessions.append(professions.professions[professions.professions.endIndex - 1])
+        default:
+            break
+        }
+      
+        return filterProfessions
+    }
+    
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack {
-                    GridView(rows: professions.professions.count/4, columns: 4, content: card)
+                    GridView(rows: filteredProfessions.count/4, columns: 4, content: card)
                     Spacer()
                 }
                 .navigationBarTitle("Pixel People Professions", displayMode: .inline)
@@ -33,7 +58,7 @@ struct ProfessionView: View {
                     }
                 )
                 .sheet(isPresented: $showDetailView) {
-                    ProfessionDetailsView(isPresented: self.$showDetailView, profession: self.professions.professions[self.professions.professions.firstIndex(where: {$0.name == index}) ?? 0])
+                    ProfessionDetailsView(isPresented: self.$showDetailView, profession: self.filteredProfessions[self.filteredProfessions.firstIndex(where: {$0.name == index}) ?? 0])
                     .highPriorityGesture(self.dg)
                 }
             }
@@ -42,7 +67,7 @@ struct ProfessionView: View {
         
     func card(atRow row: Int, column: Int) -> some View {
         let index = (row * 4) + column
-        let profession = professions.professions[index]
+        let profession = filteredProfessions[index]
         
         return JobThumb(showDetail: $showDetailView, profession: profession)
             .accessibility(addTraits: .isButton)
