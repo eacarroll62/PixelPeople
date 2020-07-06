@@ -17,7 +17,7 @@
 		A82B2D6924AB8C2000728C1C /* JobThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B2D6824AB8C2000728C1C /* JobThumb.swift */; };
 		A82B2D6B24AC098800728C1C /* AnimalFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82B2D6A24AC098800728C1C /* AnimalFilters.swift */; };
 		A8696760241E89B6006053AC /* BuildingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A869675F241E89B6006053AC /* BuildingInfoView.swift */; };
-		A8696762241ED896006053AC /* BuildingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8696761241ED896006053AC /* BuildingListView.swift */; };
+		A8696762241ED896006053AC /* BuildingCloneRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8696761241ED896006053AC /* BuildingCloneRow.swift */; };
 		A8739EA5248C87000036951F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8739EA4248C87000036951F /* MenuView.swift */; };
 		A8739EA7248D07210036951F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8739EA6248D07210036951F /* GridView.swift */; };
 		A889605224AE147E001794B4 /* AnimalTierFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A889605124AE147E001794B4 /* AnimalTierFilter.swift */; };
@@ -73,7 +73,7 @@
 		A82B2D6824AB8C2000728C1C /* JobThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobThumb.swift; sourceTree = "<group>"; };
 		A82B2D6A24AC098800728C1C /* AnimalFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFilters.swift; sourceTree = "<group>"; };
 		A869675F241E89B6006053AC /* BuildingInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingInfoView.swift; sourceTree = "<group>"; };
-		A8696761241ED896006053AC /* BuildingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingListView.swift; sourceTree = "<group>"; };
+		A8696761241ED896006053AC /* BuildingCloneRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingCloneRow.swift; sourceTree = "<group>"; };
 		A8739EA4248C87000036951F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		A8739EA6248D07210036951F /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		A889605124AE147E001794B4 /* AnimalTierFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalTierFilter.swift; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 				A8E381222392F8A000F5B6AF /* CloneView.swift */,
 				A8DA1BBC23DCDAA400D137EA /* FilteredBuildingView.swift */,
 				A869675F241E89B6006053AC /* BuildingInfoView.swift */,
-				A8696761241ED896006053AC /* BuildingListView.swift */,
+				A8696761241ED896006053AC /* BuildingCloneRow.swift */,
 				A82B2D6224AAEA7100728C1C /* FilterBuildings.swift */,
 				A889605724AEAAF0001794B4 /* HeaderText.swift */,
 				A8739EA4248C87000036951F /* MenuView.swift */,
@@ -411,7 +411,7 @@
 				A8DA1BC123DCE54100D137EA /* TabBarElement.swift in Sources */,
 				A889605E24AEE927001794B4 /* BuildingCategoryFilter.swift in Sources */,
 				A82B2D6724AB892800728C1C /* AnimalSeasonFilter.swift in Sources */,
-				A8696762241ED896006053AC /* BuildingListView.swift in Sources */,
+				A8696762241ED896006053AC /* BuildingCloneRow.swift in Sources */,
 				A8F00791239163AD000587DB /* Building.swift in Sources */,
 				A82B2D6124A8BD3500728C1C /* FilterProfessions.swift in Sources */,
 				A8B448A524AF755800F6851C /* BuildingCloneFilter.swift in Sources */,
