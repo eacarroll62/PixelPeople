@@ -26,10 +26,10 @@ struct BuildingCloneRow: View {
         ZStack {
             RoundedRectangle(cornerRadius: 10)
                 .fill(colors[building.category]![0])
-                .frame(width: 280, height: 60)
+                .frame(width: 280, height: 75)
             RoundedRectangle(cornerRadius: 10)
                 .fill(colors[building.category]![1])
-                .frame(width: 270, height: 50)
+                .frame(width: 270, height: 60)
             HStack {
                 Image(profession.image)
                     .resizable()

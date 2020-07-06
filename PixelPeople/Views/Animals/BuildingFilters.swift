@@ -48,7 +48,7 @@ struct BuildingFilters: View {
                             .foregroundColor(Color.blue).offset(x: 200, y: 0)
                     }.sheet(isPresented: $showProfessionFilter) {
                         BuildingCloneFilter(buildings: self.buildings, isPresented: self.$isPresented, filter: self.selectedProfession)}
-                }
+                    }
             }
             .navigationBarTitle("Building Filters", displayMode: .inline)
             .navigationBarItems(leading:

@@ -11,6 +11,8 @@ import SwiftUI
 struct BuildingDetailsView: View {
     @Binding var isPresented: Bool
     
+    @State private var showBuildingInfo = false
+    
     var building: Building
     
     let colors: [String : [Color]] = ["Administration": [Color.olive, Color.oliveYellow],
@@ -75,6 +77,12 @@ struct BuildingDetailsView: View {
                         .foregroundColor(Color.red)
                 }
                 .offset(x: 130, y: -230)
+                Button(action: {self.showBuildingInfo.toggle()}) {
+                    Text("More...")
+                        .foregroundColor(.white)
+                        .offset(x: -100, y: 225)
+                }.sheet(isPresented: $showBuildingInfo) {
+                    BuildingInfoView(building: self.building)}
             }
         }.offset(x: 0, y: -50)
     }

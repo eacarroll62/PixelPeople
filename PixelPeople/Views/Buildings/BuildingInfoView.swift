@@ -9,8 +9,6 @@
 import SwiftUI
 
 struct BuildingInfoView: View {
-    @Binding var isPresented: Bool
-    
     var building: Building
     
     let colors: [String : [Color]] = ["Administration": [Color.olive, Color.oliveYellow],
@@ -49,10 +47,10 @@ struct BuildingInfoView: View {
                         .offset(x: 0, y: -243)
                     RoundedRectangle(cornerRadius: 10)
                         .fill(Color.gray)
-                        .frame(width: 280, height: 400)
+                        .frame(width: 280, height: 396)
                     ForEach(0..<building.jobs.count) {
                         BuildingCloneRow(building: self.building, profession: self.building.jobs[$0])
-                            .offset(x: 0, y: -175 + $0 * 25)
+                            .offset(x: 0, y: CGFloat(-175 + $0 * 75))
                     }
                     
                 }
@@ -60,7 +58,7 @@ struct BuildingInfoView: View {
                     .foregroundColor(.white)
                     .offset(x: 0, y: -241)
                 Button(action: {
-                    self.isPresented = false
+    //                self.isPresented = false
                 }) {
                     Image(systemName: "clear.fill")
                     .resizable()
@@ -82,7 +80,7 @@ struct BuildingInfoView: View {
 struct BuildingInfoView_Previews: PreviewProvider {
     static let buildings: [Building] = Bundle.main.decode([Building].self, from: "buildings.json")
     static var previews: some View {
-        BuildingInfoView(isPresented: .constant(true), building: buildings[29])
+        BuildingInfoView(building: buildings[27])
     }
 }
 

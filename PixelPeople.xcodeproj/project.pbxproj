@@ -138,6 +138,8 @@
 				A8BACB8323B8442D003188A0 /* BuildingDetailsView.swift */,
 				A889605B24AEE6D4001794B4 /* BuildingFilters.swift */,
 				A82B2D6424AB833000728C1C /* BuildingThumb.swift */,
+				A869675F241E89B6006053AC /* BuildingInfoView.swift */,
+				A8696761241ED896006053AC /* BuildingCloneRow.swift */,
 			);
 			path = Buildings;
 			sourceTree = "<group>";
@@ -180,8 +182,6 @@
 				A82B2D5C24A80F0E00728C1C /* FilteredCategoryView.swift */,
 				A8E381222392F8A000F5B6AF /* CloneView.swift */,
 				A8DA1BBC23DCDAA400D137EA /* FilteredBuildingView.swift */,
-				A869675F241E89B6006053AC /* BuildingInfoView.swift */,
-				A8696761241ED896006053AC /* BuildingCloneRow.swift */,
 				A82B2D6224AAEA7100728C1C /* FilterBuildings.swift */,
 				A889605724AEAAF0001794B4 /* HeaderText.swift */,
 				A8739EA4248C87000036951F /* MenuView.swift */,
