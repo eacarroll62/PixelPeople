@@ -42,6 +42,15 @@ extension Bundle {
     }
 }
 
+extension View {
+    func debugPrint(_ value: Any) -> some View {
+        #if DEBUG
+        print(value)
+        #endif
+        return self
+    }
+}
+
 extension LinearGradient {
     init(_ colors: Color...) {
         self.init(gradient: Gradient(colors: colors), startPoint: .topLeading, endPoint: .bottomTrailing)
