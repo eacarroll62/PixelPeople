@@ -21,7 +21,7 @@ struct ProfessionGenomeFilter: View {
         
         filterProfessions = professions.professions.filter { $0.genome.contains(filter.rawValue) }
         
-        let mod = professions.professions.count % 4
+        let mod = filterProfessions.count % 4
       
         switch mod {
         case 1:

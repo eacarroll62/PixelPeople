@@ -21,7 +21,7 @@ struct BuildingCloneFilter: View {
         
         filterBuildings = buildings.buildings.filter {job in job.jobs.contains(where: {clone in clone.name == filter.rawValue})}
         
-        let mod = buildings.buildings.count % 4
+        let mod = filterBuildings.count % 4
       
         switch mod {
         case 1:

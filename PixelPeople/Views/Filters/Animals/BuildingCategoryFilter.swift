@@ -21,7 +21,7 @@ struct BuildingCategoryFilter: View {
         
         filterBuildings = buildings.buildings.filter { $0.category.contains(filter.rawValue) }
         
-        let mod = buildings.buildings.count % 4
+        let mod = filterBuildings.count % 4
       
         switch mod {
         case 1:

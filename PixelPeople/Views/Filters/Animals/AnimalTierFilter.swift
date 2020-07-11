@@ -21,7 +21,7 @@ struct AnimalTierFilter: View {
         
         filterAnimals = animals.animals.filter { String($0.tier) == filter.rawValue }
         
-        let mod = animals.animals.count % 4
+        let mod = filterAnimals.count % 4
       
         switch mod {
         case 1:

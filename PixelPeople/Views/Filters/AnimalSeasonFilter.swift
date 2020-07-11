@@ -21,7 +21,7 @@ struct AnimalSeasonFilter: View {
 
         filterAnimals = animals.animals.filter { $0.season.contains(filter.rawValue) }
         
-        let mod = animals.animals.count % 4
+        let mod = filterAnimals.count % 4
       
         switch mod {
         case 1:
