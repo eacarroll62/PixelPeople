@@ -14,7 +14,7 @@ struct FilterBuildings: View {
     @State private var showDetailView = false
     
     let dg = DragGesture()
-    let filter: Filter
+    let filter: BuildingFilter
     let property: Property
     
     var filteredBuildings: [Building] {

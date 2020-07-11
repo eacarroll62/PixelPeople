@@ -14,7 +14,7 @@ struct FilterProfessions: View {
     @State private var showDetailView = false
     
     let dg = DragGesture()
-    let filter: Filter
+    let filter: ProfessionFilter
     let property: Property
     var title: String
     

@@ -76,12 +76,12 @@ struct BuildingDetailsView: View {
                 }.offset(x: 130, y: -230)
                 Button(action: {
                     self.showBuildingInfo = true
-                    print("Tapped")
                 }) {
                     Text("More...")
                         .foregroundColor(.white)
-                        .offset(x: -100, y: 225)
-                }.sheet(isPresented: $showBuildingInfo) {BuildingInfoView(building: self.building)}
+                }
+                .offset(x: -100, y: 225)
+                .sheet(isPresented: $showBuildingInfo) {BuildingInfoView(building: self.building)}
             }
         }.offset(x: 0, y: -50)
     }

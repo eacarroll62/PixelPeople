@@ -13,7 +13,7 @@ struct FilteredBuildingView: View {
     @Binding var isPresented: Bool
     @State private var showDetailView = false
     
-    let category: Filter
+    let category: BuildingFilter
     let dg = DragGesture()
     
     var filteredBuildings: [Building] {

@@ -50,7 +50,7 @@ struct BuildingInfoView: View {
                         .frame(width: 280, height: 396)
                     ForEach(0..<building.jobs.count) {
                         BuildingCloneRow(building: self.building, profession: self.building.jobs[$0])
-                            .offset(x: 0, y: CGFloat(-175 + $0 * 75))
+                            .offset(x: 0, y: CGFloat(-165 + $0 * 66))
                     }
                     
                 }
@@ -80,7 +80,7 @@ struct BuildingInfoView: View {
 struct BuildingInfoView_Previews: PreviewProvider {
     static let buildings: [Building] = Bundle.main.decode([Building].self, from: "buildings.json")
     static var previews: some View {
-        BuildingInfoView(building: buildings[27])
+        BuildingInfoView(building: buildings[29])
     }
 }
 

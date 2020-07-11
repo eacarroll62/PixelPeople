@@ -26,18 +26,22 @@ struct BuildingCloneRow: View {
         ZStack {
             RoundedRectangle(cornerRadius: 10)
                 .fill(colors[building.category]![0])
-                .frame(width: 280, height: 75)
+                .frame(width: 280, height: 66)
             RoundedRectangle(cornerRadius: 10)
                 .fill(colors[building.category]![1])
                 .frame(width: 270, height: 60)
             HStack {
-                Image(profession.image)
-                    .resizable()
-                    .frame(width: 32, height: 32)
-                    .offset(x: -40, y: 0)
-                Text(profession.name)
-                    .font(.title)
-                    .offset(x: 40, y: 0)
+                VStack(alignment: .leading) {
+                    Image(profession.image)
+                        .resizable()
+                        .frame(width: 48, height: 48)
+                        .padding(.trailing, 80)
+                }.frame(width: 135, height: 60)
+                VStack(alignment: .trailing) {
+                    Text(profession.name)
+                        .font(.system(size: 22))
+                        .foregroundColor(.black)
+                }.frame(width: 135, height: 60)
             }
         }
     }
@@ -48,7 +52,7 @@ struct BuildingCloneRow_Previews: PreviewProvider {
     static let building = buildings[100]
     
     static let professions: [Profession] = Bundle.main.decode([Profession].self, from: "professions.json")
-    static let profession = professions[100]
+    static let profession = professions[50]
     
     static var previews: some View {
         BuildingCloneRow(building: building, profession: profession)

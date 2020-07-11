@@ -15,7 +15,7 @@ struct FilteredGenomeView: View {
     @Binding var isPresented: Bool
     @State private var showDetailView = false
     
-    let genome: Filter
+    let genome: GenomeFilter
     let dg = DragGesture()
     
     var filteredProfessions: [Profession] {

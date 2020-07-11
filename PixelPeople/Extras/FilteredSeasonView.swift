@@ -13,7 +13,7 @@ struct FilteredSeasonView: View {
     @Binding var isPresented: Bool
     @State private var showDetailView = false
     
-    let filter: Filter
+    let filter: SeasonFilter
     let dg = DragGesture()
     
     var filteredAnimals: [Animal] {

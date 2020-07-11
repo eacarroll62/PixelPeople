@@ -158,7 +158,7 @@ struct ColorfulToggleStyle: ToggleStyle {
 struct CloneView: View {
 //    let clone: Clone
     @State private var isToggled = false
-    @State private var selectedSeason = Filter.one
+    @State private var selectedSeason = TierFilter.one
     var body: some View {
         /*
         NavigationView {

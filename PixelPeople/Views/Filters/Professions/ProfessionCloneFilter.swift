@@ -21,7 +21,7 @@ struct ProfessionCloneFilter: View {
         
         filterProfessions = professions.professions.filter {clone in clone.clones.contains(where: {clone in clone.name == filter.rawValue})}
         
-        let mod = professions.professions.count % 4
+        let mod = filterProfessions.count % 4
       
         switch mod {
         case 1:
