@@ -2073,121 +2073,75 @@
     "name": "Peacock",
     "scientific": "Pavo Cristatus",
     "season": "Altar",
-    "category": [
-      "Bird",
-      "Wild",
-      "Fast"
-    ],
+    "category": ["Bird", "Wild", "Fast"],
     "tier": 3,
-    "parents": [
-      "Macaw",
-      "Flamingo"
-    ],
-    "image": "Empty"
+    "parents": ["Macaw", "Flamingo"],
+    "image": "Peacock"
   },
   {
     "id": 119,
     "name": "Gecko",
     "scientific": "Gekko Insuritus",
     "season": "Altar",
-    "category": [
-      "Reptile",
-      "Arboreal"
-    ],
+    "category": ["Reptile", "Arboreal"],
     "tier": 3,
-    "parents": [
-      "Crocodile",
-      "Chameleon"
-    ],
-    "image": "Empty"
+    "parents": ["Crocodile", "Chameleon"],
+    "image": "Gecko"
   },
   {
     "id": 120,
     "name": "Porcupine",
     "scientific": "Erethizon Dorsatum",
     "season": "Altar",
-    "category": [
-      "Mammal",
-      "Wild",
-      "Herbivore"
-    ],
+    "category": ["Mammal", "Wild", "Herbivore"],
     "tier": 3,
-    "parents": [
-      "Raccoon",
-      "Tortoise"
-    ],
-    "image": "Empty"
+    "parents": ["Raccoon", "Tortoise"],
+    "image": "Porcupine"
   },
   {
     "id": 121,
     "name": "Carp",
     "scientific": "Cyprinus Carpio",
     "season": "Altar",
-    "category": [
-      "Aquatic",
-      "Small"
-    ],
+    "category": ["Aquatic", "Small"],
     "tier": 3,
-    "parents": [
-      "Trout",
-      "Macaw"
-    ],
-    "image": "Empty"
+    "parents": ["Trout", "Macaw"],
+    "image": "Carp"
   },
   {
     "id": 122,
     "name": "Pangolin",
     "scientific": "Smutsia Volubilem",
     "season": "Altar",
-    "category": [
-      "Mammal",
-      "Wild"
-    ],
+    "category": ["Mammal", "Wild"],
     "tier": 3,
-    "parents": [
-      "Tortoise",
-      "Squirrel"
-    ],
-    "image": "Empty"
+    "parents": ["Tortoise", "Squirrel"],
+    "image": "Pangolin"
   },
   {
     "id": 123,
     "name": "Buffalo",
     "scientific": "Bubalus Bulbousus",
     "season": "Altar",
-    "category": [
-      "Mammal",
-      "Farm",
-      "Herbivore",
-      "Strong"
-    ],
+    "category": ["Mammal", "Farm", "Herbivore", "Strong"],
     "tier": 3,
-    "parents": [
-      "Bull",
-      "Brown Bear"
-    ],
-    "image": "Empty"
+    "parents": ["Bull", "Brown Bear"],
+    "image": "Buffalo"
   },
   {
     "id": 124,
     "name": "Snakehead Fish",
     "scientific": "Channa Asiata",
     "season": "Altar",
-    "category": [
-      "Aquatic",
-      "Carnivore"
-    ],
+    "category": ["Aquatic", "Carnivore"],
     "tier": 3,
-    "parents": [
-      "Trout",
-      "Snake"
-    ],
-    "image": "Empty"
+    "parents": ["Trout", "Snake"],
+    "image": "Snakehead_Fish"
   },
   {
       "id": 125,
       "name": "Weasel",
-      "scientific": "",
+      "scientific": "Mustela Evadere",
       "season": "Altar",
       "category": ["Mammal", "Wild", "Arboreal", "Fast"],
       "tier": 3,
@@ -2202,12 +2156,12 @@
       "category": ["Insect", "Small"],
       "tier": 3,
       "parents": ["Spider", "Stag"],
-      "image": "Empty"
+      "image": "Ant"
   },
   {
       "id": 127,
       "name": "Mole",
-      "scientific": "",
+      "scientific": "Talpinae Talpa",
       "season": "Altar",
       "category": ["Small", "Wild"],
       "tier": 3,
@@ -2222,7 +2176,7 @@
       "category": ["Reptile"],
       "tier": 3,
       "parents": ["Snake", "Spider"],
-      "image": "Empty"
+      "image": "Rattlesnake"
   },
   {
       "id": 129,
@@ -2232,7 +2186,7 @@
       "category": ["Mammal", "Primate", "Wild", "Omnivore", "Arboreal"],
       "tier": 3,
       "parents": ["Spider", "Chimpanzee"],
-      "image": "Empty"
+      "image": "Spider_Monkey"
   },
   {
       "id": 130,
@@ -2242,7 +2196,7 @@
       "category": ["Bird", "Wild"],
       "tier": 3,
       "parents": ["Turkey", "Cheetah"],
-      "image": "Empty"
+      "image": "Ostrich"
   },
   {
       "id": 131,
@@ -2252,7 +2206,7 @@
       "category": ["Mammal", "Carnivore", "Wild", "Small"],
       "tier": 3,
       "parents": ["Hyena", "Koala"],
-      "image": "Empty"
+      "image": "Tasmanian_Devil"
   },
   {
       "id": 132,
@@ -2277,7 +2231,7 @@
   {
       "id": 134,
       "name": "Pigeon",
-      "scientific": "",
+      "scientific": "Columba Livia Domestica",
       "season": "Altar",
       "category": ["Bird", "Small"],
       "tier": 3,
@@ -2332,7 +2286,7 @@
       "category": ["Bird", "Small", "Wild"],
       "tier": 3,
       "parents": ["Penguin", "Toucan"],
-      "image": "Empty"
+      "image": "Puffin"
   },
   {
       "id": 140,
@@ -2342,7 +2296,7 @@
       "category": ["Mammal", "Wild", "Omnivore"],
       "tier": 3,
       "parents": ["Pig", "Bull"],
-      "image": "Empty"
+      "image": "Wild_Boar"
   },
   {
       "id": 141,
@@ -2357,7 +2311,7 @@
   {
       "id": 142,
       "name": "Mongoose",
-      "scientific": "",
+      "scientific": "Galerella Sanguinea",
       "season": "Altar",
       "category": ["Mammal", "Aquatic", "Wild"],
       "tier": 3,
@@ -2367,7 +2321,7 @@
   {
       "id": 143,
       "name": "Opossum",
-      "scientific": "",
+      "scientific": "Didelphis Marsupialis",
       "season": "Altar",
       "category": ["Mammal", "Wild", "Small", "Omnivore"],
       "tier": 3,
@@ -2387,7 +2341,7 @@
   {
       "id": 145,
       "name": "Python",
-      "scientific": "",
+      "scientific": "Python Montillius",
       "season": "Altar",
       "category": ["Reptile"],
       "tier": 3,
@@ -2417,7 +2371,7 @@
   {
       "id": 148,
       "name": "Cold Turkey",
-      "scientific": "",
+      "scientific": "Meleagris Unotinysipia",
       "season": "Altar",
       "category": ["Secret", "Bird"],
       "tier": 3,
@@ -2427,7 +2381,7 @@
   {
       "id": 149,
       "name": "Sausage Dog",
-      "scientific": "",
+      "scientific": "Canis Donwannaknowus",
       "season": "Altar",
       "category": ["Secret", "Tasty"],
       "tier": 3,
@@ -2437,7 +2391,7 @@
   {
       "id": 150,
       "name": "Chamrosh",
-      "scientific": "",
+      "scientific": "Restinunda Asomatreea",
       "season": "Altar",
       "category": ["Mythical"],
       "tier": 3,
@@ -2447,7 +2401,7 @@
   {
       "id": 151,
       "name": "Bicorn",
-      "scientific": "",
+      "scientific": "Quaeritis Honestusman",
       "season": "Altar",
       "category": ["Mythical"],
       "tier": 3,
@@ -2477,7 +2431,7 @@
   {
       "id": 154,
       "name": "Ratatoskr",
-      "scientific": " ",
+      "scientific": "Magis Celeri Snailmaili",
       "season": "Altar",
       "category": ["Mythical"],
       "tier": 3,
@@ -2487,7 +2441,7 @@
   {
       "id": 155,
       "name": "Afanc",
-      "scientific": " ",
+      "scientific": "Plusconmodus Pueralapus",
       "season": "Altar",
       "category": ["Mythical"],
       "tier": 3,
@@ -2497,7 +2451,7 @@
   {
       "id": 156,
       "name": "Dolphin",
-      "scientific": " ",
+      "scientific": "Tursiops Truncatus",
       "season": "Altar",
       "category": ["Mammal", "Aquatic", "Wild", "Carnivore"],
       "tier": 3,
@@ -2544,6 +2498,976 @@
       "parents": ["Chameleon", "Snakehead Fish"],
       "image": "Toad"
   },
+  {
+     "id": 161,
+     "name": "Albatross",
+     "scientific": "Diomedea Exulans",
+     "season": "Altar",
+     "category": ["Bird", "Wild", "Fast"],
+     "tier": 4,
+     "parents": ["Buffalo", "Eagle"],
+     "image": "Albatross"
+ },
+ {
+     "id": 162,
+     "name": "Giant Anteater",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [" "],
+     "tier": 4,
+     "parents": ["Elephant", "Mole"],
+     "image": "Giant_Anteater"
+ },
+ {
+     "id": 163,
+     "name": "Kangaroo",
+     "scientific": "Macropus Pugliemus",
+     "season": "Altar",
+     "category": ["Mammal", "Wild", "Herbivore"],
+     "tier": 4,
+     "parents": ["Squirrel", "Ostrich"],
+     "image": "Kangaroo"
+ },
+ {
+     "id": 164,
+     "name": "Sailfish",
+     "scientific": "Istiophorus Albicans",
+     "season": "Altar",
+     "category": ["Aquatic", "Carnivore"],
+     "tier": 4,
+     "parents": ["Snakehead Fish", "Narwhal"],
+     "image": "Sailfish"
+ },
+ {
+     "id": 165,
+     "name": "Piranha",
+     "scientific": "Pygocentrus Nattereri",
+     "season": "Altar",
+     "category": ["Aquatic", "Carnivore", "Fast", "Small"],
+     "tier": 4,
+     "parents": ["Carp", "Hyena"],
+     "image": "Piranha"
+ },
+ {
+     "id": 166,
+     "name": "Vulture",
+     "scientific": "Gyps Africanus",
+     "season": "Altar",
+     "category": ["Bird", "Fast"],
+     "tier": 4,
+     "parents": ["Piranha", "Turkey"],
+     "image": "Vulture"
+ },
+ {
+     "id": 167,
+     "name": "Manatee",
+     "scientific": "Richechus Inunguis",
+     "season": "Altar",
+     "category": ["", ""],
+     "tier": 4,
+     "parents": ["Cow", "Dolphin"],
+     "image": "Manatee"
+ },
+ {
+     "id": 168,
+     "name": "Wooly Rhinoceros",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Extinct", "Mammal", "Wild", "Herbivore", "Strong", "Snow"],
+     "tier": 4,
+     "parents": ["Wooly Mammoth", "Rhinoceros"],
+     "image": ""
+ },
+ {
+     "id": 169,
+     "name": "Beringian Wolf",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Extinct", "Wild", "Mammal", "Snow"],
+     "tier": 4,
+     "parents": ["Direwolf", "Arctic Fox"],
+     "image": ""
+ },
+ {
+     "id": 170,
+     "name": "Monitor Lizard",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Reptile"],
+     "tier": 4,
+     "parents": ["Gecko", "Crocodile"],
+     "image": ""
+ },
+ {
+     "id": 171,
+     "name": "Armadillo",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 4,
+     "parents": ["Pangolin", "Snail"],
+     "image": ""
+ },
+ {
+     "id": 172,
+     "name": "Gazelle",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mammal", "Wild", "Fast", "Herbivore"],
+     "tier": 4,
+     "parents": ["Stag", "Ostrich"],
+     "image": ""
+ },
+ {
+     "id": 173,
+     "name": "Clownfish",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 4,
+     "parents": ["Carp", "Zebra"],
+     "image": ""
+ },
+ {
+     "id": 174,
+     "name": "Alligator",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 4,
+     "parents": ["Crocodile", "Wild Boar"],
+     "image": ""
+ },
+ {
+     "id": 175,
+     "name": "Pygmy Marmoset",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 4,
+     "parents": ["Spider Monkey", "Squirrel"],
+     "image": ""
+ },
+ {
+     "id": 176,
+     "name": "Pygmy Possum",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mammasl, Small, Omnivore"],
+     "tier": 4,
+     "parents": ["Mouse", "Opossum"],
+     "image": ""
+ },
+ {
+     "id": 177,
+     "name": "Seahorse",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 4,
+     "parents": ["Horse", "Snakehead Fish"],
+     "image": ""
+ },
+ {
+     "id": 178,
+     "name": "Humboldt Squid",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mollusc", "Aquatic"],
+     "tier": 4,
+     "parents": ["Octopus", "Sperm Whale"],
+     "image": ""
+ },
+ {
+     "id": 179,
+     "name": "Drunken Monkey",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Secret", "Primate"],
+     "tier": 4,
+     "parents": ["Moose", "Spider Monkey"],
+     "image": ""
+ },
+ {
+     "id": 180,
+     "name": "Encantado",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mythical"],
+     "tier": 4,
+     "parents": ["Dolphin", "Chameleon"],
+     "image": ""
+ },
+ {
+     "id": 181,
+     "name": "Myrmecoleon",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 4,
+     "parents": ["Ant", "Lion"],
+     "image": ""
+ },
+ {
+     "id": 182,
+     "name": "Feng Huang",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 4,
+     "parents": ["Hydra", "Peacock"],
+     "image": ""
+ },
+ {
+     "id": 183,
+     "name": "Shug Monkey",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 4,
+     "parents": ["Belgian Shepherd", "Spider Monkey"],
+     "image": ""
+ },
+ {
+     "id": 184,
+     "name": "Buraq",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mythical"],
+     "tier": 4,
+     "parents": ["Pegasus", "Sphinx"],
+     "image": ""
+ },
+ {
+     "id": 185,
+     "name": "Hippocamp",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 4,
+     "parents": ["Black Mare", "Seahorse"],
+     "image": ""
+ },
+ {
+     "id": 186,
+     "name": "Mishipeshu",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mythical"],
+     "tier": 4,
+     "parents": ["Panther", "Porcupine"],
+     "image": ""
+ },
+ {
+     "id": 187,
+     "name": "Shachihoko",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mythical"],
+     "tier": 4,
+     "parents": ["Carp", "Tiger"],
+     "image": ""
+ },
+ {
+     "id": 188,
+     "name": "Bunyip",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mythical "],
+     "tier": 4,
+     "parents": ["Sausage Dog", "Sea Lion"],
+     "image": ""
+ },
+ {
+     "id": 189,
+     "name": "Shen",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mythical"],
+     "tier": 4,
+     "parents": ["Snail", "Dragon"],
+     "image": ""
+ },
+ {
+     "id": 190,
+     "name": "Taweret",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mythical"],
+     "tier": 4,
+     "parents": ["Afanc", "Hippopotamus"],
+     "image": ""
+ },
+ {
+     "id": 191,
+     "name": "Kobalt Kong",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 4,
+     "parents": ["Blue Whale", "Yeti"],
+     "image": ""
+ },
+ {
+     "id": 192,
+     "name": "Xuan Wu",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mythical"],
+     "tier": 4,
+     "parents": ["Tortoise", "Rattlesnake"],
+     "image": ""
+ },
+ {
+     "id": 193,
+     "name": "Taniwha",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mythical"],
+     "tier": 4,
+     "parents": ["Beluga Whale", "Gecko"],
+     "image": ""
+ },
+ {
+     "id": 194,
+     "name": "Wyvern",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 40,
+     "parents": ["Dragon", "Sha"],
+     "image": ""
+ },
+ {
+     "id": 195,
+     "name": "Manta Ray",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 40,
+     "parents": ["Panda", "Stingray"],
+     "image": ""
+ },
+ {
+     "id": 196,
+     "name": "Praying Mantis",
+     "scientific": "Mantis Religiosa",
+     "season": "Altar",
+     "category": ["Insect", "Small", "Carnivore"],
+     "tier": 5,
+     "parents": ["Scorpion", "Spider"],
+     "image": "Praying_Mantis"
+ },
+ {
+     "id": 197,
+     "name": "Crab",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Scorpion", "Tortoise"],
+     "image": ""
+ },
+ {
+     "id": 198,
+     "name": "Honey Bee",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Scorpion", "Parrot"],
+     "image": ""
+ },
+ {
+     "id": 199,
+     "name": "Swallow",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Bird", "Small", "Wild"],
+     "tier": 5,
+     "parents": ["Pigeon", "Ant"],
+     "image": ""
+ },
+ {
+     "id": 200,
+     "name": "Halibut",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Mole", "Stingray"],
+     "image": ""
+ },
+ {
+     "id": 201,
+     "name": "Lionfish",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Carp", "Stingray"],
+     "image": ""
+ },
+ {
+     "id": 202,
+     "name": "Komodo Dragon",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Monitor Lizard", "Rattlesnake"],
+     "image": ""
+ },
+ {
+     "id": 203,
+     "name": "Giant Centipede",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Ant", "Scorpion"],
+     "image": ""
+ },
+ {
+     "id": 204,
+     "name": "Bluefin Tuna",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Aquatic", "Tasty"],
+     "tier": 5,
+     "parents": ["Sailfish", "Cow"],
+     "image": ""
+ },
+ {
+     "id": 205,
+     "name": "Sunfish",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Golden Goose", "Sailfish"],
+     "image": ""
+ },
+ {
+     "id": 206,
+     "name": "Skunk",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Humboldt Squid", "Racoon"],
+     "image": ""
+ },
+ {
+     "id": 207,
+     "name": "Anglerfish",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Carp", "Humboldt Squid"],
+     "image": ""
+ },
+ {
+     "id": 208,
+     "name": "Titanoboa",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Beringian Wolf", "Python"],
+     "image": ""
+ },
+ {
+     "id": 209,
+     "name": "Pizza Rat",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Alligator", "Pigeon"],
+     "image": ""
+ },
+ {
+     "id": 210,
+     "name": "Black Sheep",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Pug", "Pygmy Possum"],
+     "image": ""
+ },
+ {
+     "id": 211,
+     "name": "Kirin",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Bicorn", "Wyvern"],
+     "image": ""
+ },
+ {
+     "id": 212,
+     "name": "Peryton",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Albatross", "Stag"],
+     "image": ""
+ },
+ {
+     "id": 213,
+     "name": "Kelpie",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Hippocamp", "Sphinx"],
+     "image": ""
+ },
+ {
+     "id": 214,
+     "name": "Aqrabuamelu",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Chimpanzee", "Scorpion"],
+     "image": ""
+ },
+ {
+     "id": 215,
+     "name": "Cockatrice",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Bat", "Feng Huang"],
+     "image": ""
+ },
+ {
+     "id": 216,
+     "name": "Tengu",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Buraq", "Chamrosh"],
+     "image": ""
+ },
+ {
+     "id": 217,
+     "name": "Uchchaihshravas",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Buraq", "Hydra"],
+     "image": ""
+ },
+ {
+     "id": 218,
+     "name": "Manticore",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Scorpion", "Sphinx"],
+     "image": ""
+ },
+ {
+     "id": 219,
+     "name": "Ramidreju",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Rattlesnake", "Weasel"],
+     "image": ""
+ },
+ {
+     "id": 220,
+     "name": "Baku",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 5,
+     "parents": ["Elephant", "Taweret"],
+     "image": ""
+ },
+ {
+     "id": 221,
+     "name": "Cipactli",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Mythical"],
+     "tier": 5,
+     "parents": ["Toad", "Afanc"],
+     "image": ""
+ },
+ {
+     "id": 222,
+     "name": "Peluda",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 50,
+     "parents": ["Mishipeshu", "Rattlesnake"],
+     "image": ""
+ },
+ {
+     "id": 223,
+     "name": "Pelican",
+     "scientific": "Pelecanus Onocrotalus",
+     "season": "Altar",
+     "category": ["Bird", "Wild"],
+     "tier": 6,
+     "parents": ["Albatross", "Kangaroo"],
+     "image": "Pelican"
+ },
+ {
+     "id": 224,
+     "name": "Hammerhead Shark",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Snakehead Fish", "Praying Mantis"],
+     "image": ""
+ },
+ {
+     "id": 225,
+     "name": "Great White Shark",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Hammerhead Shark", "Polar Bear"],
+     "image": ""
+ },
+ {
+     "id": 226,
+     "name": "Tiger Shark",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Hammerhead Shark", "Tiger"],
+     "image": ""
+ },
+ {
+     "id": 227,
+     "name": "Hummingbird",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Honey Bee", "Swallow"],
+     "image": ""
+ },
+ {
+     "id": 228,
+     "name": "Scarab",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Crab", "Honey Bee"],
+     "image": ""
+ },
+ {
+     "id": 229,
+     "name": "Butterfly",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Honey Bee", "Peacock"],
+     "image": ""
+ },
+ {
+     "id": 230,
+     "name": "Megalodon",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Great White Shark", "Sabretooth"],
+     "image": ""
+ },
+ {
+     "id": 231,
+     "name": "Ladybird",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Lovebird", "Scarab"],
+     "image": ""
+ },
+ {
+     "id": 232,
+     "name": "Stag Beetle",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Scarab", "Stag"],
+     "image": ""
+ },
+ {
+     "id": 233,
+     "name": "Field Grasshopper",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Kangaroo", "Praying Mantis"],
+     "image": ""
+ },
+ {
+     "id": 234,
+     "name": "Wasp",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Honey Bee", "Scorpion"],
+     "image": ""
+ },
+ {
+     "id": 235,
+     "name": "King Cobra",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Reptile"],
+     "tier": 6,
+     "parents": ["Rattlesnake", "Humboldt Squid"],
+     "image": ""
+ },
+ {
+     "id": 236,
+     "name": "Basking Shark",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Great White Shark", "Hippopotamus"],
+     "image": ""
+ },
+ {
+     "id": 237,
+     "name": "Whale Shark",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Basking Shark", "Blue Whale"],
+     "image": ""
+ },
+ {
+     "id": 238,
+     "name": "Pygmy Owl",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Hummingbird", "Owl"],
+     "image": ""
+ },
+ {
+     "id": 239,
+     "name": "Policy Hawk",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Tengu", "Wild Boar"],
+     "image": ""
+ },
+ {
+     "id": 240,
+     "name": "Program Bug",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Mouse", "Stag Beetle"],
+     "image": ""
+ },
+ {
+     "id": 241,
+     "name": "One Trick Pony",
+     "scientific": " ",
+     "season": "Altar",
+     "category": ["Secret", "Herbivore"],
+     "tier": 6,
+     "parents": ["Buraq", "Loch Ness Monster"],
+     "image": ""
+ },
+ {
+     "id": 242,
+     "name": "Social Butterfly",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Butterfly", "Golden Retriever"],
+     "image": ""
+ },
+ {
+     "id": 243,
+     "name": "Top Dawg",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Pug", "Ushi Oni"],
+     "image": ""
+ },
+ {
+     "id": 244,
+     "name": "Bleached Hyena",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Anansi", "Anansi"],
+     "image": ""
+ },
+ {
+     "id": 245,
+     "name": "Cerynitis",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Golden Goose", "Peryton"],
+     "image": ""
+ },
+ {
+     "id": 246,
+     "name": "Tsuchigumo",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Anansi", "Shachihoko"],
+     "image": ""
+ },
+ {
+     "id": 247,
+     "name": "Anansi",
+     "scientific": "Unknown",
+     "season": "Altar",
+     "category": ["Mythical"],
+     "tier": 6,
+     "parents": ["Aqrabuamelu ", "Black Spider"],
+     "image": "Anansi"
+ },
+ {
+     "id": 248,
+     "name": "Simurgh",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Chamrosh", "Cockatrice"],
+     "image": ""
+ },
+ {
+     "id": 249,
+     "name": "Kutabe",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Ratatoskr", "Ushi Oni"],
+     "image": ""
+ },
+ {
+     "id": 250,
+     "name": "Ushi Oni",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Bicorn", "Tsuchigumo"],
+     "image": ""
+ },
+ {
+     "id": 251,
+     "name": "Adlet",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Bunyip", "Shug Monkey"],
+     "image": ""
+ },
+ {
+     "id": 252,
+     "name": "Kraken",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Lusca", "Shen"],
+     "image": ""
+ },
+ {
+     "id": 253,
+     "name": "Lusca",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Megalodon", "Octopus"],
+     "image": ""
+ },
+ {
+     "id": 254,
+     "name": "Raiju",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Electric Eel", "Ramidreju"],
+     "image": ""
+ },
+ {
+     "id": 255,
+     "name": "Behemoth",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Baku", "Kutabe"],
+     "image": ""
+ },
+ {
+     "id": 256,
+     "name": "Quetzalcoatl",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Cockatrice", "Peacock"],
+     "image": ""
+ },
+ {
+     "id": 257,
+     "name": "Tarasque",
+     "scientific": " ",
+     "season": "Altar",
+     "category": [""],
+     "tier": 6,
+     "parents": ["Kirin", "Manticore"],
+     "image": ""
+ },
   {
       "id": 999,
       "name": "Empty",

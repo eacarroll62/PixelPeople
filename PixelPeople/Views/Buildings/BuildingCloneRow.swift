@@ -35,13 +35,13 @@ struct BuildingCloneRow: View {
                     Image(profession.image)
                         .resizable()
                         .frame(width: 48, height: 48)
-                        .padding(.trailing, 80)
-                }.frame(width: 135, height: 60)
+                }.frame(width: 135, height: 60, alignment: .leading)
                 VStack(alignment: .trailing) {
                     Text(profession.name)
                         .font(.system(size: 22))
                         .foregroundColor(.black)
-                }.frame(width: 135, height: 60)
+                        .padding(10)
+                }.frame(width: 135, height: 60, alignment: .trailing)
             }
         }
     }

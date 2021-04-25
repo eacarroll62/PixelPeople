@@ -8,7 +8,31 @@
 
 import SwiftUI
 
-struct FilterBuildings: View {
+struct BlankCard: View {
+    var animal: Animal
+    
+    var body: some View {
+        ZStack {
+            Group {
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(animalColors[animal.tier]![1])
+                    .frame(width: 320, height: 520)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.black)
+                    .frame(width: 304, height: 504)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(animalColors[animal.tier]![0])
+                    .frame(width: 300, height: 500)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(animalColors[animal.tier]![1])
+                    .frame(width: 244, height: 354)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(RadialGradient(gradient: Gradient(colors: [.whiteSmoke, .black]), center: .center, startRadius: 5, endRadius: 180))
+                    .frame(width: 240, height: 350)
+            }
+        }
+    }
+    /*
     @ObservedObject var buildings: Buildings
     @Binding var isPresented: Bool
     @State private var showDetailView = false
@@ -83,11 +107,19 @@ struct FilterBuildings: View {
             .accessibility(addTraits: .isButton)
             .accessibility(label: Text("Open \(building.name) Detail"))
     }
+ */
 }
 
+struct BlankCard_Previews: PreviewProvider {
+    static let animals: [Animal] = Bundle.main.decode([Animal].self, from: "animals.json")
+    static var previews: some View {
+        BlankCard(animal: animals[223])
+    }
+}
+/*
 struct FilterBuildings_Previews: PreviewProvider {
     static var previews: some View {
         FilterBuildings(buildings: Buildings(), isPresented: .constant(true), filter: .business, property: .category)
     }
 }
-
+*/

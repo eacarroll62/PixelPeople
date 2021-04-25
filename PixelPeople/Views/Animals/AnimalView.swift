@@ -23,7 +23,7 @@ struct AnimalView: View {
         filterAnimals = animals.animals.filter { $0.name != "Empty"}
         
         let mod = filterAnimals.count % 4
-      
+        
         switch mod {
         case 1:
             for _ in 1...3 {
@@ -69,7 +69,7 @@ struct AnimalView: View {
     
     func card(atRow row: Int, column: Int) -> some View {
         let index = (row * 4) + column
-        let animal = animals.animals[index]
+        let animal = filteredAnimals[index]
         
         return AnimalThumb(showDetail: $showDetailView, animal: animal)
             .accessibility(addTraits: .isButton)

@@ -115,6 +115,6 @@ struct ProfessionDetailsView: View {
 struct ProfessionDetailsView_Previews: PreviewProvider {
     static let professions: [Profession] = Bundle.main.decode([Profession].self, from: "professions.json")
     static var previews: some View {
-        ProfessionDetailsView(isPresented: .constant(true), profession: professions[93])
+        ProfessionDetailsView(isPresented: .constant(true), profession: professions[13])
     }
 }

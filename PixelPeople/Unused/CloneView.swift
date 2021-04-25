@@ -195,11 +195,9 @@ struct CloneView: View {
         .edgesIgnoringSafeArea(.all)
     }
     */
-        RoundedRectangle(cornerRadius: 10)
-            .trim(from: 0, to: 0.25)
-            .fill(Color.green)
-            .rotationEffect(.degrees(180))
-            .frame(width: 200, height: 200)
+        Rectangle().fill(Color.green)
+    
+        
         
         /*
         NavigationView {

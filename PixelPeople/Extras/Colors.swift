@@ -40,3 +40,15 @@ extension Color {
     static let lawBorder = Color(red: 104 / 255, green: 104 / 255, blue: 233 / 255)
     static let law = Color(red: 75 / 255, green: 75 / 255, blue: 168 / 255)
 }
+
+let animalColors: [Int : [Color]] = [1: [Color.lightSeaGreen, Color.teal],
+                                        2: [Color.metallicGold, Color.goldYellow],
+                                        3: [Color.yellowGreen, Color.greenYellow],
+                                        4: [Color.crimson, Color.deepPink],
+                                        5: [Color.fluorescentOrange, Color.darkOrange],
+                                        6: [Color.blue, Color.green],
+                                        40: [Color.blue, Color.green],
+                                        50: [Color.blue, Color.green],
+                                        60: [Color.blue, Color.green]
+    
+]

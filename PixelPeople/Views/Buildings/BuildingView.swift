@@ -67,7 +67,7 @@ struct BuildingView: View {
     
     func card(atRow row: Int, column: Int) -> some View {
         let index = (row * 4) + column
-        let building = buildings.buildings[index]
+        let building = filteredBuildings[index]
         
         return BuildingThumb(showDetail: $showDetailView, building: building)
             .accessibility(addTraits: .isButton)

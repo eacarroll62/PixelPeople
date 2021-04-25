@@ -2306,7 +2306,7 @@
     {
         "id": 27,
         "name": "Cave",
-        "level": 1,
+        "level": 6,
         "landCost": 1,
         "adjustedWorkTime": 15,
         "coinsPerUse": "  21,600 ",
@@ -10203,7 +10203,7 @@
     {
         "id": 116,
         "name": "Stadium",
-        "level": 1,
+        "level": 6,
         "landCost": 4,
         "adjustedWorkTime": 1440,
         "coinsPerUse": "  2,073,600 ",
